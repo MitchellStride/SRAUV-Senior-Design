@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AUV_Pi_Expansion-rescue)(type Legacy)(uri ${KIPRJMOD}/AUV_Pi_Expansion-rescue.lib)(options "")(descr ""))
+)
