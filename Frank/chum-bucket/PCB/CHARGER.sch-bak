@@ -318,8 +318,8 @@ AR Path="/5F99F756" Ref="L?"  Part="1"
 F 0 "L?" V 7390 3750 50  0000 C CNN
 F 1 "4.7uH" V 7299 3750 50  0000 C CNN
 F 2 "" H 7200 3750 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/74439369047.pdf" H 7200 3750 50  0001 C CNN
-F 4 "732-10710-2-ND" V 7200 3750 50  0001 C CNN "Digikey"
+F 3 "https://products.pulseelex.com/files/product_files/P809.pdf" H 7200 3750 50  0001 C CNN
+F 4 "553-4104-2-ND" V 7200 3750 50  0001 C CNN "Digikey"
 	1    7200 3750
 	0    -1   -1   0   
 $EndComp
@@ -383,7 +383,7 @@ F 3 "" H 8150 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 3750 9350 3750
+	8750 3750 10400 3750
 Connection ~ 8750 3750
 Wire Wire Line
 	8750 3750 8750 3800
@@ -859,7 +859,7 @@ Text HLabel 1050 2100 0    50   Input ~ 0
 AC_FUSED_IN
 Text HLabel 10450 2100 2    50   Input ~ 0
 SYS_PWR_OUT
-Text HLabel 9350 3750 2    50   Input ~ 0
+Text HLabel 10400 3750 2    50   Input ~ 0
 POS_BAT_FUSED
 Wire Wire Line
 	1050 2100 2150 2100
@@ -895,4 +895,222 @@ Text Notes 2350 1700 0    39   Italic 0
 To do: Convert to load switch, use glue logic w/ stm
 Text Notes 8200 2600 0    39   Italic 0
 To do: add load switch to turn pack onto system rail 
+$Comp
+L Amplifier_Current:INA196 U?
+U 1 1 5F13679B
+P 2250 7050
+F 0 "U?" H 2400 6900 50  0000 L CNN
+F 1 "INA196" H 2400 6800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2250 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 2250 7050 50  0001 C CNN
+	1    2250 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F15104C
+P 2150 7400
+F 0 "#PWR?" H 2150 7150 50  0001 C CNN
+F 1 "GND" H 2155 7227 50  0000 C CNN
+F 2 "" H 2150 7400 50  0001 C CNN
+F 3 "" H 2150 7400 50  0001 C CNN
+	1    2150 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 7350 2150 7400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F15FE41
+P 2150 6450
+F 0 "#PWR?" H 2150 6300 50  0001 C CNN
+F 1 "+3.3V" H 2165 6623 50  0000 C CNN
+F 2 "" H 2150 6450 50  0001 C CNN
+F 3 "" H 2150 6450 50  0001 C CNN
+	1    2150 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6750 2150 6500
+Wire Wire Line
+	1950 6950 1550 6950
+$Comp
+L Device:R R?
+U 1 1 5F16B17D
+P 1400 6950
+F 0 "R?" V 1300 6900 50  0000 C CNN
+F 1 "0" V 1300 7050 50  0000 C CNN
+F 2 "" V 1330 6950 50  0001 C CNN
+F 3 "~" H 1400 6950 50  0001 C CNN
+	1    1400 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 7150 1550 7150
+$Comp
+L Device:R R?
+U 1 1 5F174C1F
+P 1400 7150
+F 0 "R?" V 1300 7100 50  0000 C CNN
+F 1 "0" V 1300 7250 50  0000 C CNN
+F 2 "" V 1330 7150 50  0001 C CNN
+F 3 "~" H 1400 7150 50  0001 C CNN
+	1    1400 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 7150 950  7150
+Wire Wire Line
+	950  6950 1250 6950
+Text Label 950  6950 0    39   ~ 0
+I_SYS_P
+Text Label 950  7150 0    39   ~ 0
+I_SYS_N
+Text Label 1550 6950 0    39   ~ 0
+I_SYS_JMP_P
+Text Label 1550 7150 0    39   ~ 0
+I_SYS_JMP_N
+Wire Wire Line
+	2550 7050 2850 7050
+Text HLabel 2850 7050 2    50   Input ~ 0
+ANALOG_I_SYS
+$Comp
+L Device:C_Small C?
+U 1 1 5F1BC2AF
+P 2450 6650
+F 0 "C?" H 2542 6696 50  0000 L CNN
+F 1 "0.1uF" H 2542 6605 50  0000 L CNN
+F 2 "" H 2450 6650 50  0001 C CNN
+F 3 "~" H 2450 6650 50  0001 C CNN
+	1    2450 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1BC957
+P 2450 6750
+F 0 "#PWR?" H 2450 6500 50  0001 C CNN
+F 1 "GND" H 2455 6577 50  0000 C CNN
+F 2 "" H 2450 6750 50  0001 C CNN
+F 3 "" H 2450 6750 50  0001 C CNN
+	1    2450 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6500 2450 6500
+Wire Wire Line
+	2450 6500 2450 6550
+Connection ~ 2150 6500
+Wire Wire Line
+	2150 6500 2150 6450
+$Comp
+L Amplifier_Current:INA196 U?
+U 1 1 5F1C9ABC
+P 4950 7050
+F 0 "U?" H 5100 6900 50  0000 L CNN
+F 1 "INA196" H 5100 6800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4950 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 4950 7050 50  0001 C CNN
+	1    4950 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1C9AC2
+P 4850 7400
+F 0 "#PWR?" H 4850 7150 50  0001 C CNN
+F 1 "GND" H 4855 7227 50  0000 C CNN
+F 2 "" H 4850 7400 50  0001 C CNN
+F 3 "" H 4850 7400 50  0001 C CNN
+	1    4850 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 7350 4850 7400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F1C9AC9
+P 4850 6450
+F 0 "#PWR?" H 4850 6300 50  0001 C CNN
+F 1 "+3.3V" H 4865 6623 50  0000 C CNN
+F 2 "" H 4850 6450 50  0001 C CNN
+F 3 "" H 4850 6450 50  0001 C CNN
+	1    4850 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 6750 4850 6500
+Wire Wire Line
+	4650 6950 4250 6950
+$Comp
+L Device:R R?
+U 1 1 5F1C9AD1
+P 4100 6950
+F 0 "R?" V 4000 6900 50  0000 C CNN
+F 1 "0" V 4000 7050 50  0000 C CNN
+F 2 "" V 4030 6950 50  0001 C CNN
+F 3 "~" H 4100 6950 50  0001 C CNN
+	1    4100 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 7150 4250 7150
+$Comp
+L Device:R R?
+U 1 1 5F1C9AD8
+P 4100 7150
+F 0 "R?" V 4000 7100 50  0000 C CNN
+F 1 "0" V 4000 7250 50  0000 C CNN
+F 2 "" V 4030 7150 50  0001 C CNN
+F 3 "~" H 4100 7150 50  0001 C CNN
+	1    4100 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 7150 3650 7150
+Wire Wire Line
+	3650 6950 3950 6950
+Wire Wire Line
+	5250 7050 5550 7050
+Text HLabel 5550 7050 2    50   Input ~ 0
+ANALOG_I_CHG
+$Comp
+L Device:C_Small C?
+U 1 1 5F1C9AE6
+P 5150 6650
+F 0 "C?" H 5242 6696 50  0000 L CNN
+F 1 "0.1uF" H 5242 6605 50  0000 L CNN
+F 2 "" H 5150 6650 50  0001 C CNN
+F 3 "~" H 5150 6650 50  0001 C CNN
+	1    5150 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1C9AEC
+P 5150 6750
+F 0 "#PWR?" H 5150 6500 50  0001 C CNN
+F 1 "GND" H 5155 6577 50  0000 C CNN
+F 2 "" H 5150 6750 50  0001 C CNN
+F 3 "" H 5150 6750 50  0001 C CNN
+	1    5150 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 6500 5150 6500
+Wire Wire Line
+	5150 6500 5150 6550
+Connection ~ 4850 6500
+Wire Wire Line
+	4850 6500 4850 6450
+Text Label 3650 6950 0    39   ~ 0
+I_CHG_P
+Text Label 3650 7150 0    39   ~ 0
+I_CHG_N
+Text Label 4250 6950 0    39   ~ 0
+I_CHG_JMP_P
+Text Label 4250 7150 0    39   ~ 0
+I_CHG_JMP_N
+Text Notes 2900 7700 0    39   ~ 0
+- Current amplifiers are 20V/V\n- Expected max output voltage is 2V (10A)\n- Protection and filtering on MCU page\n- Jumpers placed in case input impedance\n   in case input impedance is too low \n   and trips the charger
 $EndSCHEMATC
