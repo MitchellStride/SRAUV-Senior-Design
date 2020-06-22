@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -1721,12 +1721,25 @@ Wire Wire Line
 	8550 3350 8900 3350
 Wire Wire Line
 	9800 2550 9800 5450
-Wire Wire Line
-	9800 5450 8600 5450
 Connection ~ 9800 2550
-Connection ~ 8600 5450
 Text Notes 650  4100 0    50   ~ 0
 Still need to make sure that these can be left as NCs
 Text Notes 1100 650  0    50   ~ 0
 1 therm. placed between each cell holder
+$Comp
+L Device:Fuse F?
+U 1 1 5F28DD63
+P 9150 5450
+F 0 "F?" V 8953 5450 50  0000 C CNN
+F 1 "Fuse" V 9044 5450 50  0000 C CNN
+F 2 "" V 9080 5450 50  0001 C CNN
+F 3 "~" H 9150 5450 50  0001 C CNN
+	1    9150 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 5450 9800 5450
+Wire Wire Line
+	9000 5450 8600 5450
+Connection ~ 8600 5450
 $EndSCHEMATC

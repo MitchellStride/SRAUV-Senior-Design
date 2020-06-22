@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -330,19 +330,6 @@ F 3 "" H 5700 6050 50  0001 C CNN
 	1    5700 6050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 5F95ACF7
-P 5700 1600
-AR Path="/5F95ACF7" Ref="F?"  Part="1" 
-AR Path="/5ECF2209/5F95ACF7" Ref="F?"  Part="1" 
-F 0 "F?" H 5850 1450 50  0000 C CNN
-F 1 "10A" H 5850 1550 50  0000 C CNN
-F 2 "" V 5630 1600 50  0001 C CNN
-F 3 "~" H 5700 1600 50  0001 C CNN
-	1    5700 1600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5000 5900 5700 5900
 Wire Wire Line
@@ -351,22 +338,13 @@ Connection ~ 5700 5900
 Wire Wire Line
 	5700 5900 6400 5900
 Wire Wire Line
-	5700 1750 5700 1800
-Wire Wire Line
 	5000 2700 5000 2850
 Wire Wire Line
 	5000 3650 5000 4100
 Wire Wire Line
 	5000 4600 5000 5050
-Text HLabel 5450 1200 0    50   Input ~ 0
-POS_BAT_FUSED
-Wire Wire Line
-	5700 1200 5450 1200
-Wire Wire Line
-	5700 1200 5700 1450
 Wire Wire Line
 	5700 1800 4050 1800
-Connection ~ 5700 1800
 Wire Wire Line
 	5700 1800 5700 2200
 Wire Wire Line
@@ -388,4 +366,18 @@ Text HLabel 4050 1800 0    50   Input ~ 0
 SERIES_BANK_3
 Text Notes 6750 3450 0    39   Italic 0
 To do: change 3 module cell numbering\nfor 'flipped' cell modules on the bottom of the board
+$Comp
+L power:+BATT #PWR?
+U 1 1 5FA4C998
+P 5700 1600
+F 0 "#PWR?" H 5700 1450 50  0001 C CNN
+F 1 "+BATT" H 5715 1773 50  0000 C CNN
+F 2 "" H 5700 1600 50  0001 C CNN
+F 3 "" H 5700 1600 50  0001 C CNN
+	1    5700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1600 5700 1800
+Connection ~ 5700 1800
 $EndSCHEMATC
