@@ -1280,4 +1280,6 @@ Wire Wire Line
 	9750 4250 10400 4250
 Text Notes 8200 4050 0    39   ~ 0
 2mOhm resistor sets for 3.2V at 80A\nP_loss = (2/1000)*80*80 = 12.8W (not good) 
+Text Notes 2800 4950 0    39   Italic 0
+To do: add flip flop with reset line
 $EndSCHEMATC

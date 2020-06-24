@@ -735,7 +735,7 @@ AC_FUSED_IN
 Text HLabel 10500 1100 2    50   Input ~ 0
 SYS_PWR_OUT
 Wire Wire Line
-	4300 1100 6700 1100
+	4300 1100 5550 1100
 Wire Wire Line
 	4000 2050 4000 1100
 Wire Wire Line
@@ -940,10 +940,10 @@ Wire Wire Line
 Text HLabel 2300 1300 0    50   Input ~ 0
 ANALOG_I_SYS
 $Comp
-L Device:R R?
+L Device:R RIN_1
 U 1 1 5F19E549
 P 1600 6500
-F 0 "R?" H 1670 6546 50  0000 L CNN
+F 0 "RIN_1" H 1670 6546 50  0000 L CNN
 F 1 "100" H 1670 6455 50  0000 L CNN
 F 2 "" V 1530 6500 50  0001 C CNN
 F 3 "~" H 1600 6500 50  0001 C CNN
@@ -1524,4 +1524,103 @@ F 4 "732-4971-2-ND" H 4400 4450 50  0001 C CNN "Digikey"
 	1    4400 4450
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	6150 1450 6150 1400
+Wire Wire Line
+	5850 1450 5850 1400
+Wire Wire Line
+	5550 1450 5550 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5F305781
+P 6150 1450
+AR Path="/5ECF1AA9/5F305781" Ref="#PWR?"  Part="1" 
+AR Path="/5F305781" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 1200 50  0001 C CNN
+F 1 "GND" H 6155 1277 50  0000 C CNN
+F 2 "" H 6150 1450 50  0001 C CNN
+F 3 "" H 6150 1450 50  0001 C CNN
+	1    6150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F305787
+P 5850 1450
+AR Path="/5ECF1AA9/5F305787" Ref="#PWR?"  Part="1" 
+AR Path="/5F305787" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5850 1200 50  0001 C CNN
+F 1 "GND" H 5855 1277 50  0000 C CNN
+F 2 "" H 5850 1450 50  0001 C CNN
+F 3 "" H 5850 1450 50  0001 C CNN
+	1    5850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F30578D
+P 5550 1450
+AR Path="/5ECF1AA9/5F30578D" Ref="#PWR?"  Part="1" 
+AR Path="/5F30578D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 1200 50  0001 C CNN
+F 1 "GND" H 5555 1277 50  0000 C CNN
+F 2 "" H 5550 1450 50  0001 C CNN
+F 3 "" H 5550 1450 50  0001 C CNN
+	1    5550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F305793
+P 6150 1300
+AR Path="/5ECF1AA9/5F305793" Ref="C?"  Part="1" 
+AR Path="/5F305793" Ref="C?"  Part="1" 
+F 0 "C?" H 6058 1254 50  0000 R CNN
+F 1 "10u" H 6058 1345 50  0000 R CNN
+F 2 "" H 6150 1300 50  0001 C CNN
+F 3 "~" H 6150 1300 50  0001 C CNN
+	1    6150 1300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F305799
+P 5850 1300
+AR Path="/5ECF1AA9/5F305799" Ref="C?"  Part="1" 
+AR Path="/5F305799" Ref="C?"  Part="1" 
+F 0 "C?" H 5758 1254 50  0000 R CNN
+F 1 "10u" H 5758 1345 50  0000 R CNN
+F 2 "" H 5850 1300 50  0001 C CNN
+F 3 "~" H 5850 1300 50  0001 C CNN
+	1    5850 1300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F30579F
+P 5550 1300
+AR Path="/5ECF1AA9/5F30579F" Ref="C?"  Part="1" 
+AR Path="/5F30579F" Ref="C?"  Part="1" 
+F 0 "C?" H 5458 1254 50  0000 R CNN
+F 1 "10u" H 5458 1345 50  0000 R CNN
+F 2 "" H 5550 1300 50  0001 C CNN
+F 3 "~" H 5550 1300 50  0001 C CNN
+	1    5550 1300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5550 1200 5550 1100
+Connection ~ 5550 1100
+Wire Wire Line
+	5550 1100 5850 1100
+Wire Wire Line
+	5850 1200 5850 1100
+Connection ~ 5850 1100
+Wire Wire Line
+	5850 1100 6150 1100
+Wire Wire Line
+	6150 1200 6150 1100
+Connection ~ 6150 1100
+Wire Wire Line
+	6150 1100 6700 1100
 $EndSCHEMATC

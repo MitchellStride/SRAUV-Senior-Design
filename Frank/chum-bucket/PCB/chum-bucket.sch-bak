@@ -84,7 +84,7 @@ Highly Integrated, Small Footprint, Managed Lithium Battery
 Text Notes 4900 1550 0    39   ~ 0
 - 3s8p Lithium cell holders\n- 2A Balancing Current\n- 8A cell charger
 Text Notes 6150 1550 0    39   ~ 0
-- 1kW peak power delievery\n- e-fused I/O for decreased footprint\n- Power telemetry delievered via CAN
+- 1kW peak power delievery\n- e-fused I/O for decreased footprint\n- Power telemetry broadcasted via CAN
 Text Notes 7900 3200 0    118  ~ 24
 SYS MGMT +\nOUTPUT PROT
 Wire Wire Line
@@ -119,7 +119,7 @@ F 3 "~" H 900 3350 50  0001 C CNN
 	1    900  3350
 	-1   0    0    1   
 $EndComp
-Text Notes 1400 2100 0    50   ~ 0
+Text Notes 1500 2450 0    50   ~ 0
 No need to fuse due to use of \nconventionial and e-fuses downstream
 Wire Wire Line
 	1100 3250 1450 3250
@@ -266,8 +266,6 @@ Wire Wire Line
 	6850 3350 7550 3350
 Connection ~ 1450 2550
 Wire Wire Line
-	1450 2550 2850 2550
-Wire Wire Line
 	4150 3900 2850 3900
 Wire Wire Line
 	2850 3900 2850 2550
@@ -295,4 +293,75 @@ F8 "ANALOG_I_CHG" I R 6350 4050 50
 F9 "CHG_PWR_UNFUSED" I L 4150 3900 50 
 F10 "ESC_PWR_EN" I R 6350 4150 50 
 $EndSheet
+$Comp
+L Device:D_TVS D?
+U 1 1 5EFB8FC1
+P 1900 2850
+AR Path="/5F507ADF/5EFB8FC1" Ref="D?"  Part="1" 
+AR Path="/5EFB8FC1" Ref="D?"  Part="1" 
+F 0 "D?" V 1854 2929 50  0000 L CNN
+F 1 "SMBJ26A" V 1945 2929 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 1900 2850 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88392/smbj.pdf" H 1900 2850 50  0001 C CNN
+F 4 "SMBJ26A-E3/5BGITR-ND" V 1900 2850 50  0001 C CNN "Digikey"
+	1    1900 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EFB8FC7
+P 1900 3100
+AR Path="/5F507ADF/5EFB8FC7" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB8FC7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1900 2850 50  0001 C CNN
+F 1 "GND" H 1905 2927 50  0000 C CNN
+F 2 "" H 1900 3100 50  0001 C CNN
+F 3 "" H 1900 3100 50  0001 C CNN
+	1    1900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3100 1900 3000
+$Comp
+L Device:C_Small C?
+U 1 1 5EFB8FCE
+P 2100 2850
+AR Path="/5F507ADF/5EFB8FCE" Ref="C?"  Part="1" 
+AR Path="/5EFB8FCE" Ref="C?"  Part="1" 
+F 0 "C?" H 2192 2896 50  0000 L CNN
+F 1 "10nF" H 2192 2805 50  0000 L CNN
+F 2 "" H 2100 2850 50  0001 C CNN
+F 3 "~" H 2100 2850 50  0001 C CNN
+	1    2100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EFB8FD4
+P 2100 3100
+AR Path="/5F507ADF/5EFB8FD4" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB8FD4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2100 2850 50  0001 C CNN
+F 1 "GND" H 2105 2927 50  0000 C CNN
+F 2 "" H 2100 3100 50  0001 C CNN
+F 3 "" H 2100 3100 50  0001 C CNN
+	1    2100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3100 2100 2950
+Wire Wire Line
+	1900 2700 1900 2550
+Wire Wire Line
+	2100 2750 2100 2550
+Connection ~ 1900 2550
+Connection ~ 2100 2550
+Wire Wire Line
+	2100 2550 2850 2550
+Wire Wire Line
+	1450 2550 1900 2550
+Wire Wire Line
+	1900 2550 2100 2550
+Text Notes 7650 4250 0    50   Italic 0
+To do: \n- add voltage monitoring for output busses\n- add current monitoring for ESC bus (hall effect sensor?) 
 $EndSCHEMATC
