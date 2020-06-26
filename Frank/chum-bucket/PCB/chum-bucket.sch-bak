@@ -119,8 +119,8 @@ F 3 "~" H 900 3350 50  0001 C CNN
 	1    900  3350
 	-1   0    0    1   
 $EndComp
-Text Notes 1500 2450 0    50   ~ 0
-No need to fuse due to use of \nconventionial and e-fuses downstream
+Text Notes 1450 2400 0    39   ~ 0
+No need to fuse due to use of \nconventionial and e-fuses downstream.\nTVS diode supress plug in transients
 Wire Wire Line
 	1100 3250 1450 3250
 Wire Wire Line
