@@ -322,105 +322,6 @@ F 4 "296-25779-2-ND" H 5700 2500 50  0001 C CNN "Digikey"
 	1    5700 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 3050 8800 3000
-Wire Wire Line
-	8500 3050 8500 3000
-Wire Wire Line
-	8200 3050 8200 3000
-$Comp
-L power:GND #PWR?
-U 1 1 5F99F76E
-P 8800 3050
-AR Path="/5ECF1AA9/5F99F76E" Ref="#PWR?"  Part="1" 
-AR Path="/5F99F76E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8800 2800 50  0001 C CNN
-F 1 "GND" H 8805 2877 50  0000 C CNN
-F 2 "" H 8800 3050 50  0001 C CNN
-F 3 "" H 8800 3050 50  0001 C CNN
-	1    8800 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F99F774
-P 8500 3050
-AR Path="/5ECF1AA9/5F99F774" Ref="#PWR?"  Part="1" 
-AR Path="/5F99F774" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8500 2800 50  0001 C CNN
-F 1 "GND" H 8505 2877 50  0000 C CNN
-F 2 "" H 8500 3050 50  0001 C CNN
-F 3 "" H 8500 3050 50  0001 C CNN
-	1    8500 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F99F77A
-P 8200 3050
-AR Path="/5ECF1AA9/5F99F77A" Ref="#PWR?"  Part="1" 
-AR Path="/5F99F77A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8200 2800 50  0001 C CNN
-F 1 "GND" H 8205 2877 50  0000 C CNN
-F 2 "" H 8200 3050 50  0001 C CNN
-F 3 "" H 8200 3050 50  0001 C CNN
-	1    8200 3050
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2750
-Wire Wire Line
-	8800 2750 8800 2800
-Wire Wire Line
-	8500 2750 8800 2750
-Connection ~ 8500 2750
-Wire Wire Line
-	8500 2750 8500 2800
-Wire Wire Line
-	7850 2750 8200 2750
-Wire Wire Line
-	8200 2750 8500 2750
-Connection ~ 8200 2750
-Wire Wire Line
-	8200 2750 8200 2800
-$Comp
-L Device:C_Small C?
-U 1 1 5F99F78A
-P 8800 2900
-AR Path="/5ECF1AA9/5F99F78A" Ref="C?"  Part="1" 
-AR Path="/5F99F78A" Ref="C?"  Part="1" 
-F 0 "C?" H 8708 2854 50  0000 R CNN
-F 1 "10u" H 8708 2945 50  0000 R CNN
-F 2 "" H 8800 2900 50  0001 C CNN
-F 3 "~" H 8800 2900 50  0001 C CNN
-	1    8800 2900
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F99F790
-P 8500 2900
-AR Path="/5ECF1AA9/5F99F790" Ref="C?"  Part="1" 
-AR Path="/5F99F790" Ref="C?"  Part="1" 
-F 0 "C?" H 8408 2854 50  0000 R CNN
-F 1 "10u" H 8408 2945 50  0000 R CNN
-F 2 "" H 8500 2900 50  0001 C CNN
-F 3 "~" H 8500 2900 50  0001 C CNN
-	1    8500 2900
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F99F796
-P 8200 2900
-AR Path="/5ECF1AA9/5F99F796" Ref="C?"  Part="1" 
-AR Path="/5F99F796" Ref="C?"  Part="1" 
-F 0 "C?" H 8108 2854 50  0000 R CNN
-F 1 "10u" H 8108 2945 50  0000 R CNN
-F 2 "" H 8200 2900 50  0001 C CNN
-F 3 "~" H 8200 2900 50  0001 C CNN
-	1    8200 2900
-	1    0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F99F79C
@@ -472,11 +373,11 @@ AR Path="/5ECF1AA9/5F99F7BA" Ref="R?"  Part="1"
 AR Path="/5F99F7BA" Ref="R?"  Part="1" 
 F 0 "R?" V 3950 1000 50  0000 C CNN
 F 1 "10m" V 3950 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 4080 1100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-PE_521_RoHS_L_7.pdf" H 4150 1100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4080 1100 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/CRF.pdf" H 4150 1100 50  0001 C CNN
 F 4 "1W" V 4050 1000 50  0000 C CNN "Power"
 F 5 "1%" V 4050 1200 50  0000 C CNN "Tolerancw"
-F 6 "YAG2167TR-ND" V 4150 1100 50  0001 C CNN "Digikey"
+F 6 "CRF1206-FZ-R010ELFTR-ND" V 4150 1100 50  0001 C CNN "Digikey"
 	1    4150 1100
 	0    1    1    0   
 $EndComp
@@ -487,9 +388,10 @@ P 5700 3050
 AR Path="/5ECF1AA9/5F99F7C0" Ref="C?"  Part="1" 
 AR Path="/5F99F7C0" Ref="C?"  Part="1" 
 F 0 "C?" H 5900 3000 50  0000 R CNN
-F 1 "1u" H 5900 3100 50  0000 R CNN
+F 1 "1uF" H 5900 3100 50  0000 R CNN
 F 2 "" H 5700 3050 50  0001 C CNN
 F 3 "~" H 5700 3050 50  0001 C CNN
+F 4 "6V" H 5850 3200 50  0000 C CNN "Voltage"
 	1    5700 3050
 	1    0    0    1   
 $EndComp
@@ -637,8 +539,6 @@ AC_FUSED_IN
 Text HLabel 10500 1100 2    50   Input ~ 0
 SYS_PWR_OUT
 Wire Wire Line
-	4300 1100 5550 1100
-Wire Wire Line
 	4000 2050 4000 1100
 Wire Wire Line
 	4300 2050 4300 1100
@@ -649,10 +549,6 @@ Wire Wire Line
 Connection ~ 6700 1100
 Wire Wire Line
 	6700 1100 10500 1100
-Text Notes 8100 2600 0    39   Italic 0
-To do: find output capacitance
-Text Notes 6850 1550 0    39   Italic 0
-To do: find input capacitance
 $Comp
 L Amplifier_Current:INA196 U?
 U 1 1 5F1C9ABC
@@ -1178,10 +1074,6 @@ Text Notes 5800 5500 0    39   ~ 0
 - Final charge voltage set using this \nvoltage divider\n- V_bat = 2.1 * (1+R_top/R_bot)\n- V_bat = 4.2*3 = 12.6\n12.6 * 2.1 - 1 = 5 = R_top/R_bot
 Wire Wire Line
 	6150 1450 6150 1400
-Wire Wire Line
-	5850 1450 5850 1400
-Wire Wire Line
-	5550 1450 5550 1400
 $Comp
 L power:GND #PWR?
 U 1 1 5F305781
@@ -1195,88 +1087,8 @@ F 3 "" H 6150 1450 50  0001 C CNN
 	1    6150 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F305787
-P 5850 1450
-AR Path="/5ECF1AA9/5F305787" Ref="#PWR?"  Part="1" 
-AR Path="/5F305787" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5850 1200 50  0001 C CNN
-F 1 "GND" H 5855 1277 50  0000 C CNN
-F 2 "" H 5850 1450 50  0001 C CNN
-F 3 "" H 5850 1450 50  0001 C CNN
-	1    5850 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F30578D
-P 5550 1450
-AR Path="/5ECF1AA9/5F30578D" Ref="#PWR?"  Part="1" 
-AR Path="/5F30578D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5550 1200 50  0001 C CNN
-F 1 "GND" H 5555 1277 50  0000 C CNN
-F 2 "" H 5550 1450 50  0001 C CNN
-F 3 "" H 5550 1450 50  0001 C CNN
-	1    5550 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F305793
-P 6150 1300
-AR Path="/5ECF1AA9/5F305793" Ref="C?"  Part="1" 
-AR Path="/5F305793" Ref="C?"  Part="1" 
-F 0 "C?" H 6058 1254 50  0000 R CNN
-F 1 "10u" H 6058 1345 50  0000 R CNN
-F 2 "" H 6150 1300 50  0001 C CNN
-F 3 "~" H 6150 1300 50  0001 C CNN
-	1    6150 1300
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F305799
-P 5850 1300
-AR Path="/5ECF1AA9/5F305799" Ref="C?"  Part="1" 
-AR Path="/5F305799" Ref="C?"  Part="1" 
-F 0 "C?" H 5758 1254 50  0000 R CNN
-F 1 "10u" H 5758 1345 50  0000 R CNN
-F 2 "" H 5850 1300 50  0001 C CNN
-F 3 "~" H 5850 1300 50  0001 C CNN
-	1    5850 1300
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F30579F
-P 5550 1300
-AR Path="/5ECF1AA9/5F30579F" Ref="C?"  Part="1" 
-AR Path="/5F30579F" Ref="C?"  Part="1" 
-F 0 "C?" H 5458 1254 50  0000 R CNN
-F 1 "10u" H 5458 1345 50  0000 R CNN
-F 2 "" H 5550 1300 50  0001 C CNN
-F 3 "~" H 5550 1300 50  0001 C CNN
-	1    5550 1300
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5550 1200 5550 1100
-Connection ~ 5550 1100
-Wire Wire Line
-	5550 1100 5850 1100
-Wire Wire Line
-	5850 1200 5850 1100
-Connection ~ 5850 1100
-Wire Wire Line
-	5850 1100 6150 1100
 Wire Wire Line
 	6150 1200 6150 1100
-Connection ~ 6150 1100
-Wire Wire Line
-	6150 1100 6700 1100
-Wire Wire Line
-	8800 2750 10350 2750
 $Comp
 L power:+BATT #PWR?
 U 1 1 5EFCD0C2
@@ -1644,24 +1456,6 @@ Wire Wire Line
 Connection ~ 2350 2600
 Wire Wire Line
 	1550 2600 1800 2600
-$Comp
-L Device:R R?
-U 1 1 5F9F9924
-P 7700 2750
-AR Path="/5ECF1AA9/5F9F9924" Ref="R?"  Part="1" 
-AR Path="/5F9F9924" Ref="R?"  Part="1" 
-F 0 "R?" V 7500 2650 50  0000 C CNN
-F 1 "10m" V 7500 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 7630 2750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-PE_521_RoHS_L_7.pdf" H 7700 2750 50  0001 C CNN
-F 4 "1W" V 7600 2650 50  0000 C CNN "Power"
-F 5 "1%" V 7600 2850 50  0000 C CNN "Tolerancw"
-F 6 "YAG2167TR-ND" V 7700 2750 50  0001 C CNN "Digikey"
-	1    7700 2750
-	0    1    1    0   
-$EndComp
-Connection ~ 7850 2750
-Connection ~ 7550 2750
 Wire Wire Line
 	6550 5650 7150 5650
 Wire Wire Line
@@ -1673,4 +1467,325 @@ Wire Wire Line
 	7500 5550 7500 5650
 Wire Wire Line
 	7500 5650 7150 5650
+$Comp
+L Device:C_Small C?
+U 1 1 5EFC05CE
+P 6550 1300
+AR Path="/5ECF1AA9/5EFC05CE" Ref="C?"  Part="1" 
+AR Path="/5EFC05CE" Ref="C?"  Part="1" 
+F 0 "C?" H 6458 1254 50  0000 R CNN
+F 1 "4.7uF" H 6458 1345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6550 1300 50  0001 C CNN
+F 3 "~" H 6550 1300 50  0001 C CNN
+F 4 "399-11629-2-ND" H 6550 1300 50  0001 C CNN "Digikey"
+F 5 "X7R" H 6400 1450 50  0000 C CNN "Temp Coef. "
+	1    6550 1300
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EFC0A74
+P 6550 1450
+AR Path="/5ECF1AA9/5EFC0A74" Ref="#PWR?"  Part="1" 
+AR Path="/5EFC0A74" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 1200 50  0001 C CNN
+F 1 "GND" H 6555 1277 50  0000 C CNN
+F 2 "" H 6550 1450 50  0001 C CNN
+F 3 "" H 6550 1450 50  0001 C CNN
+	1    6550 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1450 6550 1400
+Wire Wire Line
+	6550 1200 6550 1100
+$Comp
+L Device:C_Small C?
+U 1 1 5EFD639B
+P 6150 1300
+AR Path="/5ECF1AA9/5EFD639B" Ref="C?"  Part="1" 
+AR Path="/5EFD639B" Ref="C?"  Part="1" 
+F 0 "C?" H 6058 1254 50  0000 R CNN
+F 1 "4.7uF" H 6058 1345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6150 1300 50  0001 C CNN
+F 3 "~" H 6150 1300 50  0001 C CNN
+F 4 "399-11629-2-ND" H 6150 1300 50  0001 C CNN "Digikey"
+F 5 "X7R" H 6000 1450 50  0000 C CNN "Temp Coef. "
+	1    6150 1300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5350 1450 5350 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5EFFC372
+P 5350 1450
+AR Path="/5ECF1AA9/5EFFC372" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFC372" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5350 1200 50  0001 C CNN
+F 1 "GND" H 5355 1277 50  0000 C CNN
+F 2 "" H 5350 1450 50  0001 C CNN
+F 3 "" H 5350 1450 50  0001 C CNN
+	1    5350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1200 5350 1100
+$Comp
+L Device:C_Small C?
+U 1 1 5EFFC37B
+P 5750 1300
+AR Path="/5ECF1AA9/5EFFC37B" Ref="C?"  Part="1" 
+AR Path="/5EFFC37B" Ref="C?"  Part="1" 
+F 0 "C?" H 5658 1254 50  0000 R CNN
+F 1 "4.7uF" H 5658 1345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5750 1300 50  0001 C CNN
+F 3 "~" H 5750 1300 50  0001 C CNN
+F 4 "399-11629-2-ND" H 5750 1300 50  0001 C CNN "Digikey"
+F 5 "X7R" H 5600 1450 50  0000 C CNN "Temp Coef. "
+	1    5750 1300
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EFFC381
+P 5750 1450
+AR Path="/5ECF1AA9/5EFFC381" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFC381" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 1200 50  0001 C CNN
+F 1 "GND" H 5755 1277 50  0000 C CNN
+F 2 "" H 5750 1450 50  0001 C CNN
+F 3 "" H 5750 1450 50  0001 C CNN
+	1    5750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1450 5750 1400
+Wire Wire Line
+	5750 1200 5750 1100
+$Comp
+L Device:C_Small C?
+U 1 1 5EFFC38B
+P 5350 1300
+AR Path="/5ECF1AA9/5EFFC38B" Ref="C?"  Part="1" 
+AR Path="/5EFFC38B" Ref="C?"  Part="1" 
+F 0 "C?" H 5258 1254 50  0000 R CNN
+F 1 "4.7uF" H 5258 1345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5350 1300 50  0001 C CNN
+F 3 "~" H 5350 1300 50  0001 C CNN
+F 4 "399-11629-2-ND" H 5350 1300 50  0001 C CNN "Digikey"
+F 5 "X7R" H 5200 1450 50  0000 C CNN "Temp Coef. "
+	1    5350 1300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8600 3100 8600 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5F02E6B3
+P 8600 3100
+AR Path="/5ECF1AA9/5F02E6B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F02E6B3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8600 2850 50  0001 C CNN
+F 1 "GND" H 8605 2927 50  0000 C CNN
+F 2 "" H 8600 3100 50  0001 C CNN
+F 3 "" H 8600 3100 50  0001 C CNN
+	1    8600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F02E6BC
+P 9000 2950
+AR Path="/5ECF1AA9/5F02E6BC" Ref="C?"  Part="1" 
+AR Path="/5F02E6BC" Ref="C?"  Part="1" 
+F 0 "C?" H 8908 2904 50  0000 R CNN
+F 1 "4.7uF" H 8908 2995 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9000 2950 50  0001 C CNN
+F 3 "~" H 9000 2950 50  0001 C CNN
+F 4 "399-11629-2-ND" H 9000 2950 50  0001 C CNN "Digikey"
+F 5 "X7R" H 8850 3100 50  0000 C CNN "Temp Coef. "
+	1    9000 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F02E6C2
+P 9000 3100
+AR Path="/5ECF1AA9/5F02E6C2" Ref="#PWR?"  Part="1" 
+AR Path="/5F02E6C2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9000 2850 50  0001 C CNN
+F 1 "GND" H 9005 2927 50  0000 C CNN
+F 2 "" H 9000 3100 50  0001 C CNN
+F 3 "" H 9000 3100 50  0001 C CNN
+	1    9000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3100 9000 3050
+$Comp
+L Device:C_Small C?
+U 1 1 5F02E6CC
+P 8600 2950
+AR Path="/5ECF1AA9/5F02E6CC" Ref="C?"  Part="1" 
+AR Path="/5F02E6CC" Ref="C?"  Part="1" 
+F 0 "C?" H 8508 2904 50  0000 R CNN
+F 1 "4.7uF" H 8508 2995 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8600 2950 50  0001 C CNN
+F 3 "~" H 8600 2950 50  0001 C CNN
+F 4 "399-11629-2-ND" H 8600 2950 50  0001 C CNN "Digikey"
+F 5 "X7R" H 8450 3100 50  0000 C CNN "Temp Coef. "
+	1    8600 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F02E6DC
+P 8200 2950
+AR Path="/5ECF1AA9/5F02E6DC" Ref="C?"  Part="1" 
+AR Path="/5F02E6DC" Ref="C?"  Part="1" 
+F 0 "C?" H 8108 2904 50  0000 R CNN
+F 1 "4.7uF" H 8108 2995 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8200 2950 50  0001 C CNN
+F 3 "~" H 8200 2950 50  0001 C CNN
+F 4 "399-11629-2-ND" H 8200 2950 50  0001 C CNN "Digikey"
+F 5 "X7R" H 8050 3100 50  0000 C CNN "Temp Coef. "
+F 6 "50V" H 8200 2950 50  0001 C CNN "Voltage"
+	1    8200 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F02E6E2
+P 8200 3100
+AR Path="/5ECF1AA9/5F02E6E2" Ref="#PWR?"  Part="1" 
+AR Path="/5F02E6E2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8200 2850 50  0001 C CNN
+F 1 "GND" H 8205 2927 50  0000 C CNN
+F 2 "" H 8200 3100 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3100 8200 3050
+Wire Wire Line
+	8200 2850 8200 2750
+Wire Wire Line
+	9000 2850 9000 2750
+Wire Wire Line
+	8600 2850 8600 2750
+Wire Wire Line
+	4950 1450 4950 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5F074DBC
+P 4950 1450
+AR Path="/5ECF1AA9/5F074DBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F074DBC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 1200 50  0001 C CNN
+F 1 "GND" H 4955 1277 50  0000 C CNN
+F 2 "" H 4950 1450 50  0001 C CNN
+F 3 "" H 4950 1450 50  0001 C CNN
+	1    4950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F074DC5
+P 4950 1300
+AR Path="/5ECF1AA9/5F074DC5" Ref="C?"  Part="1" 
+AR Path="/5F074DC5" Ref="C?"  Part="1" 
+F 0 "C?" H 4858 1254 50  0000 R CNN
+F 1 "4.7uF" H 4858 1345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 4950 1300 50  0001 C CNN
+F 3 "~" H 4950 1300 50  0001 C CNN
+F 4 "399-11629-2-ND" H 4950 1300 50  0001 C CNN "Digikey"
+F 5 "X7R" H 4800 1450 50  0000 C CNN "Temp Coef. "
+	1    4950 1300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4950 1200 4950 1100
+Wire Wire Line
+	7850 2750 8200 2750
+Connection ~ 8200 2750
+Wire Wire Line
+	8200 2750 8600 2750
+Connection ~ 8600 2750
+Connection ~ 9000 2750
+Wire Wire Line
+	8600 2750 9000 2750
+Wire Wire Line
+	9000 2750 10350 2750
+$Comp
+L Device:R R?
+U 1 1 5F0BB36A
+P 7700 2750
+AR Path="/5ECF1AA9/5F0BB36A" Ref="R?"  Part="1" 
+AR Path="/5F0BB36A" Ref="R?"  Part="1" 
+F 0 "R?" V 7500 2650 50  0000 C CNN
+F 1 "10m" V 7500 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7630 2750 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/CRF.pdf" H 7700 2750 50  0001 C CNN
+F 4 "1W" V 7600 2650 50  0000 C CNN "Power"
+F 5 "1%" V 7600 2850 50  0000 C CNN "Tolerancw"
+F 6 "CRF1206-FZ-R010ELFTR-ND" V 7700 2750 50  0001 C CNN "Digikey"
+	1    7700 2750
+	0    1    1    0   
+$EndComp
+Connection ~ 7850 2750
+Connection ~ 7550 2750
+Wire Wire Line
+	4550 1450 4550 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5F0CC4C7
+P 4550 1450
+AR Path="/5ECF1AA9/5F0CC4C7" Ref="#PWR?"  Part="1" 
+AR Path="/5F0CC4C7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 1200 50  0001 C CNN
+F 1 "GND" H 4555 1277 50  0000 C CNN
+F 2 "" H 4550 1450 50  0001 C CNN
+F 3 "" H 4550 1450 50  0001 C CNN
+	1    4550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F0CC4CF
+P 4550 1300
+AR Path="/5ECF1AA9/5F0CC4CF" Ref="C?"  Part="1" 
+AR Path="/5F0CC4CF" Ref="C?"  Part="1" 
+F 0 "C?" H 4458 1254 50  0000 R CNN
+F 1 "4.7uF" H 4458 1345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 4550 1300 50  0001 C CNN
+F 3 "~" H 4550 1300 50  0001 C CNN
+F 4 "399-11629-2-ND" H 4550 1300 50  0001 C CNN "Digikey"
+F 5 "X7R" H 4400 1450 50  0000 C CNN "Temp Coef. "
+	1    4550 1300
+	1    0    0    1   
+$EndComp
+Connection ~ 4950 1100
+Connection ~ 5350 1100
+Connection ~ 5750 1100
+Connection ~ 6150 1100
+Connection ~ 6550 1100
+Wire Wire Line
+	6550 1100 6700 1100
+Wire Wire Line
+	6150 1100 6550 1100
+Wire Wire Line
+	5750 1100 6150 1100
+Wire Wire Line
+	4300 1100 4550 1100
+Wire Wire Line
+	4950 1100 5350 1100
+Wire Wire Line
+	5350 1100 5750 1100
+Wire Wire Line
+	4550 1200 4550 1100
+Connection ~ 4550 1100
+Wire Wire Line
+	4550 1100 4950 1100
 $EndSCHEMATC
