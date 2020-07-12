@@ -56,8 +56,8 @@ L power:GND #PWR?
 U 1 1 5FA029D9
 P 1200 2750
 AR Path="/5ECF1AA9/5FA029D9" Ref="#PWR?"  Part="1" 
-AR Path="/5FA029D9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1200 2500 50  0001 C CNN
+AR Path="/5FA029D9" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 1200 2500 50  0001 C CNN
 F 1 "GND" H 1205 2577 50  0000 C CNN
 F 2 "" H 1200 2750 50  0001 C CNN
 F 3 "" H 1200 2750 50  0001 C CNN
@@ -69,22 +69,22 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5FA029DF
 P 900 2650
 AR Path="/5ECF1AA9/5FA029DF" Ref="J?"  Part="1" 
-AR Path="/5FA029DF" Ref="J?"  Part="1" 
-F 0 "J?" H 818 2325 50  0000 C CNN
+AR Path="/5FA029DF" Ref="J201"  Part="1" 
+F 0 "J201" H 818 2325 50  0000 C CNN
 F 1 "AC_ADPTR" H 818 2416 50  0000 C CNN
 F 2 "" H 900 2650 50  0001 C CNN
 F 3 "~" H 900 2650 50  0001 C CNN
 	1    900  2650
 	-1   0    0    1   
 $EndComp
-Text Notes 5100 1000 0    157  ~ 31
+Text Notes 4900 950  0    157  ~ 31
 CHUM BUCKET
-Text Notes 4200 1200 0    79   ~ 0
+Text Notes 4000 1150 0    79   ~ 0
 Highly Integrated, Small Footprint, Managed Lithium Battery
-Text Notes 4900 1550 0    39   ~ 0
-- 3s8p Lithium cell holders\n- 1A Balancing Current\n- 8A cell charging
-Text Notes 6150 1550 0    39   ~ 0
-- 1kW peak power delievery\n- e-fused I/O for decreased footprint\n- Power telemetry broadcasted via CAN
+Text Notes 4600 1750 0    39   ~ 0
+Chum Bucket Features:\n- 3s8p Lithium Cell config\n- 1A Balancing Current\n- 8A (1C) cell charging\n- 1kW peak power delievery\n- e-fused I/O for decreased footprint\n- Power telemetry broadcasted via CAN
+Text Notes 6000 1850 0    39   ~ 0
+Key for Component Names:\nEG: CYXX (X being sequential number)\nY Numbers:\n0: General Peripheral\n1: Charger IC\n2: MCU and Signal I/O\n3: Battery Management\n4: Power Management and Output Protections\n(Capacitor voltage ratings given as minimums)\n
 Text Notes 7900 3200 0    118  ~ 24
 SYS MGMT +\nOUTPUT PROT
 Wire Wire Line
@@ -98,8 +98,8 @@ L power:GND #PWR?
 U 1 1 5EF08F0F
 P 1200 3450
 AR Path="/5ECF1AA9/5EF08F0F" Ref="#PWR?"  Part="1" 
-AR Path="/5EF08F0F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1200 3200 50  0001 C CNN
+AR Path="/5EF08F0F" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 1200 3200 50  0001 C CNN
 F 1 "GND" H 1205 3277 50  0000 C CNN
 F 2 "" H 1200 3450 50  0001 C CNN
 F 3 "" H 1200 3450 50  0001 C CNN
@@ -111,8 +111,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5EF08F15
 P 900 3350
 AR Path="/5ECF1AA9/5EF08F15" Ref="J?"  Part="1" 
-AR Path="/5EF08F15" Ref="J?"  Part="1" 
-F 0 "J?" H 818 3025 50  0000 C CNN
+AR Path="/5EF08F15" Ref="J202"  Part="1" 
+F 0 "J202" H 818 3025 50  0000 C CNN
 F 1 "WPT_CONN" H 818 3116 50  0000 C CNN
 F 2 "" H 900 3350 50  0001 C CNN
 F 3 "~" H 900 3350 50  0001 C CNN
@@ -120,7 +120,7 @@ F 3 "~" H 900 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 1450 2400 0    39   ~ 0
-No need to fuse due to use of \nconventionial and e-fuses downstream.\nTVS diode supress plug in transients
+No need to fuse due to use of \nconventionial and e-fuses downstream.\nTVS diode supress plug in transients\nTVS, MLCC then CP placed close to power inputs
 Wire Wire Line
 	1100 3250 1450 3250
 Wire Wire Line
@@ -145,8 +145,8 @@ L power:GND #PWR?
 U 1 1 5F3C2735
 P 10300 2650
 AR Path="/5ECF1AA9/5F3C2735" Ref="#PWR?"  Part="1" 
-AR Path="/5F3C2735" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10300 2400 50  0001 C CNN
+AR Path="/5F3C2735" Ref="#PWR0206"  Part="1" 
+F 0 "#PWR0206" H 10300 2400 50  0001 C CNN
 F 1 "GND" H 10305 2477 50  0000 C CNN
 F 2 "" H 10300 2650 50  0001 C CNN
 F 3 "" H 10300 2650 50  0001 C CNN
@@ -158,8 +158,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5F3C273B
 P 10650 2550
 AR Path="/5ECF1AA9/5F3C273B" Ref="J?"  Part="1" 
-AR Path="/5F3C273B" Ref="J?"  Part="1" 
-F 0 "J?" H 10568 2225 50  0000 C CNN
+AR Path="/5F3C273B" Ref="J203"  Part="1" 
+F 0 "J203" H 10568 2225 50  0000 C CNN
 F 1 "SYS_PWR" H 10568 2316 50  0000 C CNN
 F 2 "" H 10650 2550 50  0001 C CNN
 F 3 "~" H 10650 2550 50  0001 C CNN
@@ -175,8 +175,8 @@ L power:GND #PWR?
 U 1 1 5F3C2743
 P 10300 3350
 AR Path="/5ECF1AA9/5F3C2743" Ref="#PWR?"  Part="1" 
-AR Path="/5F3C2743" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10300 3100 50  0001 C CNN
+AR Path="/5F3C2743" Ref="#PWR0207"  Part="1" 
+F 0 "#PWR0207" H 10300 3100 50  0001 C CNN
 F 1 "GND" H 10305 3177 50  0000 C CNN
 F 2 "" H 10300 3350 50  0001 C CNN
 F 3 "" H 10300 3350 50  0001 C CNN
@@ -188,8 +188,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5F3C2749
 P 10650 3250
 AR Path="/5ECF1AA9/5F3C2749" Ref="J?"  Part="1" 
-AR Path="/5F3C2749" Ref="J?"  Part="1" 
-F 0 "J?" H 10568 2925 50  0000 C CNN
+AR Path="/5F3C2749" Ref="J204"  Part="1" 
+F 0 "J204" H 10568 2925 50  0000 C CNN
 F 1 "ESC_PWR" H 10568 3016 50  0000 C CNN
 F 2 "" H 10650 3250 50  0001 C CNN
 F 3 "~" H 10650 3250 50  0001 C CNN
@@ -298,8 +298,8 @@ L Device:D_TVS D?
 U 1 1 5EFB8FC1
 P 1900 2850
 AR Path="/5F507ADF/5EFB8FC1" Ref="D?"  Part="1" 
-AR Path="/5EFB8FC1" Ref="D?"  Part="1" 
-F 0 "D?" V 1854 2929 50  0000 L CNN
+AR Path="/5EFB8FC1" Ref="D201"  Part="1" 
+F 0 "D201" V 1854 2929 50  0000 L CNN
 F 1 "SMBJ26A" V 1945 2929 50  0000 L CNN
 F 2 "Diode_SMD:D_SMB" H 1900 2850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88392/smbj.pdf" H 1900 2850 50  0001 C CNN
@@ -312,8 +312,8 @@ L power:GND #PWR?
 U 1 1 5EFB8FC7
 P 1900 3100
 AR Path="/5F507ADF/5EFB8FC7" Ref="#PWR?"  Part="1" 
-AR Path="/5EFB8FC7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1900 2850 50  0001 C CNN
+AR Path="/5EFB8FC7" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR0203" H 1900 2850 50  0001 C CNN
 F 1 "GND" H 1905 2927 50  0000 C CNN
 F 2 "" H 1900 3100 50  0001 C CNN
 F 3 "" H 1900 3100 50  0001 C CNN
@@ -327,8 +327,8 @@ L Device:C_Small C?
 U 1 1 5EFB8FCE
 P 2100 2850
 AR Path="/5F507ADF/5EFB8FCE" Ref="C?"  Part="1" 
-AR Path="/5EFB8FCE" Ref="C?"  Part="1" 
-F 0 "C?" H 2192 2896 50  0000 L CNN
+AR Path="/5EFB8FCE" Ref="C201"  Part="1" 
+F 0 "C201" H 2192 2896 50  0000 L CNN
 F 1 "10nF" H 2192 2805 50  0000 L CNN
 F 2 "" H 2100 2850 50  0001 C CNN
 F 3 "~" H 2100 2850 50  0001 C CNN
@@ -340,8 +340,8 @@ L power:GND #PWR?
 U 1 1 5EFB8FD4
 P 2100 3100
 AR Path="/5F507ADF/5EFB8FD4" Ref="#PWR?"  Part="1" 
-AR Path="/5EFB8FD4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2100 2850 50  0001 C CNN
+AR Path="/5EFB8FD4" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 2100 2850 50  0001 C CNN
 F 1 "GND" H 2105 2927 50  0000 C CNN
 F 2 "" H 2100 3100 50  0001 C CNN
 F 3 "" H 2100 3100 50  0001 C CNN
@@ -357,7 +357,7 @@ Wire Wire Line
 Connection ~ 1900 2550
 Connection ~ 2100 2550
 Wire Wire Line
-	2100 2550 2850 2550
+	2100 2550 2450 2550
 Wire Wire Line
 	1450 2550 1900 2550
 Wire Wire Line
@@ -369,8 +369,8 @@ L power:GND #PWR?
 U 1 1 5EF84B97
 P 2450 3100
 AR Path="/5F507ADF/5EF84B97" Ref="#PWR?"  Part="1" 
-AR Path="/5EF84B97" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2450 2850 50  0001 C CNN
+AR Path="/5EF84B97" Ref="#PWR0205"  Part="1" 
+F 0 "#PWR0205" H 2450 2850 50  0001 C CNN
 F 1 "GND" H 2455 2927 50  0000 C CNN
 F 2 "" H 2450 3100 50  0001 C CNN
 F 3 "" H 2450 3100 50  0001 C CNN
@@ -379,18 +379,23 @@ F 3 "" H 2450 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 3100 2450 2950
-Wire Wire Line
-	2450 2750 2450 2550
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C202
 U 1 1 5EF85CBA
 P 2450 2850
-F 0 "C?" H 2538 2896 50  0000 L CNN
-F 1 "470uF" H 2538 2805 50  0000 L CNN
-F 2 "" H 2450 2850 50  0001 C CNN
-F 3 "~" H 2450 2850 50  0001 C CNN
+F 0 "C202" H 2538 2896 50  0000 L CNN
+F 1 "100uF" H 2538 2805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2450 2850 50  0001 C CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_ZLJ.pdf" H 2450 2850 50  0001 C CNN
 F 4 "P15451TR-ND" H 2450 2850 50  0001 C CNN "Digikey"
+F 5 "50V" H 2600 2700 50  0000 C CNN "Voltage"
+F 6 "1189-1662-1-ND" H 2450 2850 50  0001 C CNN "Digikey"
 	1    2450 2850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 2750 2450 2550
+Connection ~ 2450 2550
+Wire Wire Line
+	2450 2550 2850 2550
 $EndSCHEMATC
