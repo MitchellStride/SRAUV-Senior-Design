@@ -511,7 +511,7 @@ Wire Wire Line
 	7500 3850 8100 3850
 Connection ~ 9300 3850
 Text Notes 6050 2850 0    39   ~ 0
-NOTE ABOUT CELL FILTERING:\n- R value to be 4 times the balance resistor\n- Corner fequency is 720Hz\n (well below switch freq of buck) \n
+NOTE ABOUT CELL FILTERING:\n- R value to be 4 times the balance resistor\n- 3db is 720Hz\n (well below switch freq of buck) \n
 Wire Wire Line
 	4450 4300 5300 4300
 Wire Wire Line

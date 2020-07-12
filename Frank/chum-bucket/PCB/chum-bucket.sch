@@ -13,8 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 4750 4400 0    118  ~ 24
-MCU & I/O
+Text Notes 5050 4450 0    118  ~ 24
+MCU
 Text Notes 4950 5900 0    118  ~ 24
 CELLS
 Text Notes 4850 3000 0    118  ~ 24
@@ -85,8 +85,8 @@ Text Notes 4600 1750 0    39   ~ 0
 Chum Bucket Features:\n- 3s8p Lithium Cell config\n- 1A Balancing Current\n- 8A (1C) cell charging\n- 1kW peak power delievery\n- e-fused I/O for decreased footprint\n- Power telemetry broadcasted via CAN
 Text Notes 6000 1850 0    39   ~ 0
 Key for Component Names:\nEG: CYXX (X being sequential number)\nY Numbers:\n0: General Peripheral\n1: Charger IC\n2: MCU and Signal I/O\n3: Battery Management\n4: Power Management and Output Protections\n(Capacitor voltage ratings given as minimums)\n
-Text Notes 7900 3200 0    118  ~ 24
-SYS MGMT +\nOUTPUT PROT
+Text Notes 8250 2950 0    118  ~ 24
+SYS MGMT
 Wire Wire Line
 	6350 2550 7550 2550
 Wire Wire Line
@@ -137,6 +137,9 @@ F3 "ESC_PWR_OUT" I R 9750 3150 50
 F4 "SYS_PWR_OUT_PROT" I R 9750 2450 50 
 F5 "ESC_PWR_EN" I L 7550 3350 50 
 F6 "~BQ24617_BAT_DRV" I L 7550 2650 50 
+F7 "ANALOG_I_ESCS" I L 7550 3250 50 
+F8 "ANALOG_V_SYSTEM" I L 7550 3050 50 
+F9 "ANALOG_V_ESCS" I L 7550 3150 50 
 $EndSheet
 Wire Wire Line
 	10300 2550 10450 2550
@@ -258,12 +261,6 @@ Wire Wire Line
 	6700 4050 6700 3200
 Wire Wire Line
 	6700 3200 6350 3200
-Wire Wire Line
-	6350 4150 6850 4150
-Wire Wire Line
-	6850 4150 6850 3350
-Wire Wire Line
-	6850 3350 7550 3350
 Connection ~ 1450 2550
 Wire Wire Line
 	4150 3900 2850 3900
@@ -291,7 +288,10 @@ F6 "UART_BQ79606_STM_RX" I L 4150 4700 50
 F7 "ANALOG_I_SYS" I R 6350 3950 50 
 F8 "ANALOG_I_CHG" I R 6350 4050 50 
 F9 "CHG_PWR_UNFUSED" I L 4150 3900 50 
-F10 "ESC_PWR_EN" I R 6350 4150 50 
+F10 "ESC_PWR_EN" I R 6350 4450 50 
+F11 "ANALOG_I_ESCS" I R 6350 4350 50 
+F12 "ANALOG_V_SYSTEM" I R 6350 4150 50 
+F13 "ANALOG_V_ESCS" I R 6350 4250 50 
 $EndSheet
 $Comp
 L Device:D_TVS D?
@@ -362,8 +362,6 @@ Wire Wire Line
 	1450 2550 1900 2550
 Wire Wire Line
 	1900 2550 2100 2550
-Text Notes 7650 4250 0    50   Italic 0
-To do: \n- add voltage monitoring for output busses\n- add current monitoring for ESC bus (hall effect sensor?) 
 $Comp
 L power:GND #PWR?
 U 1 1 5EF84B97
@@ -398,4 +396,28 @@ Wire Wire Line
 Connection ~ 2450 2550
 Wire Wire Line
 	2450 2550 2850 2550
+Wire Wire Line
+	6350 4150 6800 4150
+Wire Wire Line
+	6800 4150 6800 3050
+Wire Wire Line
+	6800 3050 7550 3050
+Wire Wire Line
+	6350 4250 6900 4250
+Wire Wire Line
+	6900 4250 6900 3150
+Wire Wire Line
+	6900 3150 7550 3150
+Wire Wire Line
+	6350 4350 7000 4350
+Wire Wire Line
+	7000 4350 7000 3250
+Wire Wire Line
+	7000 3250 7550 3250
+Wire Wire Line
+	6350 4450 7100 4450
+Wire Wire Line
+	7100 4450 7100 3350
+Wire Wire Line
+	7100 3350 7550 3350
 $EndSCHEMATC
