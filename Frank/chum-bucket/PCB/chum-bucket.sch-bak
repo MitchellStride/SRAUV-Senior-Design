@@ -85,7 +85,7 @@ Text Notes 4600 1750 0    39   ~ 0
 Chum Bucket Features:\n- 3s8p Lithium Cell config\n- 1A Balancing Current\n- 8A (1C) cell charging\n- 1kW peak power delievery\n- e-fused I/O for decreased footprint\n- Power telemetry broadcasted via CAN
 Text Notes 6000 1850 0    39   ~ 0
 Key for Component Names:\nEG: CYXX (X being sequential number)\nY Numbers:\n0: General Peripheral\n1: Charger IC\n2: MCU and Signal I/O\n3: Battery Management\n4: Power Management and Output Protections\n(Capacitor voltage ratings given as minimums)\n
-Text Notes 8350 2950 0    118  ~ 24
+Text Notes 8250 2950 0    118  ~ 24
 SYS MGMT
 Wire Wire Line
 	6350 2550 7550 2550

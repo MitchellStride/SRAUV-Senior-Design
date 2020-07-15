@@ -20,9 +20,9 @@ P 1950 6050
 AR Path="/5ECF1AA9/5F9424F0" Ref="R?"  Part="1" 
 AR Path="/5F9424F0" Ref="R?"  Part="1" 
 AR Path="/5ECF181C/5F9424F0" Ref="R306"  Part="1" 
-F 0 "R306" H 1850 6000 50  0000 C CNN
+F 0 "R306" H 1800 6000 50  0000 C CNN
 F 1 "10k" H 1800 6100 50  0000 C CNN
-F 2 "" H 1950 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1950 6050 50  0001 C CNN
 F 3 "~" H 1950 6050 50  0001 C CNN
 	1    1950 6050
 	-1   0    0    1   
@@ -34,9 +34,9 @@ P 1650 6050
 AR Path="/5ECF1AA9/5F9424F6" Ref="R?"  Part="1" 
 AR Path="/5F9424F6" Ref="R?"  Part="1" 
 AR Path="/5ECF181C/5F9424F6" Ref="R305"  Part="1" 
-F 0 "R305" H 1550 6000 50  0000 C CNN
+F 0 "R305" H 1500 6000 50  0000 C CNN
 F 1 "10k" H 1500 6100 50  0000 C CNN
-F 2 "" H 1650 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1650 6050 50  0001 C CNN
 F 3 "~" H 1650 6050 50  0001 C CNN
 	1    1650 6050
 	-1   0    0    1   
@@ -66,7 +66,7 @@ AR Path="/5F942514" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F942514" Ref="R330"  Part="1" 
 F 0 "R330" V 8550 3000 50  0000 C CNN
 F 1 "47" V 8550 3200 50  0000 C CNN
-F 2 "" V 8580 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 3100 50  0001 C CNN
 F 3 "~" H 8650 3100 50  0001 C CNN
 	1    8650 3100
 	0    1    1    0   
@@ -94,7 +94,7 @@ AR Path="/5F94252D" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F94252D" Ref="R329"  Part="1" 
 F 0 "R329" V 8550 2700 50  0000 C CNN
 F 1 "47" V 8550 2900 50  0000 C CNN
-F 2 "" V 8580 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2800 50  0001 C CNN
 F 3 "~" H 8650 2800 50  0001 C CNN
 	1    8650 2800
 	0    1    1    0   
@@ -107,7 +107,7 @@ AR Path="/5F94253F" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F94253F" Ref="R327"  Part="1" 
 F 0 "R327" V 8550 2100 50  0000 C CNN
 F 1 "47" V 8550 2300 50  0000 C CNN
-F 2 "" V 8580 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2200 50  0001 C CNN
 F 3 "~" H 8650 2200 50  0001 C CNN
 	1    8650 2200
 	0    1    1    0   
@@ -120,7 +120,7 @@ AR Path="/5F942545" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F942545" Ref="R328"  Part="1" 
 F 0 "R328" V 8550 2400 50  0000 C CNN
 F 1 "47" V 8550 2600 50  0000 C CNN
-F 2 "" V 8580 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2500 50  0001 C CNN
 F 3 "~" H 8650 2500 50  0001 C CNN
 	1    8650 2500
 	0    1    1    0   
@@ -165,7 +165,7 @@ AR Path="/5F942569" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F942569" Ref="C316"  Part="1" 
 F 0 "C316" H 8392 1196 50  0000 L CNN
 F 1 "0.33uF" H 8392 1105 50  0000 L CNN
-F 2 "" H 8300 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8300 1150 50  0001 C CNN
 F 3 "~" H 8300 1150 50  0001 C CNN
 F 4 "16V" H 8450 1000 50  0000 C CNN "Voltage"
 	1    8300 1150
@@ -197,7 +197,7 @@ AR Path="/5F942590" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F942590" Ref="C313"  Part="1" 
 F 0 "C313" H 8192 4146 50  0000 L CNN
 F 1 "1uF" H 8192 4055 50  0000 L CNN
-F 2 "" H 8100 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8100 4100 50  0001 C CNN
 F 3 "~" H 8100 4100 50  0001 C CNN
 	1    8100 4100
 	1    0    0    -1  
@@ -210,7 +210,7 @@ AR Path="/5F942596" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F942596" Ref="R319"  Part="1" 
 F 0 "R319" V 8154 3850 50  0000 C CNN
 F 1 "100" V 8245 3850 50  0000 C CNN
-F 2 "" H 8350 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8350 3850 50  0001 C CNN
 F 3 "~" H 8350 3850 50  0001 C CNN
 	1    8350 3850
 	0    1    1    0   
@@ -226,24 +226,11 @@ U 1 1 5F9425AB
 P 8550 5950
 AR Path="/5F9425AB" Ref="R?"  Part="1" 
 AR Path="/5ECF181C/5F9425AB" Ref="R324"  Part="1" 
-F 0 "R324" V 8354 5950 50  0000 C CNN
-F 1 "1k" V 8445 5950 50  0000 C CNN
-F 2 "" H 8550 5950 50  0001 C CNN
+F 0 "R324" V 8450 5850 50  0000 C CNN
+F 1 "1k" V 8450 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 5950 50  0001 C CNN
 F 3 "~" H 8550 5950 50  0001 C CNN
 	1    8550 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5F9425BD
-P 8300 6250
-AR Path="/5F9425BD" Ref="R?"  Part="1" 
-AR Path="/5ECF181C/5F9425BD" Ref="R318"  Part="1" 
-F 0 "R318" V 8104 6250 50  0000 C CNN
-F 1 "100" V 8195 6250 50  0000 C CNN
-F 2 "" H 8300 6250 50  0001 C CNN
-F 3 "~" H 8300 6250 50  0001 C CNN
-	1    8300 6250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -262,9 +249,9 @@ U 1 1 5F9425E3
 P 8550 5150
 AR Path="/5F9425E3" Ref="R?"  Part="1" 
 AR Path="/5ECF181C/5F9425E3" Ref="R323"  Part="1" 
-F 0 "R323" V 8354 5150 50  0000 C CNN
-F 1 "1k" V 8445 5150 50  0000 C CNN
-F 2 "" H 8550 5150 50  0001 C CNN
+F 0 "R323" V 8450 5050 50  0000 C CNN
+F 1 "1k" V 8450 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 5150 50  0001 C CNN
 F 3 "~" H 8550 5150 50  0001 C CNN
 	1    8550 5150
 	0    1    1    0   
@@ -277,7 +264,7 @@ AR Path="/5F9425F5" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F9425F5" Ref="R321"  Part="1" 
 F 0 "R321" V 8154 5450 50  0000 C CNN
 F 1 "100" V 8245 5450 50  0000 C CNN
-F 2 "" H 8350 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8350 5450 50  0001 C CNN
 F 3 "~" H 8350 5450 50  0001 C CNN
 	1    8350 5450
 	0    1    1    0   
@@ -320,7 +307,7 @@ U 1 1 5F94261B
 P 9200 4350
 AR Path="/5F94261B" Ref="Q?"  Part="1" 
 AR Path="/5ECF181C/5F94261B" Ref="Q301"  Part="1" 
-F 0 "Q301" H 9050 4450 50  0000 L CNN
+F 0 "Q301" H 8950 4450 50  0000 L CNN
 F 1 "AON2406" H 9400 4250 50  0000 L CNN
 F 2 "" H 9400 4450 50  0001 C CNN
 F 3 "http://www.aosmd.com/res/data_sheets/AON2406.pdf" H 9200 4350 50  0001 C CNN
@@ -335,9 +322,9 @@ U 1 1 5F942621
 P 8550 4350
 AR Path="/5F942621" Ref="R?"  Part="1" 
 AR Path="/5ECF181C/5F942621" Ref="R322"  Part="1" 
-F 0 "R322" V 8354 4350 50  0000 C CNN
-F 1 "1k" V 8445 4350 50  0000 C CNN
-F 2 "" H 8550 4350 50  0001 C CNN
+F 0 "R322" V 8450 4250 50  0000 C CNN
+F 1 "1k" V 8450 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 4350 50  0001 C CNN
 F 3 "~" H 8550 4350 50  0001 C CNN
 	1    8550 4350
 	0    1    1    0   
@@ -350,7 +337,7 @@ AR Path="/5F942633" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F942633" Ref="R320"  Part="1" 
 F 0 "R320" V 8154 4650 50  0000 C CNN
 F 1 "100" V 8245 4650 50  0000 C CNN
-F 2 "" H 8350 4650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8350 4650 50  0001 C CNN
 F 3 "~" H 8350 4650 50  0001 C CNN
 	1    8350 4650
 	0    1    1    0   
@@ -379,7 +366,7 @@ AR Path="/5F942651" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F942651" Ref="C315"  Part="1" 
 F 0 "C315" H 8192 5796 50  0000 L CNN
 F 1 "1uF" H 8192 5705 50  0000 L CNN
-F 2 "" H 8100 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8100 5750 50  0001 C CNN
 F 3 "~" H 8100 5750 50  0001 C CNN
 	1    8100 5750
 	1    0    0    -1  
@@ -392,7 +379,7 @@ AR Path="/5F942657" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F942657" Ref="C314"  Part="1" 
 F 0 "C314" H 8192 4996 50  0000 L CNN
 F 1 "1uF" H 8192 4905 50  0000 L CNN
-F 2 "" H 8100 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8100 4950 50  0001 C CNN
 F 3 "~" H 8100 4950 50  0001 C CNN
 	1    8100 4950
 	1    0    0    -1  
@@ -466,9 +453,9 @@ P 2250 6050
 AR Path="/5ECF1AA9/5F942689" Ref="R?"  Part="1" 
 AR Path="/5F942689" Ref="R?"  Part="1" 
 AR Path="/5ECF181C/5F942689" Ref="R309"  Part="1" 
-F 0 "R309" H 2150 6000 50  0000 C CNN
+F 0 "R309" H 2100 6000 50  0000 C CNN
 F 1 "10k" H 2100 6100 50  0000 C CNN
-F 2 "" H 2250 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2250 6050 50  0001 C CNN
 F 3 "~" H 2250 6050 50  0001 C CNN
 	1    2250 6050
 	-1   0    0    1   
@@ -480,9 +467,9 @@ P 2550 6050
 AR Path="/5ECF1AA9/5F942693" Ref="R?"  Part="1" 
 AR Path="/5F942693" Ref="R?"  Part="1" 
 AR Path="/5ECF181C/5F942693" Ref="R312"  Part="1" 
-F 0 "R312" H 2450 6000 50  0000 C CNN
-F 1 "10k" H 2400 6100 50  0000 C CNN
-F 2 "" H 2550 6050 50  0001 C CNN
+F 0 "R312" H 2450 5950 50  0000 C CNN
+F 1 "10k" H 2450 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2550 6050 50  0001 C CNN
 F 3 "~" H 2550 6050 50  0001 C CNN
 	1    2550 6050
 	-1   0    0    1   
@@ -534,7 +521,7 @@ AR Path="/5FD563B4" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5FD563B4" Ref="C310"  Part="1" 
 F 0 "C310" H 2950 6050 50  0000 L CNN
 F 1 "4.7uF" H 2950 5950 50  0000 L CNN
-F 2 "" H 2850 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2850 6000 50  0001 C CNN
 F 3 "~" H 2850 6000 50  0001 C CNN
 	1    2850 6000
 	1    0    0    -1  
@@ -595,8 +582,9 @@ AR Path="/5FDBE178" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5FDBE178" Ref="C309"  Part="1" 
 F 0 "C309" H 2950 5350 50  0000 L CNN
 F 1 "2.2uF" H 2950 5250 50  0000 L CNN
-F 2 "" H 2850 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2850 5300 50  0001 C CNN
 F 3 "~" H 2850 5300 50  0001 C CNN
+F 4 "6V" H 3000 5150 50  0000 C CNN "Voltage"
 	1    2850 5300
 	1    0    0    -1  
 $EndComp
@@ -622,8 +610,9 @@ AR Path="/5FDC5956" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5FDC5956" Ref="C306"  Part="1" 
 F 0 "C306" H 2550 5350 50  0000 L CNN
 F 1 "2.2uF" H 2550 5250 50  0000 L CNN
-F 2 "" H 2450 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 5300 50  0001 C CNN
 F 3 "~" H 2450 5300 50  0001 C CNN
+F 4 "6V" H 2600 5150 50  0000 C CNN "Voltage"
 	1    2450 5300
 	1    0    0    -1  
 $EndComp
@@ -649,8 +638,9 @@ AR Path="/5FDCB4A1" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5FDCB4A1" Ref="C305"  Part="1" 
 F 0 "C305" H 2150 5350 50  0000 L CNN
 F 1 "2.2uF" H 2150 5250 50  0000 L CNN
-F 2 "" H 2050 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2050 5300 50  0001 C CNN
 F 3 "~" H 2050 5300 50  0001 C CNN
+F 4 "6V" H 2200 5150 50  0000 C CNN "Voltage"
 	1    2050 5300
 	1    0    0    -1  
 $EndComp
@@ -684,8 +674,9 @@ AR Path="/5FDE9750" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5FDE9750" Ref="C304"  Part="1" 
 F 0 "C304" H 1750 5350 50  0000 L CNN
 F 1 "2.2uF" H 1750 5250 50  0000 L CNN
-F 2 "" H 1650 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 5300 50  0001 C CNN
 F 3 "~" H 1650 5300 50  0001 C CNN
+F 4 "10V" H 1800 5150 50  0000 C CNN "Voltage"
 	1    1650 5300
 	1    0    0    -1  
 $EndComp
@@ -715,8 +706,9 @@ AR Path="/5FDF7331" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5FDF7331" Ref="C301"  Part="1" 
 F 0 "C301" H 1350 5350 50  0000 L CNN
 F 1 "2.2uF" H 1350 5250 50  0000 L CNN
-F 2 "" H 1250 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1250 5300 50  0001 C CNN
 F 3 "~" H 1250 5300 50  0001 C CNN
+F 4 "6V" H 1400 5150 50  0000 C CNN "Voltage"
 	1    1250 5300
 	1    0    0    -1  
 $EndComp
@@ -822,12 +814,6 @@ Text HLabel 10450 1100 2    50   Input ~ 0
 SERIES_BANK_2
 Text HLabel 10450 1300 2    50   Input ~ 0
 PACK_GND
-Wire Wire Line
-	9300 5450 9500 5450
-Wire Wire Line
-	9300 4650 9500 4650
-Wire Wire Line
-	9300 3850 9500 3850
 Text Label 9200 2200 0    39   ~ 0
 SERIES_BANK_3
 Text Label 9200 2500 0    39   ~ 0
@@ -866,7 +852,7 @@ AR Path="/5F3A3DD0" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F3A3DD0" Ref="C324"  Part="1" 
 F 0 "C324" H 9050 6000 50  0000 L CNN
 F 1 "1nF" H 9000 5900 50  0000 L CNN
-F 2 "" H 8950 6050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 6050 50  0001 C CNN
 F 3 "~" H 8950 6050 50  0001 C CNN
 	1    8950 6050
 	1    0    0    -1  
@@ -902,7 +888,7 @@ AR Path="/5F479DB0" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F479DB0" Ref="R326"  Part="1" 
 F 0 "R326" V 8500 1450 50  0000 C CNN
 F 1 "100" V 8500 1650 50  0000 C CNN
-F 2 "" V 8530 1550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 1550 50  0001 C CNN
 F 3 "~" H 8600 1550 50  0001 C CNN
 	1    8600 1550
 	0    1    1    0   
@@ -915,7 +901,7 @@ AR Path="/5F47B39E" Ref="R?"  Part="1"
 AR Path="/5ECF181C/5F47B39E" Ref="R325"  Part="1" 
 F 0 "R325" V 8500 900 50  0000 C CNN
 F 1 "40" V 8500 1100 50  0000 C CNN
-F 2 "" V 8530 1000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 1000 50  0001 C CNN
 F 3 "~" H 8600 1000 50  0001 C CNN
 	1    8600 1000
 	0    1    1    0   
@@ -928,17 +914,6 @@ Text HLabel 1550 6300 0    50   Input ~ 0
 UART_BQ79606_STM_TX
 Text Notes 4450 1700 0    39   ~ 0
 NOTE ABOUT THERMISTORS:\n- Voltage divider used for liniarization\n- Voltage divider and capacitor to be placed close\n   to BQ GPIO pins\n- Thermistors to be placed near cells
-$Comp
-L Device:Fuse F301
-U 1 1 5F28DD63
-P 9600 1000
-F 0 "F301" V 9403 1000 50  0000 C CNN
-F 1 "100mA" V 9494 1000 50  0000 C CNN
-F 2 "" V 9530 1000 50  0001 C CNN
-F 3 "~" H 9600 1000 50  0001 C CNN
-	1    9600 1000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9450 1000 9050 1000
 Connection ~ 9050 1000
@@ -993,63 +968,8 @@ F 5 "4W" H 9150 5750 50  0000 C CNN "Power"
 	1    9300 5600
 	1    0    0    1   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5F129411
-P 9500 5600
-AR Path="/5F129411" Ref="R?"  Part="1" 
-AR Path="/5ECF181C/5F129411" Ref="R336"  Part="1" 
-F 0 "R336" H 9350 5550 50  0000 C CNN
-F 1 "4" H 9350 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 9430 5600 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 9500 5600 50  0001 C CNN
-F 4 "A121248TR-ND" H 9500 5600 50  0001 C CNN "Digikey"
-F 5 "4W" H 9350 5750 50  0000 C CNN "Power"
-	1    9500 5600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9500 5750 9300 5750
-NoConn ~ 9500 5600
-$Comp
-L Device:R R?
-U 1 1 5F156C94
-P 9500 4800
-AR Path="/5F156C94" Ref="R?"  Part="1" 
-AR Path="/5ECF181C/5F156C94" Ref="R335"  Part="1" 
-F 0 "R335" H 9350 4750 50  0000 C CNN
-F 1 "4" H 9350 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 9430 4800 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 9500 4800 50  0001 C CNN
-F 4 "A121248TR-ND" H 9500 4800 50  0001 C CNN "Digikey"
-F 5 "4W" H 9350 4950 50  0000 C CNN "Power"
-	1    9500 4800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9500 4950 9300 4950
-$Comp
-L Device:R R?
-U 1 1 5F174F35
-P 9500 4000
-AR Path="/5F174F35" Ref="R?"  Part="1" 
-AR Path="/5ECF181C/5F174F35" Ref="R334"  Part="1" 
-F 0 "R334" H 9350 3950 50  0000 C CNN
-F 1 "4" H 9350 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 9430 4000 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 9500 4000 50  0001 C CNN
-F 4 "A121248TR-ND" H 9500 4000 50  0001 C CNN "Digikey"
-F 5 "4W" H 9350 4150 50  0000 C CNN "Power"
-	1    9500 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9500 4150 9300 4150
-Connection ~ 9300 4150
-NoConn ~ 9500 4800
-NoConn ~ 9500 4000
 Text Notes 5900 5950 0    39   ~ 0
-BALANCE RESISTOR NOTES:\n- parallel 2512 resistor placed incase 1A balance current \nis insufficent\n- selected resistor rated for 2.5W power dissipation, \nbalancing will be internmittent though\n\n
+BALANCE RESISTOR NOTES:\n- selected resistor rated for 2.5W power dissipation, \nbalancing will be internmittent though\n\n
 Text Notes 5900 5400 0    39   ~ 0
 BALANCE TRANSISTOR NOTES\n- Series gate resistor to limit current during hotplug\n- Gate capacitor for power loss during transients\n- Gate diode for ESD protection (no high clamping diode)\n- VGS_min is 3.2/2 V = 1.6V\n- VDS_max is 4.2V
 $Comp
@@ -1058,7 +978,7 @@ U 1 1 5F398DB2
 P 9200 5150
 AR Path="/5F398DB2" Ref="Q?"  Part="1" 
 AR Path="/5ECF181C/5F398DB2" Ref="Q302"  Part="1" 
-F 0 "Q302" H 9050 5250 50  0000 L CNN
+F 0 "Q302" H 8950 5250 50  0000 L CNN
 F 1 "AON2406" H 9400 5050 50  0000 L CNN
 F 2 "" H 9400 5250 50  0001 C CNN
 F 3 "http://www.aosmd.com/res/data_sheets/AON2406.pdf" H 9200 5150 50  0001 C CNN
@@ -1067,14 +987,13 @@ F 5 "http://www.aosmd.com/res/packaging_information/DFN2x2B_6L_EP1_S.pdf" H 9200
 	1    9200 5150
 	1    0    0    -1  
 $EndComp
-Connection ~ 9300 4950
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5F399620
 P 9200 5950
 AR Path="/5F399620" Ref="Q?"  Part="1" 
 AR Path="/5ECF181C/5F399620" Ref="Q303"  Part="1" 
-F 0 "Q303" H 9050 6050 50  0000 L CNN
+F 0 "Q303" H 8950 6050 50  0000 L CNN
 F 1 "AON2406" H 9400 5850 50  0000 L CNN
 F 2 "" H 9400 6050 50  0001 C CNN
 F 3 "http://www.aosmd.com/res/data_sheets/AON2406.pdf" H 9200 5950 50  0001 C CNN
@@ -1083,7 +1002,6 @@ F 5 "http://www.aosmd.com/res/packaging_information/DFN2x2B_6L_EP1_S.pdf" H 9200
 	1    9200 5950
 	1    0    0    -1  
 $EndComp
-Connection ~ 9300 5750
 $Comp
 L Device:D_Small D?
 U 1 1 5F41EE6D
@@ -1150,7 +1068,7 @@ AR Path="/5F47A0E9" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F47A0E9" Ref="C323"  Part="1" 
 F 0 "C323" H 9050 5200 50  0000 L CNN
 F 1 "1nF" H 9000 5100 50  0000 L CNN
-F 2 "" H 8950 5250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 5250 50  0001 C CNN
 F 3 "~" H 8950 5250 50  0001 C CNN
 	1    8950 5250
 	1    0    0    -1  
@@ -1166,7 +1084,7 @@ AR Path="/5F47A714" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F47A714" Ref="C322"  Part="1" 
 F 0 "C322" H 9050 4400 50  0000 L CNN
 F 1 "1nF" H 9000 4300 50  0000 L CNN
-F 2 "" H 8950 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 4450 50  0001 C CNN
 F 3 "~" H 8950 4450 50  0001 C CNN
 	1    8950 4450
 	1    0    0    -1  
@@ -1174,15 +1092,6 @@ $EndComp
 Connection ~ 8950 4350
 Wire Wire Line
 	8950 4350 9000 4350
-Wire Wire Line
-	9850 3850 9500 3850
-Connection ~ 9500 3850
-Wire Wire Line
-	9500 4650 9950 4650
-Connection ~ 9500 4650
-Wire Wire Line
-	9500 5450 10050 5450
-Connection ~ 9500 5450
 Wire Wire Line
 	9300 6250 10150 6250
 Connection ~ 9300 6250
@@ -1215,7 +1124,7 @@ AR Path="/5F736809" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F736809" Ref="C317"  Part="1" 
 F 0 "C317" H 8392 1746 50  0000 L CNN
 F 1 "0.33uF" H 8392 1655 50  0000 L CNN
-F 2 "" H 8300 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8300 1700 50  0001 C CNN
 F 3 "~" H 8300 1700 50  0001 C CNN
 F 4 "16V" H 8450 1550 50  0000 C CNN "Voltage"
 	1    8300 1700
@@ -1229,7 +1138,7 @@ AR Path="/5F767854" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F767854" Ref="C320"  Part="1" 
 F 0 "C320" H 8000 2950 50  0000 L CNN
 F 1 "0.47uF" H 8000 2850 50  0000 L CNN
-F 2 "" H 8350 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 2900 50  0001 C CNN
 F 3 "~" H 8350 2900 50  0001 C CNN
 F 4 "16V" H 8100 2750 50  0000 C CNN "Voltage"
 	1    8350 2900
@@ -1243,7 +1152,7 @@ AR Path="/5F775BB3" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F775BB3" Ref="C319"  Part="1" 
 F 0 "C319" H 8000 2650 50  0000 L CNN
 F 1 "0.47uF" H 8000 2550 50  0000 L CNN
-F 2 "" H 8350 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 2600 50  0001 C CNN
 F 3 "~" H 8350 2600 50  0001 C CNN
 F 4 "16V" H 8100 2450 50  0000 C CNN "Voltage"
 	1    8350 2600
@@ -1257,7 +1166,7 @@ AR Path="/5F783ACC" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F783ACC" Ref="C318"  Part="1" 
 F 0 "C318" H 8000 2350 50  0000 L CNN
 F 1 "0.47uF" H 8000 2250 50  0000 L CNN
-F 2 "" H 8350 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 2300 50  0001 C CNN
 F 3 "~" H 8350 2300 50  0001 C CNN
 F 4 "16V" H 8100 2150 50  0000 C CNN "Voltage"
 	1    8350 2300
@@ -1286,7 +1195,7 @@ AR Path="/5F94251A" Ref="C?"  Part="1"
 AR Path="/5ECF181C/5F94251A" Ref="C321"  Part="1" 
 F 0 "C321" H 8000 3250 50  0000 L CNN
 F 1 "0.47uF" H 8000 3150 50  0000 L CNN
-F 2 "" H 8350 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 3200 50  0001 C CNN
 F 3 "~" H 8350 3200 50  0001 C CNN
 F 4 "16V" H 8100 3050 50  0000 C CNN "Voltage"
 	1    8350 3200
@@ -1344,37 +1253,15 @@ F 3 "" H 1050 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C303
-U 1 1 5EEFDC20
-P 1350 2950
-F 0 "C303" H 1442 2996 50  0000 L CNN
-F 1 "2.2uF" H 1442 2905 50  0000 L CNN
-F 2 "" H 1350 2950 50  0001 C CNN
-F 3 "~" H 1350 2950 50  0001 C CNN
-	1    1350 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Thermistor_NTC TH302
-U 1 1 5EEFDC1A
-P 1350 2550
-F 0 "TH302" H 1448 2596 50  0000 L CNN
-F 1 "Thermistor_NTC" H 1448 2505 50  0000 L CNN
-F 2 "" H 1350 2600 50  0001 C CNN
-F 3 "~" H 1350 2600 50  0001 C CNN
-	1    1350 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R304
 U 1 1 5EEFDC14
 P 1050 2950
 F 0 "R304" H 1120 2996 50  0000 L CNN
 F 1 "R" H 1120 2905 50  0000 L CNN
-F 2 "" V 980 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 980 2950 50  0001 C CNN
 F 3 "~" H 1050 2950 50  0001 C CNN
 	1    1050 2950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R303
@@ -1382,7 +1269,7 @@ U 1 1 5EFA7ECB
 P 1050 2550
 F 0 "R303" H 1120 2596 50  0000 L CNN
 F 1 "R" H 1120 2505 50  0000 L CNN
-F 2 "" V 980 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 980 2550 50  0001 C CNN
 F 3 "~" H 1050 2550 50  0001 C CNN
 	1    1050 2550
 	-1   0    0    -1  
@@ -1447,37 +1334,15 @@ F 3 "" H 2350 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C308
-U 1 1 5F00C15A
-P 2650 2950
-F 0 "C308" H 2742 2996 50  0000 L CNN
-F 1 "2.2uF" H 2742 2905 50  0000 L CNN
-F 2 "" H 2650 2950 50  0001 C CNN
-F 3 "~" H 2650 2950 50  0001 C CNN
-	1    2650 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Thermistor_NTC TH304
-U 1 1 5F00C160
-P 2650 2550
-F 0 "TH304" H 2748 2596 50  0000 L CNN
-F 1 "Thermistor_NTC" H 2748 2505 50  0000 L CNN
-F 2 "" H 2650 2600 50  0001 C CNN
-F 3 "~" H 2650 2600 50  0001 C CNN
-	1    2650 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R311
 U 1 1 5F00C166
 P 2350 2950
 F 0 "R311" H 2420 2996 50  0000 L CNN
 F 1 "R" H 2420 2905 50  0000 L CNN
-F 2 "" V 2280 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 2950 50  0001 C CNN
 F 3 "~" H 2350 2950 50  0001 C CNN
 	1    2350 2950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R310
@@ -1485,7 +1350,7 @@ U 1 1 5F00C16C
 P 2350 2550
 F 0 "R310" H 2420 2596 50  0000 L CNN
 F 1 "R" H 2420 2505 50  0000 L CNN
-F 2 "" V 2280 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 2550 50  0001 C CNN
 F 3 "~" H 2350 2550 50  0001 C CNN
 	1    2350 2550
 	-1   0    0    -1  
@@ -1550,37 +1415,15 @@ F 3 "" H 3600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C312
-U 1 1 5F018360
-P 3900 2950
-F 0 "C312" H 3992 2996 50  0000 L CNN
-F 1 "2.2uF" H 3992 2905 50  0000 L CNN
-F 2 "" H 3900 2950 50  0001 C CNN
-F 3 "~" H 3900 2950 50  0001 C CNN
-	1    3900 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Thermistor_NTC TH306
-U 1 1 5F018366
-P 3900 2550
-F 0 "TH306" H 3998 2596 50  0000 L CNN
-F 1 "Thermistor_NTC" H 3998 2505 50  0000 L CNN
-F 2 "" H 3900 2600 50  0001 C CNN
-F 3 "~" H 3900 2600 50  0001 C CNN
-	1    3900 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R317
 U 1 1 5F01836C
 P 3600 2950
 F 0 "R317" H 3670 2996 50  0000 L CNN
 F 1 "R" H 3670 2905 50  0000 L CNN
-F 2 "" V 3530 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 2950 50  0001 C CNN
 F 3 "~" H 3600 2950 50  0001 C CNN
 	1    3600 2950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R316
@@ -1588,7 +1431,7 @@ U 1 1 5F018372
 P 3600 2550
 F 0 "R316" H 3670 2596 50  0000 L CNN
 F 1 "R" H 3670 2505 50  0000 L CNN
-F 2 "" V 3530 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 2550 50  0001 C CNN
 F 3 "~" H 3600 2550 50  0001 C CNN
 	1    3600 2550
 	-1   0    0    -1  
@@ -1657,21 +1500,10 @@ L Device:C_Small C302
 U 1 1 5F02A24A
 P 1300 1500
 F 0 "C302" H 1392 1546 50  0000 L CNN
-F 1 "2.2uF" H 1392 1455 50  0000 L CNN
-F 2 "" H 1300 1500 50  0001 C CNN
+F 1 "10nF" H 1392 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1300 1500 50  0001 C CNN
 F 3 "~" H 1300 1500 50  0001 C CNN
 	1    1300 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Thermistor_NTC TH301
-U 1 1 5F02A250
-P 1300 1100
-F 0 "TH301" H 1398 1146 50  0000 L CNN
-F 1 "Thermistor_NTC" H 1398 1055 50  0000 L CNN
-F 2 "" H 1300 1150 50  0001 C CNN
-F 3 "~" H 1300 1150 50  0001 C CNN
-	1    1300 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1680,10 +1512,10 @@ U 1 1 5F02A256
 P 1000 1500
 F 0 "R302" H 1070 1546 50  0000 L CNN
 F 1 "R" H 1070 1455 50  0000 L CNN
-F 2 "" V 930 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 930 1500 50  0001 C CNN
 F 3 "~" H 1000 1500 50  0001 C CNN
 	1    1000 1500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R301
@@ -1691,7 +1523,7 @@ U 1 1 5F02A25C
 P 1000 1100
 F 0 "R301" H 1070 1146 50  0000 L CNN
 F 1 "R" H 1070 1055 50  0000 L CNN
-F 2 "" V 930 1100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 930 1100 50  0001 C CNN
 F 3 "~" H 1000 1100 50  0001 C CNN
 	1    1000 1100
 	-1   0    0    -1  
@@ -1756,37 +1588,15 @@ F 3 "" H 2250 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C307
-U 1 1 5F02A27F
-P 2550 1500
-F 0 "C307" H 2642 1546 50  0000 L CNN
-F 1 "2.2uF" H 2642 1455 50  0000 L CNN
-F 2 "" H 2550 1500 50  0001 C CNN
-F 3 "~" H 2550 1500 50  0001 C CNN
-	1    2550 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Thermistor_NTC TH303
-U 1 1 5F02A285
-P 2550 1100
-F 0 "TH303" H 2648 1146 50  0000 L CNN
-F 1 "Thermistor_NTC" H 2648 1055 50  0000 L CNN
-F 2 "" H 2550 1150 50  0001 C CNN
-F 3 "~" H 2550 1150 50  0001 C CNN
-	1    2550 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R308
 U 1 1 5F02A28B
 P 2250 1500
 F 0 "R308" H 2320 1546 50  0000 L CNN
 F 1 "R" H 2320 1455 50  0000 L CNN
-F 2 "" V 2180 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 1500 50  0001 C CNN
 F 3 "~" H 2250 1500 50  0001 C CNN
 	1    2250 1500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R307
@@ -1794,7 +1604,7 @@ U 1 1 5F02A291
 P 2250 1100
 F 0 "R307" H 2320 1146 50  0000 L CNN
 F 1 "R" H 2320 1055 50  0000 L CNN
-F 2 "" V 2180 1100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 1100 50  0001 C CNN
 F 3 "~" H 2250 1100 50  0001 C CNN
 	1    2250 1100
 	-1   0    0    -1  
@@ -1859,37 +1669,15 @@ F 3 "" H 3550 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C311
-U 1 1 5F02A2B4
-P 3850 1500
-F 0 "C311" H 3942 1546 50  0000 L CNN
-F 1 "2.2uF" H 3942 1455 50  0000 L CNN
-F 2 "" H 3850 1500 50  0001 C CNN
-F 3 "~" H 3850 1500 50  0001 C CNN
-	1    3850 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Thermistor_NTC TH305
-U 1 1 5F02A2BA
-P 3850 1100
-F 0 "TH305" H 3948 1146 50  0000 L CNN
-F 1 "Thermistor_NTC" H 3948 1055 50  0000 L CNN
-F 2 "" H 3850 1150 50  0001 C CNN
-F 3 "~" H 3850 1150 50  0001 C CNN
-	1    3850 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R315
 U 1 1 5F02A2C0
 P 3550 1500
 F 0 "R315" H 3620 1546 50  0000 L CNN
 F 1 "R" H 3620 1455 50  0000 L CNN
-F 2 "" V 3480 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 1500 50  0001 C CNN
 F 3 "~" H 3550 1500 50  0001 C CNN
 	1    3550 1500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R314
@@ -1897,7 +1685,7 @@ U 1 1 5F02A2C6
 P 3550 1100
 F 0 "R314" H 3620 1146 50  0000 L CNN
 F 1 "R" H 3620 1055 50  0000 L CNN
-F 2 "" V 3480 1100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 1100 50  0001 C CNN
 F 3 "~" H 3550 1100 50  0001 C CNN
 	1    3550 1100
 	-1   0    0    -1  
@@ -1940,7 +1728,7 @@ U 1 1 5F134029
 P 2650 5150
 F 0 "R313" V 2550 5050 50  0000 C CNN
 F 1 "0" V 2550 5250 50  0000 C CNN
-F 2 "" H 2650 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 5150 50  0001 C CNN
 F 3 "~" H 2650 5150 50  0001 C CNN
 	1    2650 5150
 	0    1    1    0   
@@ -1975,4 +1763,176 @@ Wire Wire Line
 	9950 1100 9950 2500
 Wire Wire Line
 	9850 1000 9850 2200
+$Comp
+L Device:Thermistor_NTC TH301
+U 1 1 5FF9E1BB
+P 1300 1100
+AR Path="/5ECF181C/5FF9E1BB" Ref="TH301"  Part="1" 
+AR Path="/5ECF1AA9/5FF9E1BB" Ref="TH?"  Part="1" 
+F 0 "TH301" H 1398 1146 50  0000 L CNN
+F 1 "NTC_TERM" H 1398 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1300 1150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf" H 1300 1150 50  0001 C CNN
+F 4 "P12014TR-ND" H 1300 1100 50  0001 C CNN "Digikey"
+	1    1300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_NTC TH303
+U 1 1 5FFA3351
+P 2550 1100
+AR Path="/5ECF181C/5FFA3351" Ref="TH303"  Part="1" 
+AR Path="/5ECF1AA9/5FFA3351" Ref="TH?"  Part="1" 
+F 0 "TH303" H 2648 1146 50  0000 L CNN
+F 1 "NTC_TERM" H 2648 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2550 1150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf" H 2550 1150 50  0001 C CNN
+F 4 "P12014TR-ND" H 2550 1100 50  0001 C CNN "Digikey"
+	1    2550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_NTC TH305
+U 1 1 5FFA6C6F
+P 3850 1100
+AR Path="/5ECF181C/5FFA6C6F" Ref="TH305"  Part="1" 
+AR Path="/5ECF1AA9/5FFA6C6F" Ref="TH?"  Part="1" 
+F 0 "TH305" H 3948 1146 50  0000 L CNN
+F 1 "NTC_TERM" H 3948 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3850 1150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf" H 3850 1150 50  0001 C CNN
+F 4 "P12014TR-ND" H 3850 1100 50  0001 C CNN "Digikey"
+	1    3850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_NTC TH302
+U 1 1 5FFA99C5
+P 1350 2550
+AR Path="/5ECF181C/5FFA99C5" Ref="TH302"  Part="1" 
+AR Path="/5ECF1AA9/5FFA99C5" Ref="TH?"  Part="1" 
+F 0 "TH302" H 1448 2596 50  0000 L CNN
+F 1 "NTC_TERM" H 1448 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1350 2600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf" H 1350 2600 50  0001 C CNN
+F 4 "P12014TR-ND" H 1350 2550 50  0001 C CNN "Digikey"
+	1    1350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_NTC TH304
+U 1 1 5FFC7345
+P 2650 2550
+AR Path="/5ECF181C/5FFC7345" Ref="TH304"  Part="1" 
+AR Path="/5ECF1AA9/5FFC7345" Ref="TH?"  Part="1" 
+F 0 "TH304" H 2748 2596 50  0000 L CNN
+F 1 "NTC_TERM" H 2748 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 2600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf" H 2650 2600 50  0001 C CNN
+F 4 "P12014TR-ND" H 2650 2550 50  0001 C CNN "Digikey"
+	1    2650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_NTC TH306
+U 1 1 5FFCCD78
+P 3900 2550
+AR Path="/5ECF181C/5FFCCD78" Ref="TH306"  Part="1" 
+AR Path="/5ECF1AA9/5FFCCD78" Ref="TH?"  Part="1" 
+F 0 "TH306" H 3998 2596 50  0000 L CNN
+F 1 "NTC_TERM" H 3998 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 2600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf" H 3900 2600 50  0001 C CNN
+F 4 "P12014TR-ND" H 3900 2550 50  0001 C CNN "Digikey"
+	1    3900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C307
+U 1 1 5FFDFB9D
+P 2550 1500
+F 0 "C307" H 2642 1546 50  0000 L CNN
+F 1 "10nF" H 2642 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2550 1500 50  0001 C CNN
+F 3 "~" H 2550 1500 50  0001 C CNN
+	1    2550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C311
+U 1 1 5FFE4501
+P 3850 1500
+F 0 "C311" H 3942 1546 50  0000 L CNN
+F 1 "10nF" H 3942 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 1500 50  0001 C CNN
+F 3 "~" H 3850 1500 50  0001 C CNN
+	1    3850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C303
+U 1 1 5FFE877C
+P 1350 2950
+F 0 "C303" H 1442 2996 50  0000 L CNN
+F 1 "10nF" H 1442 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1350 2950 50  0001 C CNN
+F 3 "~" H 1350 2950 50  0001 C CNN
+	1    1350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C308
+U 1 1 5FFEE2FD
+P 2650 2950
+F 0 "C308" H 2742 2996 50  0000 L CNN
+F 1 "10nF" H 2742 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2650 2950 50  0001 C CNN
+F 3 "~" H 2650 2950 50  0001 C CNN
+	1    2650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C312
+U 1 1 5FFF374C
+P 3900 2950
+F 0 "C312" H 3992 2996 50  0000 L CNN
+F 1 "10nF" H 3992 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 2950 50  0001 C CNN
+F 3 "~" H 3900 2950 50  0001 C CNN
+	1    3900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F9425BD
+P 8300 6250
+AR Path="/5F9425BD" Ref="R?"  Part="1" 
+AR Path="/5ECF181C/5F9425BD" Ref="R318"  Part="1" 
+F 0 "R318" V 8104 6250 50  0000 C CNN
+F 1 "100" V 8195 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8300 6250 50  0001 C CNN
+F 3 "~" H 8300 6250 50  0001 C CNN
+	1    8300 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 6005EFCE
+P 9600 1000
+AR Path="/5ECF165A/6005EFCE" Ref="F?"  Part="1" 
+AR Path="/5ECF181C/6005EFCE" Ref="F301"  Part="1" 
+F 0 "F301" V 9403 1000 50  0000 C CNN
+F 1 "200mA" V 9494 1000 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" V 9530 1000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA0000/AFA0000C7.pdf" H 9600 1000 50  0001 C CNN
+F 4 "P15127TR-ND" V 9600 1000 50  0001 C CNN "Digikey"
+	1    9600 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 5450 10050 5450
+Wire Wire Line
+	9300 4650 9950 4650
+Wire Wire Line
+	9300 3850 9850 3850
 $EndSCHEMATC
