@@ -309,7 +309,7 @@ AR Path="/5F94261B" Ref="Q?"  Part="1"
 AR Path="/5ECF181C/5F94261B" Ref="Q301"  Part="1" 
 F 0 "Q301" H 8950 4450 50  0000 L CNN
 F 1 "AON2406" H 9400 4250 50  0000 L CNN
-F 2 "" H 9400 4450 50  0001 C CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:AON2406" H 9400 4450 50  0001 C CNN
 F 3 "http://www.aosmd.com/res/data_sheets/AON2406.pdf" H 9200 4350 50  0001 C CNN
 F 4 "785-1491-2-ND" H 9200 4350 50  0001 C CNN "Digikey"
 F 5 "http://www.aosmd.com/res/packaging_information/DFN2x2B_6L_EP1_S.pdf" H 9200 4350 50  0001 C CNN "Package"
@@ -980,7 +980,7 @@ AR Path="/5F398DB2" Ref="Q?"  Part="1"
 AR Path="/5ECF181C/5F398DB2" Ref="Q302"  Part="1" 
 F 0 "Q302" H 8950 5250 50  0000 L CNN
 F 1 "AON2406" H 9400 5050 50  0000 L CNN
-F 2 "" H 9400 5250 50  0001 C CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:AON2406" H 9400 5250 50  0001 C CNN
 F 3 "http://www.aosmd.com/res/data_sheets/AON2406.pdf" H 9200 5150 50  0001 C CNN
 F 4 "785-1491-2-ND" H 9200 5150 50  0001 C CNN "Digikey"
 F 5 "http://www.aosmd.com/res/packaging_information/DFN2x2B_6L_EP1_S.pdf" H 9200 5150 50  0001 C CNN "Package"
@@ -995,7 +995,7 @@ AR Path="/5F399620" Ref="Q?"  Part="1"
 AR Path="/5ECF181C/5F399620" Ref="Q303"  Part="1" 
 F 0 "Q303" H 8950 6050 50  0000 L CNN
 F 1 "AON2406" H 9400 5850 50  0000 L CNN
-F 2 "" H 9400 6050 50  0001 C CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:AON2406" H 9400 6050 50  0001 C CNN
 F 3 "http://www.aosmd.com/res/data_sheets/AON2406.pdf" H 9200 5950 50  0001 C CNN
 F 4 "785-1491-2-ND" H 9200 5950 50  0001 C CNN "Digikey"
 F 5 "http://www.aosmd.com/res/packaging_information/DFN2x2B_6L_EP1_S.pdf" H 9200 5950 50  0001 C CNN "Package"

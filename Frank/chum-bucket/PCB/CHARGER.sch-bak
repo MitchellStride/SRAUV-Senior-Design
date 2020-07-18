@@ -99,7 +99,7 @@ AR Path="/5F99F74F" Ref="U?"  Part="1"
 AR Path="/5ECF1AA9/5F99F74F" Ref="U103"  Part="1" 
 F 0 "U103" H 6300 2850 50  0000 L CNN
 F 1 "CSD87331" H 6200 2750 50  0000 L CNN
-F 2 "" H 6550 2500 50  0001 C CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:CSD87331Q3D" H 6550 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/csd87331q3d.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1591542758219&ref_url=http://www.ti.com/general/docs/suppproductinfo.tsp?distId%3D10&gotoUrl=http://www.ti.com/lit/gpn/csd87331q3d" H 6550 2500 50  0001 C CNN
 F 4 "296-29695-2-ND" H 6550 2500 50  0001 C CNN "Digikey"
 	1    6550 2500
@@ -113,7 +113,7 @@ AR Path="/5ECF1AA9/5F99F756" Ref="L101"  Part="1"
 AR Path="/5F99F756" Ref="L?"  Part="1" 
 F 0 "L101" V 7440 2750 50  0000 C CNN
 F 1 "4.7uH" V 7349 2750 50  0000 C CNN
-F 2 "" H 7250 2750 50  0001 C CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:PA5005" H 7250 2750 50  0001 C CNN
 F 3 "https://products.pulseelex.com/files/product_files/P809.pdf" H 7250 2750 50  0001 C CNN
 F 4 "553-4104-2-ND" V 7250 2750 50  0001 C CNN "Digikey"
 	1    7250 2750
@@ -1540,7 +1540,7 @@ AR Path="/5ECF1AA9/5F99F6F9" Ref="R106"  Part="1"
 AR Path="/5F99F6F9" Ref="R?"  Part="1" 
 F 0 "R106" H 1759 5546 50  0000 L CNN
 F 1 "330" H 1759 5455 50  0000 L CNN
-F 2 "" H 1700 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1700 5500 50  0001 C CNN
 F 3 "~" H 1700 5500 50  0001 C CNN
 F 4 "0.1%" H 1850 5350 50  0000 C CNN "Tolerance"
 	1    1700 5500
@@ -1554,7 +1554,7 @@ AR Path="/5ECF1AA9/5F99F6ED" Ref="R102"  Part="1"
 AR Path="/5F99F6ED" Ref="R?"  Part="1" 
 F 0 "R102" H 1409 5546 50  0000 L CNN
 F 1 "3.3k" H 1409 5455 50  0000 L CNN
-F 2 "" H 1350 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1350 5500 50  0001 C CNN
 F 3 "~" H 1350 5500 50  0001 C CNN
 F 4 "0.1%" H 1500 5350 50  0000 C CNN "Tolerance"
 	1    1350 5500
@@ -1675,7 +1675,7 @@ AR Path="/5ECF1AA9/5F99F705" Ref="R109"  Part="1"
 AR Path="/5F99F705" Ref="R?"  Part="1" 
 F 0 "R109" H 1750 5550 50  0000 L CNN
 F 1 "15k" H 1800 5450 50  0000 L CNN
-F 2 "" H 2000 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2000 5500 50  0001 C CNN
 F 3 "~" H 2000 5500 50  0001 C CNN
 F 4 "0.1%" H 1850 5350 50  0000 C CNN "Tolerance"
 	1    2000 5500
@@ -1684,10 +1684,10 @@ $EndComp
 Text Label 2250 5200 2    39   ~ 0
 ISET1
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5FA3EAF1
 P 1100 6800
-F 0 "TP?" H 1158 6918 50  0000 L CNN
+F 0 "TP1" H 1158 6918 50  0000 L CNN
 F 1 "VFB" H 1158 6827 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1300 6800 50  0001 C CNN
 F 3 "~" H 1300 6800 50  0001 C CNN
@@ -1702,10 +1702,10 @@ Wire Wire Line
 Wire Wire Line
 	600  6950 1100 6950
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5FA86C77
 P 7200 5300
-F 0 "TP?" H 7258 5418 50  0000 L CNN
+F 0 "TP3" H 7258 5418 50  0000 L CNN
 F 1 "VFB" H 7258 5327 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7400 5300 50  0001 C CNN
 F 3 "~" H 7400 5300 50  0001 C CNN
@@ -1724,10 +1724,10 @@ Wire Wire Line
 Wire Wire Line
 	2000 5400 2250 5400
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5FB46CF0
 P 7050 2450
-F 0 "TP?" H 7108 2568 50  0000 L CNN
+F 0 "TP2" H 7108 2568 50  0000 L CNN
 F 1 "SW_NODE" H 7108 2477 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7250 2450 50  0001 C CNN
 F 3 "~" H 7250 2450 50  0001 C CNN

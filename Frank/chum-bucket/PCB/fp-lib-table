@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CHUM_BUCKET_FOOTPRINTS)(type KiCad)(uri ${KIPRJMOD}/CHUM_BUCKET_FOOTPRINTS.pretty)(options "")(descr ""))
+)

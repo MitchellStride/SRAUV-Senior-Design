@@ -64,19 +64,6 @@ F 3 "" H 1200 2750 50  0001 C CNN
 	1    1200 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5FA029DF
-P 900 2650
-AR Path="/5ECF1AA9/5FA029DF" Ref="J?"  Part="1" 
-AR Path="/5FA029DF" Ref="J201"  Part="1" 
-F 0 "J201" H 818 2325 50  0000 C CNN
-F 1 "AC_ADPTR" H 818 2416 50  0000 C CNN
-F 2 "" H 900 2650 50  0001 C CNN
-F 3 "~" H 900 2650 50  0001 C CNN
-	1    900  2650
-	-1   0    0    1   
-$EndComp
 Text Notes 4900 950  0    157  ~ 31
 CHUM BUCKET
 Text Notes 4000 1150 0    79   ~ 0
@@ -91,8 +78,6 @@ Wire Wire Line
 	6350 2550 7550 2550
 Wire Wire Line
 	1200 3350 1200 3450
-Wire Wire Line
-	1100 3350 1200 3350
 $Comp
 L power:GND #PWR?
 U 1 1 5EF08F0F
@@ -105,19 +90,6 @@ F 2 "" H 1200 3450 50  0001 C CNN
 F 3 "" H 1200 3450 50  0001 C CNN
 	1    1200 3450
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5EF08F15
-P 900 3350
-AR Path="/5ECF1AA9/5EF08F15" Ref="J?"  Part="1" 
-AR Path="/5EF08F15" Ref="J202"  Part="1" 
-F 0 "J202" H 818 3025 50  0000 C CNN
-F 1 "WPT_CONN" H 818 3116 50  0000 C CNN
-F 2 "" H 900 3350 50  0001 C CNN
-F 3 "~" H 900 3350 50  0001 C CNN
-	1    900  3350
-	-1   0    0    1   
 $EndComp
 Text Notes 1450 2400 0    39   ~ 0
 No need to fuse due to use of \nconventionial and e-fuses downstream.\nTVS diode supress plug in transients\nTVS, MLCC then CP placed close to power inputs
@@ -156,51 +128,25 @@ F 3 "" H 10300 2650 50  0001 C CNN
 	1    10300 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F3C273B
-P 10650 2550
-AR Path="/5ECF1AA9/5F3C273B" Ref="J?"  Part="1" 
-AR Path="/5F3C273B" Ref="J203"  Part="1" 
-F 0 "J203" H 10568 2225 50  0000 C CNN
-F 1 "SYS_PWR" H 10568 2316 50  0000 C CNN
-F 2 "" H 10650 2550 50  0001 C CNN
-F 3 "~" H 10650 2550 50  0001 C CNN
-	1    10650 2550
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	10300 2650 10300 2550
 Wire Wire Line
-	10300 3250 10450 3250
+	10300 3350 10450 3350
 $Comp
 L power:GND #PWR?
 U 1 1 5F3C2743
-P 10300 3350
+P 10300 3450
 AR Path="/5ECF1AA9/5F3C2743" Ref="#PWR?"  Part="1" 
 AR Path="/5F3C2743" Ref="#PWR0207"  Part="1" 
-F 0 "#PWR0207" H 10300 3100 50  0001 C CNN
-F 1 "GND" H 10305 3177 50  0000 C CNN
-F 2 "" H 10300 3350 50  0001 C CNN
-F 3 "" H 10300 3350 50  0001 C CNN
-	1    10300 3350
+F 0 "#PWR0207" H 10300 3200 50  0001 C CNN
+F 1 "GND" H 10305 3277 50  0000 C CNN
+F 2 "" H 10300 3450 50  0001 C CNN
+F 3 "" H 10300 3450 50  0001 C CNN
+	1    10300 3450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F3C2749
-P 10650 3250
-AR Path="/5ECF1AA9/5F3C2749" Ref="J?"  Part="1" 
-AR Path="/5F3C2749" Ref="J204"  Part="1" 
-F 0 "J204" H 10568 2925 50  0000 C CNN
-F 1 "ESC_PWR" H 10568 3016 50  0000 C CNN
-F 2 "" H 10650 3250 50  0001 C CNN
-F 3 "~" H 10650 3250 50  0001 C CNN
-	1    10650 3250
-	1    0    0    1   
-$EndComp
 Wire Wire Line
-	10300 3350 10300 3250
+	10300 3450 10300 3350
 Wire Wire Line
 	6350 2650 7550 2650
 $Sheet
@@ -298,8 +244,8 @@ L Device:D_TVS D?
 U 1 1 5EFB8FC1
 P 1900 2850
 AR Path="/5F507ADF/5EFB8FC1" Ref="D?"  Part="1" 
-AR Path="/5EFB8FC1" Ref="D201"  Part="1" 
-F 0 "D201" V 1854 2929 50  0000 L CNN
+AR Path="/5EFB8FC1" Ref="D1"  Part="1" 
+F 0 "D1" V 1854 2929 50  0000 L CNN
 F 1 "SMBJ26A" V 1945 2929 50  0000 L CNN
 F 2 "Diode_SMD:D_SMB" H 1900 2850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88392/smbj.pdf" H 1900 2850 50  0001 C CNN
@@ -327,10 +273,10 @@ L Device:C_Small C?
 U 1 1 5EFB8FCE
 P 2100 2850
 AR Path="/5F507ADF/5EFB8FCE" Ref="C?"  Part="1" 
-AR Path="/5EFB8FCE" Ref="C201"  Part="1" 
-F 0 "C201" H 2192 2896 50  0000 L CNN
+AR Path="/5EFB8FCE" Ref="C1"  Part="1" 
+F 0 "C1" H 2192 2896 50  0000 L CNN
 F 1 "10nF" H 2192 2805 50  0000 L CNN
-F 2 "" H 2100 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 2850 50  0001 C CNN
 F 3 "~" H 2100 2850 50  0001 C CNN
 	1    2100 2850
 	1    0    0    -1  
@@ -378,10 +324,10 @@ $EndComp
 Wire Wire Line
 	2450 3100 2450 2950
 $Comp
-L Device:CP_Small C202
+L Device:CP_Small C2
 U 1 1 5EF85CBA
 P 2450 2850
-F 0 "C202" H 2538 2896 50  0000 L CNN
+F 0 "C2" H 2538 2896 50  0000 L CNN
 F 1 "100uF" H 2538 2805 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2450 2850 50  0001 C CNN
 F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_ZLJ.pdf" H 2450 2850 50  0001 C CNN
@@ -420,4 +366,211 @@ Wire Wire Line
 	7100 4450 7100 3350
 Wire Wire Line
 	7100 3350 7550 3350
+Wire Wire Line
+	8500 5450 8500 5350
+Wire Wire Line
+	8500 5750 8500 5650
+$Comp
+L power:GND #PWR01
+U 1 1 5F1ADAAC
+P 8500 5750
+F 0 "#PWR01" H 8500 5500 50  0001 C CNN
+F 1 "GND" H 8505 5577 50  0000 C CNN
+F 2 "" H 8500 5750 50  0001 C CNN
+F 3 "" H 8500 5750 50  0001 C CNN
+	1    8500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5F1AD2D7
+P 8500 5550
+F 0 "C3" H 8592 5596 50  0000 L CNN
+F 1 "10nF" H 8592 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8500 5550 50  0001 C CNN
+F 3 "~" H 8500 5550 50  0001 C CNN
+	1    8500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F1AC943
+P 10000 5250
+F 0 "H4" H 10100 5299 50  0000 L CNN
+F 1 "Bot_Right" H 10100 5208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_Via" H 10000 5250 50  0001 C CNN
+F 3 "~" H 10000 5250 50  0001 C CNN
+	1    10000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F1AC41D
+P 9500 5250
+F 0 "H3" H 9600 5299 50  0000 L CNN
+F 1 "Top_Right" H 9600 5208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_Via" H 9500 5250 50  0001 C CNN
+F 3 "~" H 9500 5250 50  0001 C CNN
+	1    9500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F1AC0BA
+P 9000 5250
+F 0 "H2" H 9100 5299 50  0000 L CNN
+F 1 "Bot_Left" H 9100 5208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_Via" H 9000 5250 50  0001 C CNN
+F 3 "~" H 9000 5250 50  0001 C CNN
+	1    9000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F1ABD7F
+P 8500 5250
+F 0 "H1" H 8600 5299 50  0000 L CNN
+F 1 "Top_Left" H 8600 5208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_Via" H 8500 5250 50  0001 C CNN
+F 3 "~" H 8500 5250 50  0001 C CNN
+	1    8500 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 5450 9000 5350
+Wire Wire Line
+	9000 5750 9000 5650
+$Comp
+L power:GND #PWR02
+U 1 1 5F1BDB78
+P 9000 5750
+F 0 "#PWR02" H 9000 5500 50  0001 C CNN
+F 1 "GND" H 9005 5577 50  0000 C CNN
+F 2 "" H 9000 5750 50  0001 C CNN
+F 3 "" H 9000 5750 50  0001 C CNN
+	1    9000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5F1BDB7E
+P 9000 5550
+F 0 "C4" H 9092 5596 50  0000 L CNN
+F 1 "10nF" H 9092 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9000 5550 50  0001 C CNN
+F 3 "~" H 9000 5550 50  0001 C CNN
+	1    9000 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5450 9500 5350
+Wire Wire Line
+	9500 5750 9500 5650
+$Comp
+L power:GND #PWR03
+U 1 1 5F1BF3A0
+P 9500 5750
+F 0 "#PWR03" H 9500 5500 50  0001 C CNN
+F 1 "GND" H 9505 5577 50  0000 C CNN
+F 2 "" H 9500 5750 50  0001 C CNN
+F 3 "" H 9500 5750 50  0001 C CNN
+	1    9500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5F1BF3A6
+P 9500 5550
+F 0 "C5" H 9592 5596 50  0000 L CNN
+F 1 "10nF" H 9592 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9500 5550 50  0001 C CNN
+F 3 "~" H 9500 5550 50  0001 C CNN
+	1    9500 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5450 10000 5350
+Wire Wire Line
+	10000 5750 10000 5650
+$Comp
+L power:GND #PWR04
+U 1 1 5F1C0AF5
+P 10000 5750
+F 0 "#PWR04" H 10000 5500 50  0001 C CNN
+F 1 "GND" H 10005 5577 50  0000 C CNN
+F 2 "" H 10000 5750 50  0001 C CNN
+F 3 "" H 10000 5750 50  0001 C CNN
+	1    10000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5F1C0AFB
+P 10000 5550
+F 0 "C6" H 10092 5596 50  0000 L CNN
+F 1 "10nF" H 10092 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10000 5550 50  0001 C CNN
+F 3 "~" H 10000 5550 50  0001 C CNN
+	1    10000 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 3350 1100 3350
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 5F1FCF5A
+P 10650 3150
+F 0 "J7" H 10750 3050 50  0000 C CNN
+F 1 "ESC_PWR" H 10450 3050 50  0000 C CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_7771" H 10650 3150 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1091" H 10650 3150 50  0001 C CNN
+F 4 "36-7771-ND" H 10650 3150 50  0001 C CNN "Digikey"
+	1    10650 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 5F1FCF61
+P 10650 3350
+F 0 "J8" H 10750 3250 50  0000 C CNN
+F 1 "ESC_GND" H 10450 3250 50  0000 C CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_7771" H 10650 3350 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1091" H 10650 3350 50  0001 C CNN
+F 4 "36-7771-ND" H 10650 3350 50  0001 C CNN "Digikey"
+	1    10650 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5F217129
+P 900 2650
+F 0 "J1" H 818 2325 50  0000 C CNN
+F 1 "Conn_01x02" H 818 2416 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" H 900 2650 50  0001 C CNN
+F 3 "~" H 900 2650 50  0001 C CNN
+	1    900  2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5F2195EE
+P 900 3350
+F 0 "J2" H 818 3025 50  0000 C CNN
+F 1 "Conn_01x02" H 818 3116 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" H 900 3350 50  0001 C CNN
+F 3 "~" H 900 3350 50  0001 C CNN
+	1    900  3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5F21D1E9
+P 10650 2450
+F 0 "J3" H 10730 2442 50  0000 L CNN
+F 1 "Conn_01x02" H 10730 2351 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" H 10650 2450 50  0001 C CNN
+F 3 "~" H 10650 2450 50  0001 C CNN
+	1    10650 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
