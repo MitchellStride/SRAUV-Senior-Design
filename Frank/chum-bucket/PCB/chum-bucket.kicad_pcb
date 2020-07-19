@@ -10812,7 +10812,7 @@
       (net 115 "Net-(R408-Pad1)"))
   )
 
-  (module Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm (layer PWR) (tedit 5A68DC49) (tstamp 5F1460BD)
+  (module Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm (layer PWR) (tedit 5A68DC49) (tstamp 5F148B77)
     (at 134.845001 76.250001)
     (descr "8-Lead Plastic Dual Flat, No Lead Package (8MA2) - 2x3x0.6 mm Body [UDFN] (see Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf)")
     (tags "DFN 0.5")
