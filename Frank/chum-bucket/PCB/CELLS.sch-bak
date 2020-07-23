@@ -14,370 +14,561 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L chum-bucket:3_Cell_Module U?
-U 1 1 5F95AC4A
-P 5350 4350
-AR Path="/5F95AC4A" Ref="U?"  Part="1" 
-AR Path="/5ECF2209/5F95AC4A" Ref="U209"  Part="1" 
-F 0 "U209" V 4850 4100 50  0000 L CNN
-F 1 "CM" V 4950 4100 50  0000 L CNN
-F 2 "" H 5350 4400 50  0001 C CNN
-F 3 "" H 5350 4400 50  0001 C CNN
-	1    5350 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L chum-bucket:3_Cell_Module U?
-U 1 1 5F95AC50
-P 5350 5300
-AR Path="/5F95AC50" Ref="U?"  Part="1" 
-AR Path="/5ECF2209/5F95AC50" Ref="U210"  Part="1" 
-F 0 "U210" V 4850 5050 50  0000 L CNN
-F 1 "CM" V 4950 5050 50  0000 L CNN
-F 2 "" H 5350 5350 50  0001 C CNN
-F 3 "" H 5350 5350 50  0001 C CNN
-	1    5350 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L chum-bucket:3_Cell_Module U?
-U 1 1 5F95AC56
-P 6050 5300
-AR Path="/5F95AC56" Ref="U?"  Part="1" 
-AR Path="/5ECF2209/5F95AC56" Ref="U214"  Part="1" 
-F 0 "U214" V 5500 5450 50  0000 L CNN
-F 1 "CM" V 5600 5450 50  0000 L CNN
-F 2 "" H 6050 5350 50  0001 C CNN
-F 3 "" H 6050 5350 50  0001 C CNN
-	1    6050 5300
-	0    -1   1    0   
-$EndComp
-$Comp
-L chum-bucket:3_Cell_Module U?
-U 1 1 5F95AC5C
-P 6050 2450
-AR Path="/5F95AC5C" Ref="U?"  Part="1" 
-AR Path="/5ECF2209/5F95AC5C" Ref="U211"  Part="1" 
-F 0 "U211" V 5550 2200 50  0000 L CNN
-F 1 "CM" V 5650 2200 50  0000 L CNN
-F 2 "" H 6050 2500 50  0001 C CNN
-F 3 "" H 6050 2500 50  0001 C CNN
-	1    6050 2450
-	0    -1   1    0   
-$EndComp
-$Comp
-L chum-bucket:3_Cell_Module U?
-U 1 1 5F95AC62
-P 6050 3400
-AR Path="/5F95AC62" Ref="U?"  Part="1" 
-AR Path="/5ECF2209/5F95AC62" Ref="U212"  Part="1" 
-F 0 "U212" V 5550 3150 50  0000 L CNN
-F 1 "CM" V 5650 3150 50  0000 L CNN
-F 2 "" H 6050 3450 50  0001 C CNN
-F 3 "" H 6050 3450 50  0001 C CNN
-	1    6050 3400
-	0    -1   1    0   
-$EndComp
-$Comp
-L chum-bucket:3_Cell_Module U?
-U 1 1 5F95AC68
-P 6050 4350
-AR Path="/5F95AC68" Ref="U?"  Part="1" 
-AR Path="/5ECF2209/5F95AC68" Ref="U213"  Part="1" 
-F 0 "U213" V 5550 4100 50  0000 L CNN
-F 1 "CM" V 5650 4100 50  0000 L CNN
-F 2 "" H 6050 4400 50  0001 C CNN
-F 3 "" H 6050 4400 50  0001 C CNN
-	1    6050 4350
-	0    -1   1    0   
-$EndComp
-$Comp
-L chum-bucket:3_Cell_Module U?
-U 1 1 5F95AC6E
-P 5350 2450
-AR Path="/5F95AC6E" Ref="U?"  Part="1" 
-AR Path="/5ECF2209/5F95AC6E" Ref="U207"  Part="1" 
-F 0 "U207" V 4900 2200 50  0000 L CNN
-F 1 "CM" V 5000 2200 50  0000 L CNN
-F 2 "" H 5350 2500 50  0001 C CNN
-F 3 "" H 5350 2500 50  0001 C CNN
-	1    5350 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L chum-bucket:3_Cell_Module U?
-U 1 1 5F95AC74
-P 5350 3400
-AR Path="/5F95AC74" Ref="U?"  Part="1" 
-AR Path="/5ECF2209/5F95AC74" Ref="U208"  Part="1" 
-F 0 "U208" V 4900 3150 50  0000 L CNN
-F 1 "CM" V 5000 3150 50  0000 L CNN
-F 2 "" H 5350 3450 50  0001 C CNN
-F 3 "" H 5350 3450 50  0001 C CNN
-	1    5350 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5600 2200 5700 2200
-Wire Wire Line
-	5700 2200 5700 2450
-Wire Wire Line
-	5700 2450 5600 2450
-Connection ~ 5700 2200
-Wire Wire Line
-	5700 2200 5800 2200
-Wire Wire Line
-	5800 2450 5700 2450
-Connection ~ 5700 2450
-Wire Wire Line
-	5700 2450 5700 2700
-Wire Wire Line
-	5700 2700 5600 2700
-Wire Wire Line
-	5700 2700 5800 2700
-Connection ~ 5700 2700
-Wire Wire Line
-	5700 2700 5700 3150
-Wire Wire Line
-	5700 3150 5800 3150
-Wire Wire Line
-	5700 3150 5600 3150
-Connection ~ 5700 3150
-Wire Wire Line
-	5100 2200 5000 2200
-Wire Wire Line
-	5000 2200 5000 2450
-Wire Wire Line
-	5000 3150 5100 3150
-Wire Wire Line
-	5100 2450 5000 2450
-Connection ~ 5000 2450
-Wire Wire Line
-	5000 2450 5000 2700
-Wire Wire Line
-	5100 2700 5000 2700
-Connection ~ 5000 2700
-Wire Wire Line
-	6300 2200 6400 2200
-Wire Wire Line
-	6400 2200 6400 2450
-Wire Wire Line
-	6400 3150 6300 3150
-Wire Wire Line
-	6300 2450 6400 2450
-Connection ~ 6400 2450
-Wire Wire Line
-	6400 2450 6400 2700
-Wire Wire Line
-	6300 2700 6400 2700
-Connection ~ 6400 2700
-Wire Wire Line
-	6400 2700 6400 3150
-Wire Wire Line
-	5000 3150 5000 3250
-Wire Wire Line
-	5000 3250 5700 3250
-Wire Wire Line
-	5700 3250 5700 3400
-Wire Wire Line
-	5700 4350 5800 4350
-Connection ~ 5000 3150
-Wire Wire Line
-	5600 4350 5700 4350
-Connection ~ 5700 4350
-Wire Wire Line
-	6400 3150 6400 3250
-Wire Wire Line
-	6400 3250 5700 3250
-Connection ~ 6400 3150
-Connection ~ 5700 3250
-Wire Wire Line
-	5600 3400 5700 3400
-Connection ~ 5700 3400
-Wire Wire Line
-	5700 3400 5700 3650
-Wire Wire Line
-	5800 3400 5700 3400
-Wire Wire Line
-	5700 3650 5800 3650
-Connection ~ 5700 3650
-Wire Wire Line
-	5700 3650 5700 4100
-Wire Wire Line
-	5600 3650 5700 3650
-Wire Wire Line
-	5600 4100 5700 4100
-Connection ~ 5700 4100
-Wire Wire Line
-	5700 4100 5700 4350
-Wire Wire Line
-	5800 4100 5700 4100
-Wire Wire Line
-	6300 3400 6400 3400
-Wire Wire Line
-	6400 3400 6400 3650
-Wire Wire Line
-	6400 3650 6300 3650
-Wire Wire Line
-	5100 3400 5000 3400
-Wire Wire Line
-	5000 3400 5000 3650
-Wire Wire Line
-	5000 3650 5100 3650
-Wire Wire Line
-	6400 3650 6400 4100
-Wire Wire Line
-	6400 4350 6300 4350
-Connection ~ 6400 3650
-Wire Wire Line
-	6300 4100 6400 4100
-Connection ~ 6400 4100
-Wire Wire Line
-	6400 4100 6400 4350
-Wire Wire Line
-	5000 4350 5100 4350
-Connection ~ 5000 3650
-Wire Wire Line
-	5100 4100 5000 4100
-Connection ~ 5000 4100
-Wire Wire Line
-	5000 4100 5000 4350
-Wire Wire Line
-	5600 4600 5700 4600
-Wire Wire Line
-	6400 4350 6400 4500
-Wire Wire Line
-	6400 4500 5700 4500
-Wire Wire Line
-	5700 4500 5700 4600
-Connection ~ 6400 4350
-Connection ~ 5700 4600
-Wire Wire Line
-	5700 4600 5800 4600
-Wire Wire Line
-	5000 4350 5000 4500
-Wire Wire Line
-	5000 4500 5700 4500
-Connection ~ 5000 4350
-Connection ~ 5700 4500
-Wire Wire Line
-	5700 4600 5700 5050
-Wire Wire Line
-	5700 5550 5800 5550
-Wire Wire Line
-	5600 5550 5700 5550
-Connection ~ 5700 5550
-Wire Wire Line
-	5600 5300 5700 5300
-Connection ~ 5700 5300
-Wire Wire Line
-	5700 5300 5700 5550
-Wire Wire Line
-	5800 5300 5700 5300
-Wire Wire Line
-	5800 5050 5700 5050
-Connection ~ 5700 5050
-Wire Wire Line
-	5700 5050 5700 5300
-Wire Wire Line
-	5600 5050 5700 5050
-Wire Wire Line
-	5100 4600 5000 4600
-Wire Wire Line
-	5000 5550 5100 5550
-Wire Wire Line
-	5100 5300 5000 5300
-Connection ~ 5000 5300
-Wire Wire Line
-	5000 5300 5000 5550
-Wire Wire Line
-	5100 5050 5000 5050
-Connection ~ 5000 5050
-Wire Wire Line
-	5000 5050 5000 5300
-Wire Wire Line
-	6300 4600 6400 4600
-Wire Wire Line
-	6400 4600 6400 5050
-Wire Wire Line
-	6400 5550 6300 5550
-Wire Wire Line
-	6300 5300 6400 5300
-Connection ~ 6400 5300
-Wire Wire Line
-	6400 5300 6400 5550
-Wire Wire Line
-	6300 5050 6400 5050
-Connection ~ 6400 5050
-Wire Wire Line
-	6400 5050 6400 5300
-Wire Wire Line
-	6400 5550 6400 5900
-Connection ~ 6400 5550
-Wire Wire Line
-	5000 5550 5000 5900
-Connection ~ 5000 5550
-$Comp
 L power:GND #PWR?
 U 1 1 5F95ACF1
-P 5700 6050
+P 6950 5500
 AR Path="/5F95ACF1" Ref="#PWR?"  Part="1" 
 AR Path="/5ECF2209/5F95ACF1" Ref="#PWR0260"  Part="1" 
-F 0 "#PWR0260" H 5700 5800 50  0001 C CNN
-F 1 "GND" H 5705 5877 50  0000 C CNN
-F 2 "" H 5700 6050 50  0001 C CNN
-F 3 "" H 5700 6050 50  0001 C CNN
-	1    5700 6050
+F 0 "#PWR0260" H 6950 5250 50  0001 C CNN
+F 1 "GND" H 6955 5327 50  0000 C CNN
+F 2 "" H 6950 5500 50  0001 C CNN
+F 3 "" H 6950 5500 50  0001 C CNN
+	1    6950 5500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 5900 5700 5900
-Wire Wire Line
-	5700 6050 5700 5900
-Connection ~ 5700 5900
-Wire Wire Line
-	5700 5900 6400 5900
-Wire Wire Line
-	5000 2700 5000 2850
-Wire Wire Line
-	5000 3650 5000 4100
-Wire Wire Line
-	5000 4600 5000 5050
-Wire Wire Line
-	5700 1800 4050 1800
-Wire Wire Line
-	5700 1800 5700 2200
-Wire Wire Line
-	5000 5300 4000 5300
-Wire Wire Line
-	5000 4100 4050 4100
-Wire Wire Line
-	5000 2850 4050 2850
-Connection ~ 5000 2850
-Wire Wire Line
-	5000 2850 5000 3150
 Text HLabel 4000 5300 0    50   Input ~ 0
 PACK_GND
-Text HLabel 4050 4100 0    50   Input ~ 0
+Text HLabel 4050 4150 0    50   Input ~ 0
 SERIES_BANK_1
-Text HLabel 4050 2850 0    50   Input ~ 0
+Text HLabel 4050 2900 0    50   Input ~ 0
 SERIES_BANK_2
 Text HLabel 4050 1800 0    50   Input ~ 0
 SERIES_BANK_3
-Text Notes 6750 3450 0    39   Italic 0
-To do: change 3 module cell numbering\nfor 'flipped' cell modules on the bottom of the board
 $Comp
 L power:+BATT #PWR0259
 U 1 1 5FA4C998
-P 5700 1600
-F 0 "#PWR0259" H 5700 1450 50  0001 C CNN
-F 1 "+BATT" H 5715 1773 50  0000 C CNN
-F 2 "" H 5700 1600 50  0001 C CNN
-F 3 "" H 5700 1600 50  0001 C CNN
-	1    5700 1600
+P 6950 1550
+F 0 "#PWR0259" H 6950 1400 50  0001 C CNN
+F 1 "+BATT" H 6965 1723 50  0000 C CNN
+F 2 "" H 6950 1550 50  0001 C CNN
+F 3 "" H 6950 1550 50  0001 C CNN
+	1    6950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5FACBC16
+P 5350 4800
+F 0 "BT1" H 5468 4896 50  0000 L CNN
+F 1 "18650" H 5468 4805 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 5350 4860 50  0001 C CNN
+F 3 "~" V 5350 4860 50  0001 C CNN
+	1    5350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT6
+U 1 1 5FADD1AE
+P 5850 4800
+F 0 "BT6" H 5968 4896 50  0000 L CNN
+F 1 "18650" H 5968 4805 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 5850 4860 50  0001 C CNN
+F 3 "~" V 5850 4860 50  0001 C CNN
+	1    5850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT9
+U 1 1 5FADD526
+P 6300 4800
+F 0 "BT9" H 6418 4896 50  0000 L CNN
+F 1 "18650" H 6418 4805 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 6300 4860 50  0001 C CNN
+F 3 "~" V 6300 4860 50  0001 C CNN
+	1    6300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT12
+U 1 1 5FADD95D
+P 6750 4800
+F 0 "BT12" H 6868 4896 50  0000 L CNN
+F 1 "18650" H 6868 4805 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 6750 4860 50  0001 C CNN
+F 3 "~" V 6750 4860 50  0001 C CNN
+	1    6750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT15
+U 1 1 5FADEDAB
+P 7200 4800
+F 0 "BT15" H 7318 4896 50  0000 L CNN
+F 1 "18650" H 7318 4805 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 7200 4860 50  0001 C CNN
+F 3 "~" V 7200 4860 50  0001 C CNN
+	1    7200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT18
+U 1 1 5FADEDB1
+P 7700 4800
+F 0 "BT18" H 7818 4896 50  0000 L CNN
+F 1 "18650" H 7818 4805 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 7700 4860 50  0001 C CNN
+F 3 "~" V 7700 4860 50  0001 C CNN
+	1    7700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT21
+U 1 1 5FADEDB7
+P 8150 4800
+F 0 "BT21" H 8268 4896 50  0000 L CNN
+F 1 "18650" H 8268 4805 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 8150 4860 50  0001 C CNN
+F 3 "~" V 8150 4860 50  0001 C CNN
+	1    8150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT24
+U 1 1 5FADEDBD
+P 8600 4800
+F 0 "BT24" H 8718 4896 50  0000 L CNN
+F 1 "18650" H 8718 4805 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 8600 4860 50  0001 C CNN
+F 3 "~" V 8600 4860 50  0001 C CNN
+	1    8600 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 1600 5700 1800
-Connection ~ 5700 1800
+	5350 4600 5350 4450
+Wire Wire Line
+	5350 4450 5850 4450
+Wire Wire Line
+	8600 4450 8600 4600
+Wire Wire Line
+	8150 4600 8150 4450
+Connection ~ 8150 4450
+Wire Wire Line
+	8150 4450 8600 4450
+Wire Wire Line
+	7700 4600 7700 4450
+Connection ~ 7700 4450
+Wire Wire Line
+	7700 4450 8150 4450
+Wire Wire Line
+	7200 4600 7200 4450
+Connection ~ 7200 4450
+Wire Wire Line
+	7200 4450 7700 4450
+Wire Wire Line
+	6750 4600 6750 4450
+Connection ~ 6750 4450
+Wire Wire Line
+	6750 4450 6950 4450
+Wire Wire Line
+	6300 4600 6300 4450
+Connection ~ 6300 4450
+Wire Wire Line
+	6300 4450 6750 4450
+Wire Wire Line
+	5850 4600 5850 4450
+Connection ~ 5850 4450
+Wire Wire Line
+	5850 4450 6300 4450
+Wire Wire Line
+	5350 4900 5350 5050
+Wire Wire Line
+	5350 5050 5850 5050
+Wire Wire Line
+	8600 5050 8600 4900
+Wire Wire Line
+	8150 4900 8150 5050
+Connection ~ 8150 5050
+Wire Wire Line
+	8150 5050 8600 5050
+Wire Wire Line
+	7700 4900 7700 5050
+Connection ~ 7700 5050
+Wire Wire Line
+	7700 5050 8150 5050
+Wire Wire Line
+	7200 4900 7200 5050
+Connection ~ 7200 5050
+Wire Wire Line
+	7200 5050 7700 5050
+Wire Wire Line
+	6750 4900 6750 5050
+Connection ~ 6750 5050
+Wire Wire Line
+	6750 5050 6950 5050
+Wire Wire Line
+	6300 4900 6300 5050
+Connection ~ 6300 5050
+Wire Wire Line
+	6300 5050 6750 5050
+$Comp
+L Device:Battery_Cell BT3
+U 1 1 5FB037A8
+P 5350 3550
+F 0 "BT3" H 5468 3646 50  0000 L CNN
+F 1 "18650" H 5468 3555 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 5350 3610 50  0001 C CNN
+F 3 "~" V 5350 3610 50  0001 C CNN
+	1    5350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT5
+U 1 1 5FB037AE
+P 5850 3550
+F 0 "BT5" H 5968 3646 50  0000 L CNN
+F 1 "18650" H 5968 3555 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 5850 3610 50  0001 C CNN
+F 3 "~" V 5850 3610 50  0001 C CNN
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT8
+U 1 1 5FB037B4
+P 6300 3550
+F 0 "BT8" H 6418 3646 50  0000 L CNN
+F 1 "18650" H 6418 3555 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 6300 3610 50  0001 C CNN
+F 3 "~" V 6300 3610 50  0001 C CNN
+	1    6300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT11
+U 1 1 5FB037BA
+P 6750 3550
+F 0 "BT11" H 6868 3646 50  0000 L CNN
+F 1 "18650" H 6868 3555 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 6750 3610 50  0001 C CNN
+F 3 "~" V 6750 3610 50  0001 C CNN
+	1    6750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT14
+U 1 1 5FB037C0
+P 7200 3550
+F 0 "BT14" H 7318 3646 50  0000 L CNN
+F 1 "18650" H 7318 3555 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 7200 3610 50  0001 C CNN
+F 3 "~" V 7200 3610 50  0001 C CNN
+	1    7200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT17
+U 1 1 5FB037C6
+P 7700 3550
+F 0 "BT17" H 7818 3646 50  0000 L CNN
+F 1 "18650" H 7818 3555 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 7700 3610 50  0001 C CNN
+F 3 "~" V 7700 3610 50  0001 C CNN
+	1    7700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT20
+U 1 1 5FB037CC
+P 8150 3550
+F 0 "BT20" H 8268 3646 50  0000 L CNN
+F 1 "18650" H 8268 3555 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 8150 3610 50  0001 C CNN
+F 3 "~" V 8150 3610 50  0001 C CNN
+	1    8150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT23
+U 1 1 5FB037D2
+P 8600 3550
+F 0 "BT23" H 8718 3646 50  0000 L CNN
+F 1 "18650" H 8718 3555 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 8600 3610 50  0001 C CNN
+F 3 "~" V 8600 3610 50  0001 C CNN
+	1    8600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3350 5350 3200
+Wire Wire Line
+	5350 3200 5850 3200
+Wire Wire Line
+	8600 3200 8600 3350
+Wire Wire Line
+	8150 3350 8150 3200
+Connection ~ 8150 3200
+Wire Wire Line
+	8150 3200 8600 3200
+Wire Wire Line
+	7700 3350 7700 3200
+Connection ~ 7700 3200
+Wire Wire Line
+	7700 3200 8150 3200
+Wire Wire Line
+	7200 3350 7200 3200
+Connection ~ 7200 3200
+Wire Wire Line
+	7200 3200 7700 3200
+Wire Wire Line
+	6750 3350 6750 3200
+Connection ~ 6750 3200
+Wire Wire Line
+	6750 3200 6950 3200
+Wire Wire Line
+	6300 3350 6300 3200
+Connection ~ 6300 3200
+Wire Wire Line
+	6300 3200 6750 3200
+Wire Wire Line
+	5850 3350 5850 3200
+Connection ~ 5850 3200
+Wire Wire Line
+	5850 3200 6300 3200
+Wire Wire Line
+	5350 3650 5350 3800
+Wire Wire Line
+	5350 3800 5850 3800
+Wire Wire Line
+	8600 3800 8600 3650
+Wire Wire Line
+	8150 3650 8150 3800
+Connection ~ 8150 3800
+Wire Wire Line
+	8150 3800 8600 3800
+Wire Wire Line
+	7700 3650 7700 3800
+Connection ~ 7700 3800
+Wire Wire Line
+	7700 3800 8150 3800
+Wire Wire Line
+	7200 3650 7200 3800
+Connection ~ 7200 3800
+Wire Wire Line
+	7200 3800 7700 3800
+Wire Wire Line
+	6750 3650 6750 3800
+Connection ~ 6750 3800
+Wire Wire Line
+	6750 3800 6950 3800
+Wire Wire Line
+	6300 3650 6300 3800
+Connection ~ 6300 3800
+Wire Wire Line
+	6300 3800 6750 3800
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5FB0702D
+P 5300 2400
+F 0 "BT2" H 5418 2496 50  0000 L CNN
+F 1 "18650" H 5418 2405 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 5300 2460 50  0001 C CNN
+F 3 "~" V 5300 2460 50  0001 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT4
+U 1 1 5FB07033
+P 5800 2400
+F 0 "BT4" H 5918 2496 50  0000 L CNN
+F 1 "18650" H 5918 2405 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 5800 2460 50  0001 C CNN
+F 3 "~" V 5800 2460 50  0001 C CNN
+	1    5800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT7
+U 1 1 5FB07039
+P 6250 2400
+F 0 "BT7" H 6368 2496 50  0000 L CNN
+F 1 "18650" H 6368 2405 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 6250 2460 50  0001 C CNN
+F 3 "~" V 6250 2460 50  0001 C CNN
+	1    6250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT10
+U 1 1 5FB0703F
+P 6700 2400
+F 0 "BT10" H 6818 2496 50  0000 L CNN
+F 1 "18650" H 6818 2405 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 6700 2460 50  0001 C CNN
+F 3 "~" V 6700 2460 50  0001 C CNN
+	1    6700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT13
+U 1 1 5FB07045
+P 7150 2400
+F 0 "BT13" H 7268 2496 50  0000 L CNN
+F 1 "18650" H 7268 2405 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 7150 2460 50  0001 C CNN
+F 3 "~" V 7150 2460 50  0001 C CNN
+	1    7150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT16
+U 1 1 5FB0704B
+P 7650 2400
+F 0 "BT16" H 7768 2496 50  0000 L CNN
+F 1 "18650" H 7768 2405 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 7650 2460 50  0001 C CNN
+F 3 "~" V 7650 2460 50  0001 C CNN
+	1    7650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT19
+U 1 1 5FB07051
+P 8100 2400
+F 0 "BT19" H 8218 2496 50  0000 L CNN
+F 1 "18650" H 8218 2405 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 8100 2460 50  0001 C CNN
+F 3 "~" V 8100 2460 50  0001 C CNN
+	1    8100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT22
+U 1 1 5FB07057
+P 8550 2400
+F 0 "BT22" H 8668 2496 50  0000 L CNN
+F 1 "18650" H 8668 2405 50  0000 L CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_1042p_18650_Holder" V 8550 2460 50  0001 C CNN
+F 3 "~" V 8550 2460 50  0001 C CNN
+	1    8550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2200 5300 2050
+Wire Wire Line
+	5300 2050 5800 2050
+Wire Wire Line
+	8550 2050 8550 2200
+Wire Wire Line
+	8100 2200 8100 2050
+Connection ~ 8100 2050
+Wire Wire Line
+	8100 2050 8550 2050
+Wire Wire Line
+	7650 2200 7650 2050
+Connection ~ 7650 2050
+Wire Wire Line
+	7650 2050 8100 2050
+Wire Wire Line
+	7150 2200 7150 2050
+Connection ~ 7150 2050
+Wire Wire Line
+	7150 2050 7650 2050
+Wire Wire Line
+	6700 2200 6700 2050
+Connection ~ 6700 2050
+Wire Wire Line
+	6700 2050 6950 2050
+Wire Wire Line
+	6250 2200 6250 2050
+Connection ~ 6250 2050
+Wire Wire Line
+	6250 2050 6700 2050
+Wire Wire Line
+	5800 2200 5800 2050
+Connection ~ 5800 2050
+Wire Wire Line
+	5800 2050 6250 2050
+Wire Wire Line
+	5300 2500 5300 2650
+Wire Wire Line
+	5300 2650 5800 2650
+Wire Wire Line
+	8550 2650 8550 2500
+Wire Wire Line
+	8100 2500 8100 2650
+Connection ~ 8100 2650
+Wire Wire Line
+	8100 2650 8550 2650
+Wire Wire Line
+	7650 2500 7650 2650
+Connection ~ 7650 2650
+Wire Wire Line
+	7650 2650 8100 2650
+Wire Wire Line
+	7150 2500 7150 2650
+Connection ~ 7150 2650
+Wire Wire Line
+	7150 2650 7650 2650
+Wire Wire Line
+	6700 2500 6700 2650
+Connection ~ 6700 2650
+Wire Wire Line
+	6700 2650 6950 2650
+Wire Wire Line
+	6250 2500 6250 2650
+Connection ~ 6250 2650
+Wire Wire Line
+	6250 2650 6700 2650
+Wire Wire Line
+	6950 5500 6950 5300
+Connection ~ 6950 5050
+Wire Wire Line
+	6950 5050 7200 5050
+Wire Wire Line
+	6950 4450 6950 4150
+Connection ~ 6950 4450
+Wire Wire Line
+	6950 4450 7200 4450
+Connection ~ 6950 3800
+Wire Wire Line
+	6950 3800 7200 3800
+Wire Wire Line
+	6950 3200 6950 2900
+Connection ~ 6950 3200
+Wire Wire Line
+	6950 3200 7200 3200
+Connection ~ 6950 2650
+Wire Wire Line
+	6950 2650 7150 2650
+Connection ~ 6950 2050
+Wire Wire Line
+	6950 2050 7150 2050
+Wire Wire Line
+	6950 1550 6950 1800
+Wire Wire Line
+	4050 2900 6950 2900
+Connection ~ 6950 2900
+Wire Wire Line
+	6950 2900 6950 2650
+Wire Wire Line
+	4050 1800 6950 1800
+Connection ~ 6950 1800
+Wire Wire Line
+	6950 1800 6950 2050
+Wire Wire Line
+	4050 4150 6950 4150
+Connection ~ 6950 4150
+Wire Wire Line
+	6950 4150 6950 3800
+Wire Wire Line
+	4000 5300 6950 5300
+Connection ~ 6950 5300
+Wire Wire Line
+	6950 5300 6950 5050
+Wire Wire Line
+	5850 4900 5850 5050
+Connection ~ 5850 5050
+Wire Wire Line
+	5850 5050 6300 5050
+Wire Wire Line
+	5850 3650 5850 3800
+Connection ~ 5850 3800
+Wire Wire Line
+	5850 3800 6300 3800
+Wire Wire Line
+	5800 2500 5800 2650
+Connection ~ 5800 2650
+Wire Wire Line
+	5800 2650 6250 2650
 $EndSCHEMATC

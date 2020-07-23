@@ -14,44 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F0:STM32F042K6Tx U?
-U 1 1 5F979A61
-P 1650 6350
-AR Path="/5F979A61" Ref="U?"  Part="1" 
-AR Path="/5ECF165A/5F979A61" Ref="U215"  Part="1" 
-F 0 "U215" H 2050 5350 50  0000 C CNN
-F 1 "STM32F042K6Tx" H 2050 5250 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 1250 5450 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 1650 6350 50  0001 C CNN
-	1    1650 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F979A67
-P 1600 7450
-AR Path="/5ECF1AA9/5F979A67" Ref="#PWR?"  Part="1" 
-AR Path="/5F979A67" Ref="#PWR?"  Part="1" 
-AR Path="/5ECF165A/5F979A67" Ref="#PWR0267"  Part="1" 
-F 0 "#PWR0267" H 1600 7200 50  0001 C CNN
-F 1 "GND" H 1605 7277 50  0000 C CNN
-F 2 "" H 1600 7450 50  0001 C CNN
-F 3 "" H 1600 7450 50  0001 C CNN
-	1    1600 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 7450 1600 7400
-Wire Wire Line
-	1600 7400 1550 7400
-Wire Wire Line
-	1550 7400 1550 7350
-Wire Wire Line
-	1600 7400 1650 7400
-Wire Wire Line
-	1650 7400 1650 7350
-Connection ~ 1600 7400
-$Comp
 L power:GND #PWR0269
 U 1 1 5F0859FF
 P 5350 3400
@@ -110,40 +72,8 @@ F 3 "" H 1000 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 2750 1000 2700
-Wire Wire Line
-	1150 6150 650  6150
-Wire Wire Line
-	1150 6250 650  6250
-Text Label 650  6150 0    39   ~ 0
-XTAL_P
-Text Label 650  6250 0    39   ~ 0
-XTAL_N
 Text HLabel 10250 3250 2    50   Input ~ 0
 BQ_24617_CHG_EN
-$Comp
-L power:+3V3 #PWR0268
-U 1 1 5F75BF08
-P 1650 5350
-F 0 "#PWR0268" H 1650 5200 50  0001 C CNN
-F 1 "+3V3" H 1665 5523 50  0000 C CNN
-F 2 "" H 1650 5350 50  0001 C CNN
-F 3 "" H 1650 5350 50  0001 C CNN
-	1    1650 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 5450 1550 5400
-Wire Wire Line
-	1550 5400 1650 5400
-Wire Wire Line
-	1650 5400 1650 5350
-Wire Wire Line
-	1650 5450 1650 5400
-Connection ~ 1650 5400
-Wire Wire Line
-	1750 5450 1750 5400
-Wire Wire Line
-	1750 5400 1650 5400
 $Comp
 L Device:R R264
 U 1 1 5F7A61F9
@@ -511,26 +441,10 @@ Wire Wire Line
 	3600 2950 4150 2950
 Wire Wire Line
 	3600 3050 4150 3050
-Wire Wire Line
-	2150 7050 2900 7050
-Wire Wire Line
-	2150 6950 2900 6950
-Text Label 2900 6950 2    39   ~ 0
-STM32_SWDIO
-Text Label 2900 7050 2    39   ~ 0
-STM32_SWCLK
 Text Label 3600 2950 0    39   ~ 0
 STM32_SWDIO
 Text Label 3600 3050 0    39   ~ 0
 STM32_SWCLK
-Wire Wire Line
-	2150 6850 2900 6850
-Wire Wire Line
-	2150 6750 2900 6750
-Text Label 2900 6750 2    39   ~ 0
-UART_CAN_STM_RX
-Text Label 2900 6850 2    39   ~ 0
-UART_CAN_STM_TX
 $Comp
 L Connector_Generic:Conn_01x06 J206
 U 1 1 5F0B398D
@@ -547,22 +461,6 @@ Wire Wire Line
 	4150 3150 3600 3150
 Wire Wire Line
 	4150 3250 3600 3250
-Wire Wire Line
-	2150 6650 2900 6650
-Wire Wire Line
-	2150 6550 2900 6550
-Text Label 2900 6550 2    39   ~ 0
-UART_BQ79606_STM_TX
-Text Label 2900 6650 2    39   ~ 0
-UART_BQ79606_STM_RX
-Wire Wire Line
-	2150 5850 2900 5850
-Wire Wire Line
-	2150 7150 2900 7150
-Text Label 2900 5850 2    39   ~ 0
-UART_DIAGS_STM_TX
-Text Label 2900 7150 2    39   ~ 0
-UART_DIAGS_STM_RX
 Text HLabel 10200 5300 2    50   Input ~ 0
 ANALOG_I_SYS
 $Comp
@@ -1297,10 +1195,6 @@ F 4 "160-1446-2-ND" V 5550 3300 50  0001 C CNN "Digikey"
 	1    5550 3300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1150 5650 650  5650
-Text Label 650  5650 0    39   ~ 0
-~RESET
 Text Label 600  3000 0    39   ~ 0
 ~RESET
 Wire Wire Line
@@ -1782,55 +1676,7 @@ F 5 "455-3018-ND " H -900 850 50  0001 C CNN "Digikey"
 	1    -900 850 
 	1    0    0    -1  
 $EndComp
-Text Label 2900 5650 2    39   ~ 0
-ANALOG_I_SYS
-Text Label 2900 5750 2    39   ~ 0
-ANALOG_I_CHG
-Wire Wire Line
-	2900 5750 2150 5750
-Wire Wire Line
-	2900 5650 2150 5650
-Text Label 2900 5950 2    39   ~ 0
-ANALOG_I_ESCS
-Text Label 2900 6050 2    39   ~ 0
-ANALOG_V_ESCS
-Text Label 2900 6150 2    39   ~ 0
-ANALOG_V_SYSTEM
-Wire Wire Line
-	2150 6050 2900 6050
-Wire Wire Line
-	2150 6150 2900 6150
-Wire Wire Line
-	2150 5950 2900 5950
-Text Label 2900 6350 2    39   ~ 0
-BQ_24617_CHG_EN
-Text Label 650  6550 0    39   ~ 0
-BQ79606_WAKE
-Text Label 650  6450 0    39   ~ 0
-~BQ79606_FAULT
-Wire Wire Line
-	650  6550 1150 6550
-Text Label 2900 6250 2    39   ~ 0
-ESC_PWR_EN
-Wire Wire Line
-	2900 6350 2150 6350
-Wire Wire Line
-	2900 6250 2150 6250
-Wire Wire Line
-	1150 6450 650  6450
-Text Label 650  7150 0    39   ~ 0
-SM0_LED
-Wire Wire Line
-	1150 7050 650  7050
-Text Label 650  7050 0    39   ~ 0
-SM1_LED
-Text Label 650  6950 0    39   ~ 0
-USR_BUTTON
-Wire Wire Line
-	1150 6950 650  6950
-Wire Wire Line
-	650  7150 1150 7150
-Text Notes -3650 6650 0    39   ~ 0
+Text Notes 2050 7650 0    39   ~ 0
 Pin mapping may change during layout for better fanout. 
 $Comp
 L Device:R_Small R258
@@ -2199,10 +2045,10 @@ F 3 "" H 2750 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP7
 U 1 1 5F932DA4
 P 8050 2900
-F 0 "TP?" H 8108 3018 50  0000 L CNN
+F 0 "TP7" H 8108 3018 50  0000 L CNN
 F 1 "TP_BQ2417_CHG_EN" H 8108 2927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8250 2900 50  0001 C CNN
 F 3 "~" H 8250 2900 50  0001 C CNN
@@ -2216,4 +2062,158 @@ Wire Wire Line
 	8050 3250 9450 3250
 Wire Wire Line
 	6650 3250 8050 3250
+$Comp
+L MCU_ST_STM32F0:STM32F042K6Tx U?
+U 1 1 5F979A61
+P 1650 6350
+AR Path="/5F979A61" Ref="U?"  Part="1" 
+AR Path="/5ECF165A/5F979A61" Ref="U215"  Part="1" 
+F 0 "U215" H 2050 5350 50  0000 C CNN
+F 1 "STM32F042K6Tx" H 2050 5250 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 1250 5450 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 1650 6350 50  0001 C CNN
+	1    1650 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5400 1650 5400
+Wire Wire Line
+	1750 5450 1750 5400
+Connection ~ 1650 5400
+Wire Wire Line
+	1650 5450 1650 5400
+Wire Wire Line
+	1650 5400 1650 5350
+Wire Wire Line
+	1550 5400 1650 5400
+Wire Wire Line
+	1550 5450 1550 5400
+$Comp
+L power:+3V3 #PWR0268
+U 1 1 5F75BF08
+P 1650 5350
+F 0 "#PWR0268" H 1650 5200 50  0001 C CNN
+F 1 "+3V3" H 1665 5523 50  0000 C CNN
+F 2 "" H 1650 5350 50  0001 C CNN
+F 3 "" H 1650 5350 50  0001 C CNN
+	1    1650 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 7400
+Wire Wire Line
+	1650 7400 1650 7350
+Wire Wire Line
+	1600 7400 1650 7400
+Wire Wire Line
+	1550 7400 1550 7350
+Wire Wire Line
+	1600 7400 1550 7400
+Wire Wire Line
+	1600 7450 1600 7400
+$Comp
+L power:GND #PWR?
+U 1 1 5F979A67
+P 1600 7450
+AR Path="/5ECF1AA9/5F979A67" Ref="#PWR?"  Part="1" 
+AR Path="/5F979A67" Ref="#PWR?"  Part="1" 
+AR Path="/5ECF165A/5F979A67" Ref="#PWR0267"  Part="1" 
+F 0 "#PWR0267" H 1600 7200 50  0001 C CNN
+F 1 "GND" H 1605 7277 50  0000 C CNN
+F 2 "" H 1600 7450 50  0001 C CNN
+F 3 "" H 1600 7450 50  0001 C CNN
+	1    1600 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  7150 1150 7150
+Wire Wire Line
+	1150 6950 650  6950
+Text Label 650  6950 0    39   ~ 0
+USR_BUTTON
+Text Label 650  7050 0    39   ~ 0
+SM1_LED
+Wire Wire Line
+	1150 7050 650  7050
+Text Label 650  7150 0    39   ~ 0
+SM0_LED
+Wire Wire Line
+	1150 6450 650  6450
+Wire Wire Line
+	650  6550 1150 6550
+Text Label 650  6450 0    39   ~ 0
+~BQ79606_FAULT
+Text Label 650  6550 0    39   ~ 0
+BQ79606_WAKE
+Text Label 650  5650 0    39   ~ 0
+~RESET
+Wire Wire Line
+	1150 5650 650  5650
+Text Label 650  6250 0    39   ~ 0
+XTAL_N
+Text Label 650  6150 0    39   ~ 0
+XTAL_P
+Wire Wire Line
+	1150 6250 650  6250
+Wire Wire Line
+	1150 6150 650  6150
+Wire Wire Line
+	2900 6250 2150 6250
+Wire Wire Line
+	2900 6350 2150 6350
+Text Label 2900 6250 2    39   ~ 0
+ESC_PWR_EN
+Text Label 2900 6350 2    39   ~ 0
+BQ_24617_CHG_EN
+Wire Wire Line
+	2150 5950 2900 5950
+Wire Wire Line
+	2150 6150 2900 6150
+Wire Wire Line
+	2150 6050 2900 6050
+Text Label 2900 6150 2    39   ~ 0
+ANALOG_V_SYSTEM
+Text Label 2900 6050 2    39   ~ 0
+ANALOG_V_ESCS
+Text Label 2900 5950 2    39   ~ 0
+ANALOG_I_ESCS
+Wire Wire Line
+	2900 5650 2150 5650
+Wire Wire Line
+	2900 5750 2150 5750
+Text Label 2900 5750 2    39   ~ 0
+ANALOG_I_CHG
+Text Label 2900 5650 2    39   ~ 0
+ANALOG_I_SYS
+Text Label 2900 7150 2    39   ~ 0
+UART_DIAGS_STM_RX
+Text Label 2900 5850 2    39   ~ 0
+UART_DIAGS_STM_TX
+Wire Wire Line
+	2150 7150 2900 7150
+Wire Wire Line
+	2150 5850 2900 5850
+Text Label 2900 6650 2    39   ~ 0
+UART_BQ79606_STM_RX
+Text Label 2900 6550 2    39   ~ 0
+UART_BQ79606_STM_TX
+Wire Wire Line
+	2150 6550 2900 6550
+Wire Wire Line
+	2150 6650 2900 6650
+Text Label 2900 6850 2    39   ~ 0
+UART_CAN_STM_TX
+Text Label 2900 6750 2    39   ~ 0
+UART_CAN_STM_RX
+Wire Wire Line
+	2150 6750 2900 6750
+Wire Wire Line
+	2150 6850 2900 6850
+Text Label 2900 7050 2    39   ~ 0
+STM32_SWCLK
+Text Label 2900 6950 2    39   ~ 0
+STM32_SWDIO
+Wire Wire Line
+	2150 6950 2900 6950
+Wire Wire Line
+	2150 7050 2900 7050
 $EndSCHEMATC
