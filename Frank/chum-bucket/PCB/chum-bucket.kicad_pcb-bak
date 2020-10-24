@@ -404,15 +404,15 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer PWR) (tedit 56DDBCCA) (tstamp 5F19D246)
-    (at 61.7474 29.845)
+    (at 82.7786 34.925)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5F1ABD7F)
     (attr virtual)
-    (fp_text reference H1 (at 0 -4.2) (layer F.SilkS)
+    (fp_text reference H1 (at -0.0944 0.2298) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Top_Left (at 0 4.2) (layer F.Fab)
+    (fp_text value Top_Left (at -0.127 0.1524) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
@@ -441,7 +441,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer PWR) (tedit 56DDBCCA) (tstamp 5F19D256)
-    (at 83.713656 245.495744)
+    (at 83.2866 246.634)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5F1AC0BA)
@@ -478,7 +478,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer PWR) (tedit 56DDBCCA) (tstamp 5F19D26E)
-    (at 202.819 245.4656)
+    (at 205.105 246.8372)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5F1AC943)
@@ -515,7 +515,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer PWR) (tedit 56DDBCCA) (tstamp 5F19D25E)
-    (at 220.98 28.5496)
+    (at 205.4606 34.7726)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5F1AC41D)
@@ -1222,7 +1222,7 @@
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal (layer PWR) (tedit 5B79A392) (tstamp 5F13D64C)
-    (at 87.6808 216.6366 90)
+    (at 87.9602 216.789 90)
     (descr "Molex Micro-Fit 3.0 Connector System, 43650-0200 (compatible alternatives: 43650-0201, 43650-0202), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500300_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex Micro-Fit_3.0 top entry")
     (path /5F217129)
@@ -1268,7 +1268,7 @@
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal (layer PWR) (tedit 5B79A392) (tstamp 5F13D668)
-    (at 87.6808 227.5332 90)
+    (at 87.9602 227.5078 90)
     (descr "Molex Micro-Fit 3.0 Connector System, 43650-0200 (compatible alternatives: 43650-0201, 43650-0202), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500300_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex Micro-Fit_3.0 top entry")
     (path /5F2195EE)
@@ -1314,7 +1314,7 @@
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal (layer PWR) (tedit 5B79A392) (tstamp 5F13D684)
-    (at 200.7362 233.1212 270)
+    (at 200.2282 233.1212 270)
     (descr "Molex Micro-Fit 3.0 Connector System, 43650-0200 (compatible alternatives: 43650-0201, 43650-0202), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500300_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex Micro-Fit_3.0 top entry")
     (path /5F21D1E9)
@@ -1408,7 +1408,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163A4D)
-    (at 205.185201 273.259001)
+    (at 231.753601 314.102201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EFB8FCE)
@@ -1444,7 +1444,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D8.0mm_P3.50mm (layer PWR) (tedit 5AE50EF0) (tstamp 5F171211)
-    (at 196.659899 271.229001)
+    (at 223.228299 312.072201)
     (descr "CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor")
     (path /5EF85CBA)
@@ -1631,7 +1631,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B07)
-    (at 177.205201 308.139001)
+    (at 203.773601 348.982201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F1A0339)
@@ -1667,7 +1667,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B18)
-    (at 178.375201 303.119001)
+    (at 204.943601 343.962201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/60514D2E)
@@ -1703,7 +1703,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B29)
-    (at 178.375201 305.629001)
+    (at 204.943601 346.472201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/6051D6D4)
@@ -1739,7 +1739,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B3A)
-    (at 169.185201 313.929001)
+    (at 195.753601 354.772201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/60A3508A)
@@ -1775,7 +1775,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B4B)
-    (at 173.195201 310.649001)
+    (at 199.763601 351.492201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/60A35E9C)
@@ -1811,7 +1811,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B5C)
-    (at 173.195201 308.139001)
+    (at 199.763601 348.982201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/605B7724)
@@ -1847,7 +1847,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B6D)
-    (at 165.175201 315.729001)
+    (at 191.743601 356.572201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/6059AC66)
@@ -1883,7 +1883,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B7E)
-    (at 169.185201 311.419001)
+    (at 195.753601 352.262201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/604EA1F3)
@@ -1919,7 +1919,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163B8F)
-    (at 111.315201 317.559001)
+    (at 137.883601 358.402201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F7CA445)
@@ -1955,7 +1955,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163BA0)
-    (at 118.415201 311.699001)
+    (at 144.983601 352.542201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F7BDBA6)
@@ -1991,7 +1991,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163BB1)
-    (at 125.785201 304.959001)
+    (at 152.353601 345.802201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/600328AA)
@@ -2027,7 +2027,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F163BC2)
-    (at 112.185201 285.669001)
+    (at 138.753601 326.512201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F42BB86)
@@ -2063,7 +2063,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163BD3)
-    (at 129.555201 281.009001)
+    (at 156.123601 321.852201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F6A1BF8)
@@ -2099,7 +2099,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F163BE4)
-    (at 124.055201 275.769001)
+    (at 150.623601 316.612201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F99F7C6)
@@ -2135,7 +2135,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163BF5)
-    (at 129.555201 283.519001)
+    (at 156.123601 324.362201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F99F85B)
@@ -2171,7 +2171,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163C06)
-    (at 131.915201 278.059001)
+    (at 158.483601 318.902201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F99F861)
@@ -2207,7 +2207,7 @@
   )
 
   (module Capacitor_SMD:C_2220_5650Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163C17)
-    (at 110.185201 269.929001)
+    (at 136.753601 310.772201)
     (descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F0834C0)
@@ -2243,7 +2243,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F163C28)
-    (at 119.205201 279.529001)
+    (at 145.773601 320.372201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F5FAEEC)
@@ -2279,7 +2279,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163C39)
-    (at 137.375201 272.729001)
+    (at 163.943601 313.572201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F400E4A)
@@ -2315,7 +2315,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F163C4A)
-    (at 107.105201 290.449001)
+    (at 133.673601 331.292201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F99F7C0)
@@ -2351,7 +2351,7 @@
   )
 
   (module Capacitor_SMD:C_2220_5650Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163C5B)
-    (at 98.035201 277.979001)
+    (at 124.603601 318.822201)
     (descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F07A216)
@@ -2387,7 +2387,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163C6C)
-    (at 128.265201 275.549001)
+    (at 154.833601 316.392201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F99F7D8)
@@ -2423,7 +2423,7 @@
   )
 
   (module Capacitor_SMD:C_2220_5650Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163C7D)
-    (at 98.035201 284.929001)
+    (at 124.603601 325.772201)
     (descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F05A59D)
@@ -2459,7 +2459,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163C8E)
-    (at 134.925201 267.709001)
+    (at 161.493601 308.552201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F35202D)
@@ -2495,7 +2495,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163C9F)
-    (at 117.525201 284.769001)
+    (at 144.093601 325.612201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F0F4950)
@@ -2531,7 +2531,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163CB0)
-    (at 116.035201 288.399001)
+    (at 142.603601 329.242201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F0EB0A0)
@@ -2567,7 +2567,7 @@
   )
 
   (module Capacitor_SMD:C_2220_5650Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163CC1)
-    (at 118.635201 269.929001)
+    (at 145.203601 310.772201)
     (descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F0AEEAB)
@@ -2603,7 +2603,7 @@
   )
 
   (module Capacitor_SMD:C_2220_5650Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163CD2)
-    (at 106.485201 277.979001)
+    (at 133.053601 318.822201)
     (descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F0AEE9A)
@@ -2639,7 +2639,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163CE3)
-    (at 133.365201 272.259001)
+    (at 159.933601 313.102201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F29EA0A)
@@ -2675,7 +2675,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163CF4)
-    (at 127.905201 278.499001)
+    (at 154.473601 319.342201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF1AA9/5F43E017)
@@ -2711,7 +2711,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163D05)
-    (at 115.325201 317.199001)
+    (at 141.893601 358.042201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F8199BB)
@@ -2747,7 +2747,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163D16)
-    (at 113.835201 320.069001)
+    (at 140.403601 360.912201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F5058CA)
@@ -2783,7 +2783,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163D27)
-    (at 126.795201 307.469001)
+    (at 153.363601 348.312201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F99B52E)
@@ -2819,7 +2819,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163D38)
-    (at 113.835201 322.579001)
+    (at 140.403601 363.422201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F836DFA)
@@ -2855,7 +2855,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F163D49)
-    (at 113.175201 306.019001)
+    (at 139.743601 346.862201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F9EFB97)
@@ -2891,7 +2891,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F163D5A)
-    (at 110.315201 309.369001)
+    (at 136.883601 350.212201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F9F98E3)
@@ -2927,7 +2927,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F163D6B)
-    (at 116.935201 301.669001)
+    (at 143.503601 342.512201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F9FAB77)
@@ -2963,7 +2963,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163D7C)
-    (at 119.335201 314.209001)
+    (at 145.903601 355.052201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F646D49)
@@ -2999,7 +2999,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163D8D)
-    (at 129.795201 303.119001)
+    (at 156.363601 343.962201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F82842A)
@@ -3035,7 +3035,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163D9E)
-    (at 134.895201 298.099001)
+    (at 161.463601 338.942201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F5A3877)
@@ -3071,7 +3071,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163DAF)
-    (at 130.885201 300.609001)
+    (at 157.453601 341.452201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5EFBFB37)
@@ -3107,7 +3107,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163DC0)
-    (at 138.905201 298.099001)
+    (at 165.473601 338.942201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F7BE8A5)
@@ -3143,7 +3143,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163DD1)
-    (at 126.795201 309.979001)
+    (at 153.363601 350.822201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F2971E8)
@@ -3179,7 +3179,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163DE2)
-    (at 119.335201 316.719001)
+    (at 145.903601 357.562201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5FB69144)
@@ -3215,7 +3215,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163DF3)
-    (at 134.895201 300.609001)
+    (at 161.463601 341.452201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5FB6E1FE)
@@ -3251,7 +3251,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E04)
-    (at 122.785201 310.059001)
+    (at 149.353601 350.902201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF165A/5F290852)
@@ -3287,7 +3287,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E15)
-    (at 175.815201 267.709001)
+    (at 202.383601 308.552201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FDF7331)
@@ -3323,7 +3323,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E26)
-    (at 171.805201 267.709001)
+    (at 198.373601 308.552201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F02A24A)
@@ -3359,7 +3359,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E37)
-    (at 160.615201 278.499001)
+    (at 187.183601 319.342201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FFE877C)
@@ -3395,7 +3395,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E48)
-    (at 160.215201 282.009001)
+    (at 186.783601 322.852201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FDE9750)
@@ -3431,7 +3431,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E59)
-    (at 160.215201 287.029001)
+    (at 186.783601 327.872201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FDCB4A1)
@@ -3467,7 +3467,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E6A)
-    (at 171.135201 275.239001)
+    (at 197.703601 316.082201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FDC5956)
@@ -3503,7 +3503,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E7B)
-    (at 175.815201 270.219001)
+    (at 202.383601 311.062201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FFDFB9D)
@@ -3539,7 +3539,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E8C)
-    (at 164.225201 281.009001)
+    (at 190.793601 321.852201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FFEE2FD)
@@ -3575,7 +3575,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163E9D)
-    (at 171.135201 272.729001)
+    (at 197.703601 313.572201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FDBE178)
@@ -3611,7 +3611,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F163EAE)
-    (at 156.405201 279.279001)
+    (at 182.973601 320.122201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FD563B4)
@@ -3647,7 +3647,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163EBF)
-    (at 160.215201 284.519001)
+    (at 186.783601 325.362201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FFE4501)
@@ -3683,7 +3683,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163ED0)
-    (at 147.515201 288.839001)
+    (at 174.083601 329.682201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5FFF374C)
@@ -3719,7 +3719,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163EE1)
-    (at 164.625201 277.619001)
+    (at 191.193601 318.462201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F942590)
@@ -3755,7 +3755,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163EF2)
-    (at 156.205201 284.519001)
+    (at 182.773601 325.362201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F942657)
@@ -3791,7 +3791,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F03)
-    (at 179.825201 267.709001)
+    (at 206.393601 308.552201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F942651)
@@ -3827,7 +3827,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F14)
-    (at 156.205201 282.009001)
+    (at 182.773601 322.852201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F942569)
@@ -3863,7 +3863,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F25)
-    (at 163.115201 275.109001)
+    (at 189.683601 315.952201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F736809)
@@ -3899,7 +3899,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F36)
-    (at 167.125201 272.599001)
+    (at 193.693601 313.442201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F783ACC)
@@ -3935,7 +3935,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F47)
-    (at 163.115201 272.599001)
+    (at 189.683601 313.442201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F775BB3)
@@ -3971,7 +3971,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F58)
-    (at 179.825201 270.219001)
+    (at 206.393601 311.062201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F767854)
@@ -4007,7 +4007,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F69)
-    (at 159.545201 289.539001)
+    (at 186.113601 330.382201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F94251A)
@@ -4043,7 +4043,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F7A)
-    (at 168.235201 280.129001)
+    (at 194.803601 320.972201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F47A714)
@@ -4079,7 +4079,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F8B)
-    (at 175.145201 272.729001)
+    (at 201.713601 313.572201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F47A0E9)
@@ -4115,7 +4115,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163F9C)
-    (at 164.225201 283.519001)
+    (at 190.793601 324.362201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ECF181C/5F3A3DD0)
@@ -4151,7 +4151,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163FAD)
-    (at 178.375201 300.609001)
+    (at 204.943601 341.452201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F83E376)
@@ -4187,7 +4187,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163FBE)
-    (at 161.165201 311.149001)
+    (at 187.733601 351.992201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F93BEFD)
@@ -4223,7 +4223,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163FCF)
-    (at 182.215201 298.099001)
+    (at 208.783601 338.942201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/600AFD3A)
@@ -4259,7 +4259,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163FE0)
-    (at 178.205201 298.099001)
+    (at 204.773601 338.942201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5EF71B74)
@@ -4295,7 +4295,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F163FF1)
-    (at 170.355201 301.049001)
+    (at 196.923601 341.892201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/600B79FC)
@@ -4331,7 +4331,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F164002)
-    (at 174.195201 298.099001)
+    (at 200.763601 338.942201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F8FE35D)
@@ -4367,7 +4367,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F164013)
-    (at 173.195201 313.159001)
+    (at 199.763601 354.002201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F5B2ACC)
@@ -4403,7 +4403,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F164024)
-    (at 160.375201 308.419001)
+    (at 186.943601 349.262201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F1B7F49)
@@ -4439,7 +4439,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F164035)
-    (at 169.185201 316.439001)
+    (at 195.753601 357.282201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F718936)
@@ -4475,7 +4475,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F164046)
-    (at 177.205201 310.649001)
+    (at 203.773601 351.492201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/600D3098)
@@ -4511,7 +4511,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer PWR) (tedit 5B36C52B) (tstamp 5F164057)
-    (at 169.985201 298.319001)
+    (at 196.553601 339.162201)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F19676A)
@@ -4547,7 +4547,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F164068)
-    (at 181.215201 308.139001)
+    (at 207.783601 348.982201)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F507ADF/5F60A470)
@@ -4583,7 +4583,7 @@
   )
 
   (module Diode_SMD:D_SMB (layer PWR) (tedit 58645DF3) (tstamp 5F164080)
-    (at 207.355201 269.229001)
+    (at 233.923601 310.072201)
     (descr "Diode SMB (DO-214AA)")
     (tags "Diode SMB (DO-214AA)")
     (path /5EFB8FC1)
@@ -4626,7 +4626,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer PWR) (tedit 58645DC7) (tstamp 5F164099)
-    (at 156.675201 304.069001)
+    (at 183.243601 344.912201)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F507ADF/609ADD8E)
@@ -4670,7 +4670,7 @@
   )
 
   (module Diode_SMD:D_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1640AC)
-    (at 101.605201 322.299001)
+    (at 128.173601 363.142201)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECF165A/5F13F509)
@@ -4708,7 +4708,7 @@
   )
 
   (module Diode_SMD:D_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1640BF)
-    (at 126.875201 298.139001)
+    (at 153.443601 338.982201)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECF165A/5F14C8C3)
@@ -4746,7 +4746,7 @@
   )
 
   (module Diode_SMD:D_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1640D2)
-    (at 107.105201 318.039001)
+    (at 133.673601 358.882201)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECF165A/5FBDC2B8)
@@ -4784,7 +4784,7 @@
   )
 
   (module Diode_SMD:D_SOD-323 (layer PWR) (tedit 58641739) (tstamp 5F1640EA)
-    (at 101.685201 319.529001)
+    (at 128.253601 360.372201)
     (descr SOD-323)
     (tags SOD-323)
     (path /5ECF165A/5FE239E2)
@@ -4827,7 +4827,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer PWR) (tedit 58645DC7) (tstamp 5F164103)
-    (at 102.185201 316.379001)
+    (at 128.753601 357.222201)
     (descr SOD-123)
     (tags SOD-123)
     (path /5ECF165A/5F7CA45A)
@@ -4871,7 +4871,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer PWR) (tedit 58645DC7) (tstamp 5F16411C)
-    (at 117.605201 298.519001)
+    (at 144.173601 339.362201)
     (descr SOD-123)
     (tags SOD-123)
     (path /5ECF165A/5F7BDBBB)
@@ -4915,7 +4915,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer PWR) (tedit 58645DC7) (tstamp 5F164135)
-    (at 108.095201 306.219001)
+    (at 134.663601 347.062201)
     (descr SOD-123)
     (tags SOD-123)
     (path /5ECF165A/600328BF)
@@ -4959,7 +4959,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F164148)
-    (at 112.025201 288.439001)
+    (at 138.593601 329.282201)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECF1AA9/5F39E584)
@@ -4997,7 +4997,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F16415B)
-    (at 129.355201 272.299001)
+    (at 155.923601 313.142201)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECF1AA9/5F16F836)
@@ -5035,7 +5035,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F16416E)
-    (at 123.895201 278.539001)
+    (at 150.463601 319.382201)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECF1AA9/5F16FB1F)
@@ -5073,7 +5073,7 @@
   )
 
   (module Diode_SMD:D_SOD-123F (layer PWR) (tedit 587F7769) (tstamp 5F164187)
-    (at 102.180201 290.649001)
+    (at 128.748601 331.492201)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
     (path /5ECF1AA9/5F99F7D1)
@@ -5117,7 +5117,7 @@
   )
 
   (module Diode_SMD:D_SOD-323 (layer PWR) (tedit 58641739) (tstamp 5F16419F)
-    (at 107.185201 315.269001)
+    (at 133.753601 356.112201)
     (descr SOD-323)
     (tags SOD-323)
     (path /5ECF165A/5F810717)
@@ -5160,7 +5160,7 @@
   )
 
   (module Diode_SMD:D_SOD-323 (layer PWR) (tedit 58641739) (tstamp 5F1641B7)
-    (at 114.645201 308.969001)
+    (at 141.213601 349.812201)
     (descr SOD-323)
     (tags SOD-323)
     (path /5ECF165A/5F812995)
@@ -5203,7 +5203,7 @@
   )
 
   (module Diode_SMD:D_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1641CA)
-    (at 114.405201 312.139001)
+    (at 140.973601 352.982201)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECF165A/5F134796)
@@ -5241,7 +5241,7 @@
   )
 
   (module Diode_SMD:D_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1641DD)
-    (at 121.775201 302.489001)
+    (at 148.343601 343.332201)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECF165A/5F137A78)
@@ -5279,7 +5279,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer PWR) (tedit 58645DC7) (tstamp 5F1641F6)
-    (at 111.755201 302.869001)
+    (at 138.323601 343.712201)
     (descr SOD-123)
     (tags SOD-123)
     (path /5ECF165A/5F36A07F)
@@ -5323,7 +5323,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer PWR) (tedit 58645DC7) (tstamp 5F16420F)
-    (at 96.685201 322.279001)
+    (at 123.253601 363.122201)
     (descr SOD-123)
     (tags SOD-123)
     (path /5ECF165A/5FB96976)
@@ -5367,7 +5367,7 @@
   )
 
   (module Diode_SMD:D_SOD-323 (layer PWR) (tedit 58641739) (tstamp 5F164227)
-    (at 110.235201 312.319001)
+    (at 136.803601 353.162201)
     (descr SOD-323)
     (tags SOD-323)
     (path /5ECF165A/5FD06F35)
@@ -5410,7 +5410,7 @@
   )
 
   (module Diode_SMD:D_SOD-323 (layer PWR) (tedit 58641739) (tstamp 5F16423F)
-    (at 167.675201 267.929001)
+    (at 194.243601 308.772201)
     (descr SOD-323)
     (tags SOD-323)
     (path /5ECF181C/5F420202)
@@ -5453,7 +5453,7 @@
   )
 
   (module Diode_SMD:D_SOD-323 (layer PWR) (tedit 58641739) (tstamp 5F164257)
-    (at 158.985201 272.819001)
+    (at 185.553601 313.662201)
     (descr SOD-323)
     (tags SOD-323)
     (path /5ECF181C/5F41EE6D)
@@ -5496,7 +5496,7 @@
   )
 
   (module Diode_SMD:D_SOD-323 (layer PWR) (tedit 58641739) (tstamp 5F16426F)
-    (at 158.985201 275.769001)
+    (at 185.553601 316.612201)
     (descr SOD-323)
     (tags SOD-323)
     (path /5ECF181C/5F3A3DCA)
@@ -5539,7 +5539,7 @@
   )
 
   (module Diode_SMD:D_SMB (layer PWR) (tedit 58645DF3) (tstamp 5F164287)
-    (at 149.625201 304.509001)
+    (at 176.193601 345.352201)
     (descr "Diode SMB (DO-214AA)")
     (tags "Diode SMB (DO-214AA)")
     (path /5F507ADF/5F686A09)
@@ -5582,7 +5582,7 @@
   )
 
   (module Diode_SMD:D_SMB (layer PWR) (tedit 58645DF3) (tstamp 5F16429F)
-    (at 158.315201 299.619001)
+    (at 184.883601 340.462201)
     (descr "Diode SMB (DO-214AA)")
     (tags "Diode SMB (DO-214AA)")
     (path /5F507ADF/5F660D55)
@@ -5625,7 +5625,7 @@
   )
 
   (module Fuse:Fuse_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1642B0)
-    (at 115.325201 290.989001)
+    (at 141.893601 331.832201)
     (descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5EF2D2AA)
@@ -5661,7 +5661,7 @@
   )
 
   (module Fuse:Fuse_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1642C1)
-    (at 127.355201 314.999001)
+    (at 153.923601 355.842201)
     (descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F036479)
@@ -5697,7 +5697,7 @@
   )
 
   (module Fuse:Fuse_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1642D2)
-    (at 137.815201 303.119001)
+    (at 164.383601 343.962201)
     (descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F333835)
@@ -5733,7 +5733,7 @@
   )
 
   (module Fuse:Fuse_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1642E3)
-    (at 155.535201 289.539001)
+    (at 182.103601 330.382201)
     (descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/6005EFCE)
@@ -5769,7 +5769,7 @@
   )
 
   (module Inductor_SMD:L_0603_1608Metric (layer PWR) (tedit 5B301BBE) (tstamp 5F1642F4)
-    (at 127.355201 312.489001)
+    (at 153.923601 353.332201)
     (descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags inductor)
     (path /5ECF165A/5F101BAA)
@@ -5805,7 +5805,7 @@
   )
 
   (module Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical (layer PWR) (tedit 59FED6E3) (tstamp 5F164315)
-    (at 95.935201 316.379001)
+    (at 122.503601 357.222201)
     (descr "Through hole straight pin header, 2x03, 1.27mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 1.27mm double row")
     (path /5ECF165A/5F0B398D)
@@ -5860,7 +5860,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:PA5005 (layer PWR) (tedit 5F133180) (tstamp 5F16431F)
-    (at 106.120201 285.214001)
+    (at 132.688601 326.057201)
     (path /5ECF1AA9/5F99F756)
     (fp_text reference L101 (at -1 -4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5879,7 +5879,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer PWR) (tedit 5A02FF57) (tstamp 5F164334)
-    (at 125.085201 272.019001)
+    (at 151.653601 312.862201)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5ECF1AA9/5F2CBD96)
@@ -5920,7 +5920,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer PWR) (tedit 5A02FF57) (tstamp 5F164349)
-    (at 130.695201 268.729001)
+    (at 157.263601 309.572201)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5ECF1AA9/5F2D4B20)
@@ -5961,7 +5961,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:AON2406 (layer PWR) (tedit 5F131AEC) (tstamp 5F164356)
-    (at 183.795401 283.039)
+    (at 210.363801 323.8822)
     (path /5ECF181C/5F94261B)
     (fp_text reference Q301 (at -1.8796 -0.7112 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5989,7 +5989,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:AON2406 (layer PWR) (tedit 5F131AEC) (tstamp 5F164363)
-    (at 187.805401 278.019)
+    (at 214.373801 318.8622)
     (path /5ECF181C/5F398DB2)
     (fp_text reference Q302 (at -1.8796 -0.7112 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6017,7 +6017,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:AON2406 (layer PWR) (tedit 5F131AEC) (tstamp 5F164370)
-    (at 179.785401 285.549)
+    (at 206.353801 326.3922)
     (path /5ECF181C/5F399620)
     (fp_text reference Q303 (at -1.8796 -0.7112 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6045,7 +6045,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer PWR) (tedit 5A02FF57) (tstamp 5F164385)
-    (at 152.925201 315.079001)
+    (at 179.493601 355.922201)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5F507ADF/5F2F37E6)
@@ -6086,7 +6086,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer PWR) (tedit 5A02FF57) (tstamp 5F16439A)
-    (at 161.775201 304.669001)
+    (at 188.343601 345.512201)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5F507ADF/5F2F37DF)
@@ -6127,7 +6127,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:CSD1757Q5B (layer PWR) (tedit 5F1367B6) (tstamp 5F1643A7)
-    (at 149.3662 310.044)
+    (at 175.9346 350.8872)
     (path /5F507ADF/5F516A81)
     (fp_text reference Q403 (at -6 -4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6156,7 +6156,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1643B8)
-    (at 177.205201 315.669001)
+    (at 203.773601 356.512201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F1A032A)
@@ -6192,7 +6192,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1643C9)
-    (at 169.185201 308.909001)
+    (at 195.753601 349.752201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/600F85DF)
@@ -6228,7 +6228,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1643DA)
-    (at 181.215201 310.649001)
+    (at 207.783601 351.492201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/600FACB1)
@@ -6264,7 +6264,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1643EB)
-    (at 177.205201 313.159001)
+    (at 203.773601 354.002201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/6012A322)
@@ -6300,7 +6300,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1643FC)
-    (at 173.195201 315.669001)
+    (at 199.763601 356.512201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/6012A328)
@@ -6336,7 +6336,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16440D)
-    (at 117.845201 322.219001)
+    (at 144.413601 363.062201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F1D87DA)
@@ -6372,7 +6372,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16441E)
-    (at 134.815201 305.629001)
+    (at 161.383601 346.472201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F1DA09F)
@@ -6408,7 +6408,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16442F)
-    (at 123.345201 317.589001)
+    (at 149.913601 358.432201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5FDF3742)
@@ -6444,7 +6444,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164440)
-    (at 123.345201 315.079001)
+    (at 149.913601 355.922201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5FBDF5FC)
@@ -6480,7 +6480,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164451)
-    (at 130.805201 308.139001)
+    (at 157.373601 348.982201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/6031414E)
@@ -6516,7 +6516,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164462)
-    (at 138.905201 300.609001)
+    (at 165.473601 341.452201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/60313DEF)
@@ -6552,7 +6552,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164473)
-    (at 130.805201 305.629001)
+    (at 157.373601 346.472201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/6003BC21)
@@ -6588,7 +6588,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164484)
-    (at 117.525201 282.259001)
+    (at 144.093601 323.102201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F99F6E7)
@@ -6624,7 +6624,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164495)
-    (at 135.925201 277.749001)
+    (at 162.493601 318.592201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F99F6ED)
@@ -6660,7 +6660,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1644A6)
-    (at 132.075201 286.029001)
+    (at 158.643601 326.872201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F6A0E37)
@@ -6696,7 +6696,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1644B7)
-    (at 137.575201 280.259001)
+    (at 164.143601 321.102201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F6A18AE)
@@ -6732,7 +6732,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1644C8)
-    (at 139.935201 277.749001)
+    (at 166.503601 318.592201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F6B6BE1)
@@ -6768,7 +6768,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1644D9)
-    (at 123.345201 292.299001)
+    (at 149.913601 333.142201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F99F6F9)
@@ -6804,7 +6804,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1644EA)
-    (at 128.065201 288.619001)
+    (at 154.633601 329.462201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F917ABC)
@@ -6840,7 +6840,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1644FB)
-    (at 119.335201 292.299001)
+    (at 145.903601 333.142201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F6B7098)
@@ -6876,7 +6876,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16450C)
-    (at 111.315201 290.989001)
+    (at 137.883601 331.832201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F99F705)
@@ -6912,7 +6912,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16451D)
-    (at 140.295201 275.239001)
+    (at 166.863601 316.082201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F179DED)
@@ -6948,7 +6948,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16452E)
-    (at 128.065201 286.109001)
+    (at 154.633601 326.952201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F39B143)
@@ -6984,7 +6984,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16453F)
-    (at 133.565201 280.569001)
+    (at 160.133601 321.412201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F37B880)
@@ -7020,7 +7020,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164550)
-    (at 124.055201 289.789001)
+    (at 150.623601 330.632201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F1508B2)
@@ -7056,7 +7056,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164561)
-    (at 125.545201 283.599001)
+    (at 152.113601 324.442201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F14F9BC)
@@ -7092,7 +7092,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164572)
-    (at 133.565201 283.079001)
+    (at 160.133601 323.922201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F150C37)
@@ -7128,7 +7128,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164583)
-    (at 96.615201 290.049001)
+    (at 123.183601 330.892201)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F99F7BA)
@@ -7164,7 +7164,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164594)
-    (at 136.285201 275.239001)
+    (at 162.853601 316.082201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F1C9AD1)
@@ -7200,7 +7200,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1645A5)
-    (at 137.375201 270.219001)
+    (at 163.943601 311.062201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F1C9AD8)
@@ -7236,7 +7236,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1645B6)
-    (at 121.535201 282.259001)
+    (at 148.103601 323.102201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F59CD96)
@@ -7272,7 +7272,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1645C7)
-    (at 120.045201 287.279001)
+    (at 146.613601 328.122201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F577ADC)
@@ -7308,7 +7308,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1645D8)
-    (at 125.545201 281.089001)
+    (at 152.113601 321.932201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F2F9BC4)
@@ -7344,7 +7344,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1645E9)
-    (at 125.665201 268.099001)
+    (at 152.233601 308.942201)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F0BB36A)
@@ -7380,7 +7380,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1645FA)
-    (at 132.275201 274.849001)
+    (at 158.843601 315.692201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F1FB7C9)
@@ -7416,7 +7416,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16460B)
-    (at 138.935201 267.709001)
+    (at 165.503601 308.552201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F3F6310)
@@ -7452,7 +7452,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16461C)
-    (at 121.535201 284.769001)
+    (at 148.103601 325.612201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F1FF9AB)
@@ -7488,7 +7488,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16462D)
-    (at 117.845201 319.709001)
+    (at 144.413601 360.552201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F98BD35)
@@ -7524,7 +7524,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16463E)
-    (at 123.345201 312.569001)
+    (at 149.913601 353.412201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F8536AF)
@@ -7560,7 +7560,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16464F)
-    (at 130.885201 298.099001)
+    (at 157.453601 338.942201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F8AD5AF)
@@ -7596,7 +7596,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164660)
-    (at 134.815201 308.139001)
+    (at 161.383601 348.982201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F646D41)
@@ -7632,7 +7632,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164671)
-    (at 127.355201 317.509001)
+    (at 153.923601 358.352201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F026134)
@@ -7668,7 +7668,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164682)
-    (at 122.785201 307.549001)
+    (at 149.353601 348.392201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F0B04FA)
@@ -7704,7 +7704,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164693)
-    (at 115.325201 314.689001)
+    (at 141.893601 355.532201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F7BDE04)
@@ -7740,7 +7740,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1646A4)
-    (at 109.825201 320.589001)
+    (at 136.393601 361.432201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F6139F5)
@@ -7776,7 +7776,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1646B5)
-    (at 105.815201 320.589001)
+    (at 132.383601 361.432201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F612BB1)
@@ -7812,7 +7812,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1646C6)
-    (at 118.775201 308.749001)
+    (at 145.343601 349.592201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F612773)
@@ -7848,7 +7848,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1646D7)
-    (at 111.315201 315.049001)
+    (at 137.883601 355.892201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F611BFF)
@@ -7884,7 +7884,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1646E8)
-    (at 121.735201 305.039001)
+    (at 148.303601 345.882201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F7A61F9)
@@ -7920,7 +7920,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1646F9)
-    (at 125.785201 302.449001)
+    (at 152.353601 343.292201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F21F043)
@@ -7956,7 +7956,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16470A)
-    (at 138.825201 305.629001)
+    (at 165.393601 346.472201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F2258CF)
@@ -7992,7 +7992,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16471B)
-    (at 133.805201 303.119001)
+    (at 160.373601 343.962201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F604D3D)
@@ -8028,7 +8028,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16472C)
-    (at 131.365201 313.159001)
+    (at 157.933601 354.002201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F605774)
@@ -8064,7 +8064,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16473D)
-    (at 131.365201 310.649001)
+    (at 157.933601 351.492201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F605934)
@@ -8100,7 +8100,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16474E)
-    (at 121.855201 322.609001)
+    (at 148.423601 363.452201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5F605B72)
@@ -8136,7 +8136,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16475F)
-    (at 121.855201 320.099001)
+    (at 148.423601 360.942201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF165A/5FBC82AA)
@@ -8172,7 +8172,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164770)
-    (at 187.845201 267.709001)
+    (at 214.413601 308.552201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F02A25C)
@@ -8208,7 +8208,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164781)
-    (at 179.155201 275.239001)
+    (at 205.723601 316.082201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F02A256)
@@ -8244,7 +8244,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164792)
-    (at 168.235201 285.149001)
+    (at 194.803601 325.992201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5EFA7ECB)
@@ -8280,7 +8280,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1647A3)
-    (at 183.835201 270.219001)
+    (at 210.403601 311.062201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5EEFDC14)
@@ -8316,7 +8316,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1647B4)
-    (at 172.245201 280.259001)
+    (at 198.813601 321.102201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F9424F6)
@@ -8352,7 +8352,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1647C5)
-    (at 163.555201 289.539001)
+    (at 190.123601 330.382201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F9424F0)
@@ -8388,7 +8388,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1647D6)
-    (at 172.245201 277.749001)
+    (at 198.813601 318.592201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F02A291)
@@ -8424,7 +8424,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1647E7)
-    (at 179.155201 272.729001)
+    (at 205.723601 313.572201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F02A28B)
@@ -8460,7 +8460,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1647F8)
-    (at 183.835201 267.709001)
+    (at 210.403601 308.552201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F942689)
@@ -8496,7 +8496,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164809)
-    (at 175.145201 275.239001)
+    (at 201.713601 316.082201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F00C16C)
@@ -8532,7 +8532,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16481A)
-    (at 168.235201 282.639001)
+    (at 194.803601 323.482201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F00C166)
@@ -8568,7 +8568,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16482B)
-    (at 187.845201 270.219001)
+    (at 214.413601 311.062201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F942693)
@@ -8604,7 +8604,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16483C)
-    (at 171.575201 290.299001)
+    (at 198.143601 331.142201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F134029)
@@ -8640,7 +8640,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16484D)
-    (at 176.255201 277.749001)
+    (at 202.823601 318.592201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F02A2C6)
@@ -8676,7 +8676,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16485E)
-    (at 151.525201 288.839001)
+    (at 178.093601 329.682201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F02A2C0)
@@ -8712,7 +8712,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16486F)
-    (at 171.805201 270.219001)
+    (at 198.373601 311.062201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F018372)
@@ -8748,7 +8748,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164880)
-    (at 156.205201 287.029001)
+    (at 182.773601 327.872201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F01836C)
@@ -8784,7 +8784,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164891)
-    (at 167.565201 288.539001)
+    (at 194.133601 329.382201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F9425BD)
@@ -8820,7 +8820,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1648A2)
-    (at 167.125201 275.109001)
+    (at 193.693601 315.952201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F942596)
@@ -8856,7 +8856,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1648B3)
-    (at 172.245201 285.279001)
+    (at 198.813601 326.122201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F942633)
@@ -8892,7 +8892,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1648C4)
-    (at 180.265201 277.749001)
+    (at 206.833601 318.592201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F9425F5)
@@ -8928,7 +8928,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1648D5)
-    (at 183.165201 275.239001)
+    (at 209.733601 316.082201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F942621)
@@ -8964,7 +8964,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1648E6)
-    (at 176.255201 282.769001)
+    (at 202.823601 323.612201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F9425E3)
@@ -9000,7 +9000,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1648F7)
-    (at 187.175201 272.729001)
+    (at 213.743601 313.572201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F9425AB)
@@ -9036,7 +9036,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164908)
-    (at 176.255201 280.259001)
+    (at 202.823601 321.102201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F47B39E)
@@ -9072,7 +9072,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164919)
-    (at 180.265201 280.259001)
+    (at 206.833601 321.102201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F479DB0)
@@ -9108,7 +9108,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16492A)
-    (at 172.245201 282.769001)
+    (at 198.813601 323.612201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F94253F)
@@ -9144,7 +9144,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16493B)
-    (at 176.255201 285.279001)
+    (at 202.823601 326.122201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F942545)
@@ -9180,7 +9180,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16494C)
-    (at 184.275201 277.749001)
+    (at 210.843601 318.592201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F94252D)
@@ -9216,7 +9216,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16495D)
-    (at 187.175201 275.239001)
+    (at 213.743601 316.082201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F942514)
@@ -9252,7 +9252,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16496E)
-    (at 149.855201 285.139001)
+    (at 176.423601 325.982201)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F942615)
@@ -9288,7 +9288,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F16497F)
-    (at 161.205201 268.899001)
+    (at 187.773601 309.742201)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F120537)
@@ -9324,7 +9324,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164990)
-    (at 149.855201 280.249001)
+    (at 176.423601 321.092201)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5F123EDD)
@@ -9360,7 +9360,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1649A1)
-    (at 170.355201 303.559001)
+    (at 196.923601 344.402201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/6009945C)
@@ -9396,7 +9396,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1649B2)
-    (at 161.165201 313.659001)
+    (at 187.733601 354.502201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F8C5007)
@@ -9432,7 +9432,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1649C3)
-    (at 168.595201 306.399001)
+    (at 195.163601 347.242201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/600BEF7C)
@@ -9468,7 +9468,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1649D4)
-    (at 164.585201 308.199001)
+    (at 191.153601 349.042201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F8C5970)
@@ -9504,7 +9504,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1649E5)
-    (at 174.365201 300.609001)
+    (at 200.933601 341.452201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/600A3F73)
@@ -9540,7 +9540,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F1649F6)
-    (at 174.365201 305.629001)
+    (at 200.933601 346.472201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/600A7F2D)
@@ -9576,7 +9576,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164A07)
-    (at 165.175201 313.219001)
+    (at 191.743601 354.062201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5EF47A10)
@@ -9612,7 +9612,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164A18)
-    (at 174.365201 303.119001)
+    (at 200.933601 343.962201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F189C25)
@@ -9648,7 +9648,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164A29)
-    (at 165.175201 310.709001)
+    (at 191.743601 351.552201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F5B9B09)
@@ -9684,7 +9684,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164A3A)
-    (at 157.155201 313.189001)
+    (at 183.723601 354.032201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F5DCBBD)
@@ -9720,7 +9720,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164A4B)
-    (at 157.155201 315.699001)
+    (at 183.723601 356.542201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F718925)
@@ -9756,7 +9756,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164A5C)
-    (at 149.795201 299.289001)
+    (at 176.363601 340.132201)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F702E62)
@@ -9792,7 +9792,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164A6D)
-    (at 161.165201 316.169001)
+    (at 187.733601 357.012201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F507ADF/5F71892C)
@@ -9828,7 +9828,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164A7E)
-    (at 124.055201 287.279001)
+    (at 150.623601 328.122201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F19E549)
@@ -9864,7 +9864,7 @@
   )
 
   (module Button_Switch_SMD:SW_SPST_B3U-1000P (layer PWR) (tedit 5A02FC95) (tstamp 5F164A94)
-    (at 111.805201 299.019001)
+    (at 138.373601 339.862201)
     (descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
     (tags "Tactile Switch")
     (path /5ECF165A/5F9537F7)
@@ -9905,7 +9905,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:CHS-01TB (layer PWR) (tedit 5F132D06) (tstamp 5F164A9C)
-    (at 107.050201 298.144)
+    (at 133.618601 338.9872)
     (path /5ECF165A/5F302C61)
     (fp_text reference SW202 (at -5.8674 -7.2898) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9922,7 +9922,7 @@
   )
 
   (module Button_Switch_SMD:SW_SPST_B3U-1000P (layer PWR) (tedit 5A02FC95) (tstamp 5F164AB2)
-    (at 105.185201 310.429001)
+    (at 131.753601 351.272201)
     (descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
     (tags "Tactile Switch")
     (path /5ECF165A/5F646D3B)
@@ -9963,7 +9963,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164AC3)
-    (at 120.045201 289.789001)
+    (at 146.613601 330.632201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF1AA9/5F577AE2)
@@ -9999,7 +9999,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164AD4)
-    (at 180.265201 282.769001)
+    (at 206.833601 323.612201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5FF9E1BB)
@@ -10035,7 +10035,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164AE5)
-    (at 175.585201 287.789001)
+    (at 202.153601 328.632201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5FFA99C5)
@@ -10071,7 +10071,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164AF6)
-    (at 184.275201 280.259001)
+    (at 210.843601 321.102201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5FFA3351)
@@ -10107,7 +10107,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164B07)
-    (at 171.575201 287.789001)
+    (at 198.143601 328.632201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5FFC7345)
@@ -10143,7 +10143,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164B18)
-    (at 164.225201 286.029001)
+    (at 190.793601 326.872201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5FFA6C6F)
@@ -10179,7 +10179,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer PWR) (tedit 5B301BBD) (tstamp 5F164B29)
-    (at 183.165201 272.729001)
+    (at 209.733601 313.572201)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECF181C/5FFCCD78)
@@ -10215,7 +10215,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B31)
-    (at 140.905201 270.489001)
+    (at 167.473601 311.332201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF1AA9/5FA3EAF1)
@@ -10236,7 +10236,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B39)
-    (at 127.585201 291.399001)
+    (at 154.153601 332.242201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF1AA9/5FB46CF0)
@@ -10257,7 +10257,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B41)
-    (at 137.095201 283.039001)
+    (at 163.663601 323.882201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF1AA9/5FA86C77)
@@ -10278,7 +10278,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B49)
-    (at 133.935201 317.519001)
+    (at 160.503601 358.362201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF165A/5F8A3520)
@@ -10299,7 +10299,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B51)
-    (at 138.585201 308.409001)
+    (at 165.153601 349.252201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF165A/5F8A2F41)
@@ -10320,7 +10320,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B59)
-    (at 128.435201 320.289001)
+    (at 155.003601 361.132201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF165A/5F89EE00)
@@ -10341,7 +10341,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B61)
-    (at 134.895201 314.469001)
+    (at 161.463601 355.312201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF165A/5F932DA4)
@@ -10362,7 +10362,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer PWR) (tedit 5A0F774F) (tstamp 5F164B6E)
-    (at 117.555201 305.319001)
+    (at 144.123601 346.162201)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5ECF165A/5F65B139)
@@ -10392,7 +10392,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer PWR) (tedit 5A0F774F) (tstamp 5F164B7B)
-    (at 122.655201 299.019001)
+    (at 149.223601 339.862201)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5ECF165A/5F65AE1D)
@@ -10422,7 +10422,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B83)
-    (at 130.885201 315.939001)
+    (at 157.453601 356.782201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF165A/5F65AB77)
@@ -10443,7 +10443,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer PWR) (tedit 5A0F774F) (tstamp 5F164B8B)
-    (at 125.385201 320.369001)
+    (at 151.953601 361.212201)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5ECF165A/5F65681B)
@@ -10464,7 +10464,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23-5 (layer PWR) (tedit 5A02FF57) (tstamp 5F164BA0)
-    (at 155.745201 309.609001)
+    (at 182.313601 350.452201)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5F507ADF/5FF33ECB)
@@ -10507,7 +10507,7 @@
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer PWR) (tedit 5D9F72B1) (tstamp 5F164BBA)
-    (at 98.035201 311.479001)
+    (at 124.603601 352.322201)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (path /5ECF165A/5FD74D99)
@@ -10558,7 +10558,7 @@
   )
 
   (module Package_TO_SOT_SMD:TO-252-4 (layer PWR) (tedit 5A70FD02) (tstamp 5F164BE6)
-    (at 97.3836 268.6558 90)
+    (at 123.952 309.499 90)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/")
     (tags "DPAK TO-252 DPAK-5 TO-252-5")
     (path /5ECF1AA9/5EF58977)
@@ -10624,7 +10624,7 @@
   )
 
   (module Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias (layer PWR) (tedit 5C1BF39E) (tstamp 5F164C22)
-    (at 113.8936 276.9108)
+    (at 140.462 317.754)
     (descr "VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
     (tags "VQFN DFN_QFN")
     (path /5ECF1AA9/5F99F765)
@@ -10749,7 +10749,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23-5 (layer PWR) (tedit 5A02FF57) (tstamp 5F164C37)
-    (at 119.425201 275.729001)
+    (at 145.993601 316.572201)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5ECF1AA9/5F1C9ABC)
@@ -10792,7 +10792,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:CSD87331Q3D (layer PWR) (tedit 5F137482) (tstamp 5F164C48)
-    (at 113.0102 281.944)
+    (at 139.5786 322.7872)
     (path /5ECF1AA9/5F99F74F)
     (fp_text reference U103 (at -4.74 -6.53) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10828,7 +10828,7 @@
   )
 
   (module Package_QFP:LQFP-32_7x7mm_P0.8mm (layer PWR) (tedit 5D9F72AF) (tstamp 5F164C93)
-    (at 98.2472 301.6758)
+    (at 124.8156 342.519)
     (descr "LQFP, 32 Pin (https://www.nxp.com/docs/en/package-information/SOT358-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "LQFP QFP")
     (path /5ECF165A/5F979A61)
@@ -10952,7 +10952,7 @@
   )
 
   (module Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm (layer PWR) (tedit 5DC5FB10) (tstamp 5F164CAC)
-    (at 135.215201 311.169001)
+    (at 161.783601 352.012201)
     (descr "WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "WSON NoLead")
     (path /5ECF165A/5F2E9FB6)
@@ -11001,7 +11001,7 @@
   )
 
   (module Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_ThermalVias (layer PWR) (tedit 5DC5FE74) (tstamp 5F164D22)
-    (at 149.4282 269.9004)
+    (at 175.9966 310.7436)
     (descr "LQFP, 48 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "LQFP QFP")
     (path /5ECF181C/5F942699)
@@ -11267,7 +11267,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:6SON-TI (layer PWR) (tedit 5F13153B) (tstamp 5F164D2D)
-    (at 181.219601 300.650601)
+    (at 207.788001 341.493801)
     (path /5F507ADF/5F83B2CA)
     (fp_text reference U401 (at -1.905 -4.445) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11290,7 +11290,7 @@
   )
 
   (module Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm (layer PWR) (tedit 5A68DC49) (tstamp 5F164D4A)
-    (at 148.075201 314.629001)
+    (at 174.643601 355.472201)
     (descr "8-Lead Plastic Dual Flat, No Lead Package (8MA2) - 2x3x0.6 mm Body [UDFN] (see Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf)")
     (tags "DFN 0.5")
     (path /5F507ADF/5F8ACBB7)
@@ -11341,7 +11341,7 @@
   )
 
   (module Package_DFN_QFN:DFN-8_2x2mm_P0.5mm (layer PWR) (tedit 5A0AA2C0) (tstamp 5F164D62)
-    (at 166.175201 303.269001)
+    (at 192.743601 344.112201)
     (descr "DFN8 2x2, 0.5P; No exposed pad - Ref http://pdfserv.maximintegrated.com/land_patterns/90-0349.PDF")
     (tags "DFN 0.5")
     (path /5F507ADF/5F1522B9)
@@ -11390,7 +11390,7 @@
   )
 
   (module Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm (layer PWR) (tedit 5DC5F54E) (tstamp 5F164D81)
-    (at 165.135201 299.119001)
+    (at 191.703601 339.962201)
     (descr "DFN, 10 Pin (https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "DFN NoLead")
     (path /5F507ADF/5EF13715)
@@ -11448,7 +11448,7 @@
   )
 
   (module CHUM_BUCKET_FOOTPRINTS:ECX-1048 (layer PWR) (tedit 5F132F16) (tstamp 5F164D8A)
-    (at 140.786601 302.614)
+    (at 167.355001 343.4572)
     (path /5ECF165A/5F247B43)
     (fp_text reference Y201 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11613,12 +11613,12 @@
 
   (gr_arc (start 81.8 34) (end 81.8 31) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F19DCFC))
   (gr_arc (start 206.5 34) (end 209.5 34) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F1684FC))
-  (gr_arc (start 206.5 247) (end 206.5 250) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F167D75))
-  (gr_arc (start 81.8 247) (end 78.8 247) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F1675F3))
-  (gr_line (start 81.8 250) (end 206.5 250) (layer Edge.Cuts) (width 0.05) (tstamp 5F166E3F))
-  (gr_line (start 78.8 34) (end 78.8 247) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 206.5 248) (end 206.5 251) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F167D75))
+  (gr_arc (start 81.8 248) (end 78.8 248) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F1675F3))
+  (gr_line (start 81.8 251) (end 206.5 251) (layer Edge.Cuts) (width 0.05) (tstamp 5F166E3F))
+  (gr_line (start 78.8 34) (end 78.8 248) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 206.5 31) (end 81.8 31) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 209.5 247) (end 209.5 34) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 209.5 248) (end 209.5 34) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 198.25 120) (end 194.765 120) (width 0.25) (layer PWR) (net 6))
 
