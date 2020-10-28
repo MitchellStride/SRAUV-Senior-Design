@@ -1,0 +1,27 @@
+* D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\Full Bridge Simple.asc
+S1 N001 Vin SW1 0 MSW
+S2 0 N001 SW2 0 MSW
+S3 0 N005 SW1 0 MSW
+S4 N005 Vin SW2 0 MSW
+C3 Vin 0 5000µ Rser=0.001 Lser=1n
+V1 Vin 0 24 Rser=0.1
+L1 N002 N005 5.8µ Rser=12m
+L2 N003 N006 5.8µ Rser=12m
+D1 N004 Vout DI
+D2 0 N004 DI
+D3 N006 Vout DI
+D4 0 N006 DI
+C4 Vout 0 1000µ Rser=0.01 Lser=1n
+V2 SW1 0 PULSE(0 1 0 1n 1n 5.2u 10.4u)
+A1 SW1 0 0 0 0 SW2 0 0 BUF
+C1 N002 N001 380n Rser=10m Lser=1n
+C2 N004 N003 380n Rser=10m Lser=1n
+R1 Vout 0 2.25
+.model D D
+.lib C:\Users\markb\Documents\LTspiceXVII\lib\cmp\standard.dio
+K L1 L2 0.7
+.tran 0 50m 1m 50n
+.model MSW SW(Ron=0.001 Roff=1Meg Vt=.5)
+.model DI D(Ron=0.01 Roff=10Meg Vfwd=0.3 Vrev=1000)
+.backanno
+.end
