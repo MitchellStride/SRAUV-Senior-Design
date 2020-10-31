@@ -1,0 +1,23 @@
+Circuit: * D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\TX RX Complex.asc
+
+C4: Increased Cpar to 1.5e-009
+C3: Increased Cpar to 2.5e-009
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Oct 31 02:10:35 2020
+Total elapsed time: 21.862 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3004540
+traniter = 3004536
+tranpoints = 1468683
+accept = 1289943
+rejected = 178740
+matrix size = 19
+fillins = 8
+solver = Normal
+Matrix Compiler1: 1.33 KB object code size  0.3/0.1/[0.1]
+Matrix Compiler2: 1.41 KB object code size  0.1/0.2/[0.1]
+

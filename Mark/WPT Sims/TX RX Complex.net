@@ -1,0 +1,37 @@
+* D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\TX RX Complex.asc
+S1 N002 N001 SW1 0 MSW
+S2 0 N002 SW2 0 MSW
+S3 0 N007 SW1 0 MSW
+S4 N007 N001 SW2 0 MSW
+C3 N001 0 2500µ Rser=0.001 Lser=1n
+V1 N001 0 24 Rser=0.1
+L1 N003 N007 5.8µ Rser=12m
+L2 N004 N008 5.8µ Rser=12m
+D1 N005 Vout DI
+D2 0 N005 DI
+D3 N008 Vout DI
+D4 0 N008 DI
+C4 Vout 0 1500µ Rser=1m Lser=0.1n
+V2 SW1 0 PULSE(0 12 0 1n 1n 5.2u 10.4u)
+A1 SW1 0 0 0 0 SW2 0 0 BUF
+C1 N003 N002 380n Rser=10m
+C2 N005 N004 380n Rser=10m
+R1 Vout N006 10
+R2 Vout N009 2.25
+S5 0 N006 VOCP 0 MSW
+R3 Vout N006 10
+S6 0 N009 Vcharge 0 MSW
+V3 Vcharge 0 PULSE(0 5 50ms 1n 1n 1 1)
+A3 Vout 0 0 0 0 0 N010 0 SCHMITT Vhigh=12 Vt=22 Vh=1 Trise=.1u Tfall=.1u
+R4 VOCP N010 100
+C6 VOCP 0 10n
+R5 Vout N006 10
+R6 Vout N006 10
+.model D D
+.lib C:\Users\markb\Documents\LTspiceXVII\lib\cmp\standard.dio
+K L1 L2 0.7
+.tran 0 75m 0 100n
+.model MSW SW(Ron=0.001 Roff=1Meg Vt=.5)
+.model DI D(Ron=0.01 Roff=10Meg Vfwd=0.3 Vrev=1000)
+.backanno
+.end
