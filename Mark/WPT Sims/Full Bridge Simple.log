@@ -1,22 +1,20 @@
 Circuit: * D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\Full Bridge Simple.asc
 
-C2: Increased Cpar to 3.8e-013
-C1: Increased Cpar to 3.8e-013
-C4: Increased Cpar to 1e-009
-C3: Increased Cpar to 5e-009
+C4: Increased Cpar to 1.5e-009
+C3: Increased Cpar to 2.5e-009
 Direct Newton iteration for .op point succeeded.
 
-Date: Wed Oct 28 00:35:39 2020
-Total elapsed time: 13.549 seconds.
+Date: Sat Oct 31 00:01:08 2020
+Total elapsed time: 9.027 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3023584
-traniter = 3023580
-tranpoints = 1486350
-accept = 1348306
-rejected = 138044
+totiter = 3000847
+traniter = 3000843
+tranpoints = 1470991
+accept = 1290536
+rejected = 180455
 matrix size = 13
 fillins = 8
 solver = Normal
