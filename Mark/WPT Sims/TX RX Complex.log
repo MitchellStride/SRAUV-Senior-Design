@@ -1,6 +1,6 @@
 Circuit: * D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\TX RX Complex.asc
 
-C4: Increased Cpar to 1.5e-009
+C4: Increased Cpar to 1e-009
 C3: Increased Cpar to 2.5e-009
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -37,22 +37,88 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
+Heightened Def Con from 0.00867659 to 0.00867659
+Heightened Def Con from 0.0104124 to 0.0104124
+Heightened Def Con from 0.0116063 +++to 0.0116063
+Heightened Def Con from 0.0116063 to 0.0116063
+Heightened Def Con from 0.0118778 ++++to 0.0118778
+Heightened Def Con from 0.0130714 to 0.0130714
+Heightened Def Con from 0.0130714 +++++to 0.0130714
+Heightened Def Con from 0.0130714 to 0.0130714
+Heightened Def Con from 0.0130724 ++++++++++++++++++to 0.0130724
+Heightened Def Con from 0.013343 to 0.013343
+Heightened Def Con from 0.014536 to 0.014536
+Heightened Def Con from 0.014536 to 0.014536
+Heightened Def Con from 0.014536 to 0.014536
+Heightened Def Con from 0.0148067 ++to 0.0148067
+Heightened Def Con from 0.0148067 ++++++to 0.0148067
+Heightened Def Con from 0.0148067 to 0.0148067
+Heightened Def Con from 0.0174646 to 0.0174646
+Heightened Def Con from 0.0174646 to 0.0174646
+Heightened Def Con from 0.0174646 to 0.0174646
+Heightened Def Con from 0.0174646 to 0.0174646
+Heightened Def Con from 0.0177365 to 0.0177365
+Heightened Def Con from 0.0189307 to 0.0189307
+Heightened Def Con from 0.0189307 to 0.0189307
+Heightened Def Con from 0.0189307 to 0.0189307
+Heightened Def Con from 0.0189307 to 0.0189307
+Heightened Def Con from 0.0192022 +to 0.0192022
+Heightened Def Con from 0.0192022 to 0.0192022
+Heightened Def Con from 0.0203953 +to 0.0203953
+Heightened Def Con from 0.0203953 to 0.0203953
+Heightened Def Con from 0.0203963 to 0.0203963
+Heightened Def Con from 0.020667 ++to 0.020667
+Heightened Def Con from 0.0233247 +++to 0.0233247
+Heightened Def Con from 0.0233247 +++++to 0.0233247
+Heightened Def Con from 0.0233247 to 0.0233247
+Heightened Def Con from 0.0235938 to 0.0235938
+Heightened Def Con from 0.0235963 to 0.0235963
+Heightened Def Con from 0.0262555 ++++++++++++++++++to 0.0262555
+Heightened Def Con from 0.0265259 to 0.0265259
+Heightened Def Con from 0.0294554 to 0.0294554
+Heightened Def Con from 0.0306489 to 0.0306489
+Heightened Def Con from 0.0306489 to 0.0306489
+Heightened Def Con from 0.0321136 ++++++++++++++++++to 0.0321136
+Heightened Def Con from 0.0323842 to 0.0323842
+Heightened Def Con from 0.0338498 ++++to 0.0338498
+Heightened Def Con from 0.0338498 to 0.0338498
+Heightened Def Con from 0.035042 ++to 0.035042
+Heightened Def Con from 0.035042 to 0.035042
+Heightened Def Con from 0.035042 to 0.035042
+Heightened Def Con from 0.0367797 to 0.0367797
+Heightened Def Con from 0.0394369 to 0.0394369
+Heightened Def Con from 0.0394369 +to 0.0394369
+Heightened Def Con from 0.0394369 +++++to 0.0394369
+Heightened Def Con from 0.0394369 to 0.0394369
+Heightened Def Con from 0.0397085 to 0.0397085
+Heightened Def Con from 0.0423658 to 0.0423658
+Heightened Def Con from 0.0452959 +++++to 0.0452959
+Heightened Def Con from 0.0452959 to 0.0452959
+Heightened Def Con from 0.0452959 +to 0.0452959
+Heightened Def Con from 0.0470329 to 0.0470329
+Heightened Def Con from 0.0482265 to 0.0482265
+Heightened Def Con from 0.0482265 to 0.0482265
+Heightened Def Con from 0.0499617 ++to 0.0499617
+Heightened Def Con from 0.0499617 to 0.0499617
+Heightened Def Con from 0.0501649 to 0.0501649
+Heightened Def Con from 0.0501649 +++++to 0.0501649
+Heightened Def Con from 0.0501649 to 0.0501649
 
-Date: Mon Nov 02 01:02:51 2020
-Total elapsed time: 955.469 seconds.
+Date: Mon Nov 02 02:37:28 2020
+Total elapsed time: 859.395 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 8395615
-traniter = 8393603
-tranpoints = 4152630
-accept = 4057193
-rejected = 95437
+totiter = 8714392
+traniter = 8712380
+tranpoints = 4196746
+accept = 4089696
+rejected = 107227
 matrix size = 392
-fillins = 527
+fillins = 494
 solver = Normal
-Thread vector: 73.0/29.2[8] 31.8/12.1[8] 50.8/15.3[8] 2.2/6.6[1]  2592/500
-Matrix Compiler1: 44.33 KB object code size  53.4/37.3/[10.4]
-Matrix Compiler2: 35.92 KB object code size  15.5/14.9/[4.3]
+Thread vector: 30.9/18.0[8] 8.5/5.3[8] 35.6/11.7[8] 1.2/5.2[1]  2592/500
+Matrix Compiler1: 42.29 KB object code size  12.3/6.3/[3.0]
+Matrix Compiler2: 35.48 KB object code size  15.8/8.6/[2.2]
 

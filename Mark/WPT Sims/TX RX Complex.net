@@ -11,11 +11,11 @@ D1 N005 ISENO+ DI
 D2 0 N005 DI
 D3 N008 ISENO+ DI
 D4 0 N008 DI
-C4 ISENO+ 0 1500µ Rser=1m Lser=0.1n
-V2 N010 0 PULSE(0 12 0 1n 1n 5.2u 10.4u)
+C4 ISENO+ 0 1000µ Rser=1m Lser=0.1n
+V2 N010 0 PULSE(0 12 0 1n 1n 4.3u 9.6u)
 A1 SW1 0 0 0 0 SW2 0 0 BUF
-C1 N003 N002 380n Rser=10m
-C2 N005 N004 380n Rser=10m
+C1 N003 N002 400n Rser=38m
+C2 N005 N004 400n Rser=38m
 R1 Vout N006 10
 R2 Vout N009 2.25
 S5 0 N006 FaultOV 0 MSW
@@ -30,7 +30,7 @@ XX1 N014 ISEN+ ISEN- 0 0 5V 0 INA240A1
 V4 5V 0 5
 A2 FaultOL 0 0 0 0 !FaultOL 0 0 SRFLOP
 C5 ISEN 0 1µ
-R9 ISEN N014 1k
+R9 ISEN N014 2k
 S8 SW1 N010 !FaultOL 0 MSW
 R10 SW1 0 10k
 XU1 N011 Vref1 5V 0 FaultOV LMC6032
@@ -56,7 +56,7 @@ R21 Vout ISENO+ 0.005
 K L1 L2 0.7
 .tran 0 75m 0 20n
 .model MSW SW(Ron=0.001 Roff=1Meg Vt=.5)
-.model DI D(Ron=0.01 Roff=10Meg Vfwd=0.3 Vrev=1000)
+.model DI D(Ron=0.01 Roff=10Meg Vfwd=0.5 Vrev=1000)
 .inc D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\lib\ina240a1.lib
 * Turn off switching signal if open load fault. \nThis would be done with the TX micro in the real system
 .inc D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\lib\LMC6032.MOD
