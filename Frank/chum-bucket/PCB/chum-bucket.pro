@@ -1,4 +1,4 @@
-update=2020-10-24 5:40:57 PM
+update=2020-10-30 10:54:18 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Schematic_Export/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=39
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -29,15 +39,18 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.2
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.5
+ViaDrill2=0.3
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.12
-SilkTextSizeV=1
-SilkTextSizeH=1
-SilkTextSizeThickness=0.15
+SilkTextSizeV=0.5
+SilkTextSizeH=0.5
+SilkTextSizeThickness=0.12
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -64,11 +77,11 @@ Type=1
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=Signal.1
-Type=0
+Type=2
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=Signal.2
-Type=0
+Type=2
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
@@ -236,13 +249,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=Schematic_Export/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=39
-ERC_TestSimilarLabels=1
