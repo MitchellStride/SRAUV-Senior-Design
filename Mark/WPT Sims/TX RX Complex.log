@@ -2,22 +2,57 @@ Circuit: * D:\AUV Capstone\AUV-Senior-Design\Mark\WPT Sims\TX RX Complex.asc
 
 C4: Increased Cpar to 1.5e-009
 C3: Increased Cpar to 2.5e-009
-Direct Newton iteration for .op point succeeded.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.375229
+vernier = 0.888888
+vernier = 1
+Gmin = 0.0567082
+Gmin = 0.006089
+vernier = 0.5
+Gmin = 0.00102156
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 0.00099805
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100047
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
 
-Date: Sat Oct 31 02:10:35 2020
-Total elapsed time: 21.862 seconds.
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Mon Nov 02 01:02:51 2020
+Total elapsed time: 955.469 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3004540
-traniter = 3004536
-tranpoints = 1468683
-accept = 1289943
-rejected = 178740
-matrix size = 19
-fillins = 8
+totiter = 8395615
+traniter = 8393603
+tranpoints = 4152630
+accept = 4057193
+rejected = 95437
+matrix size = 392
+fillins = 527
 solver = Normal
-Matrix Compiler1: 1.33 KB object code size  0.3/0.1/[0.1]
-Matrix Compiler2: 1.41 KB object code size  0.1/0.2/[0.1]
+Thread vector: 73.0/29.2[8] 31.8/12.1[8] 50.8/15.3[8] 2.2/6.6[1]  2592/500
+Matrix Compiler1: 44.33 KB object code size  53.4/37.3/[10.4]
+Matrix Compiler2: 35.92 KB object code size  15.5/14.9/[4.3]
 
