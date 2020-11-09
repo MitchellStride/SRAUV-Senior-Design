@@ -104,8 +104,8 @@ Heightened Def Con from 0.0501649 to 0.0501649
 Heightened Def Con from 0.0501649 +++++to 0.0501649
 Heightened Def Con from 0.0501649 to 0.0501649
 
-Date: Mon Nov 02 02:37:28 2020
-Total elapsed time: 859.395 seconds.
+Date: Sat Nov 07 20:21:03 2020
+Total elapsed time: 946.203 seconds.
 
 tnom = 27
 temp = 27
@@ -118,7 +118,7 @@ rejected = 107227
 matrix size = 392
 fillins = 494
 solver = Normal
-Thread vector: 30.9/18.0[8] 8.5/5.3[8] 35.6/11.7[8] 1.2/5.2[1]  2592/500
-Matrix Compiler1: 42.29 KB object code size  12.3/6.3/[3.0]
-Matrix Compiler2: 35.48 KB object code size  15.8/8.6/[2.2]
+Thread vector: 46.4/20.6[8] 21.1/5.6[8] 36.9/5.4[8] 1.6/18.1[1]  2592/500
+Matrix Compiler1: 42.29 KB object code size  19.3/9.2/[3.5]
+Matrix Compiler2: 35.48 KB object code size  14.9/25.4/[2.5]
 

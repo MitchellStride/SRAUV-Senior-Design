@@ -1,4 +1,4 @@
-894134985986291
+903784211102184
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -54202,12 +54202,54 @@ RV_Disc_D21.5_W11.4_P10
 0
 0
 WPT_TX
+Crystal_SMD_3215-2pin_3.2x1.5mm
+SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf
+SMD SMT Crystal
+0
+2
+2
+WPT_TX
+LM5106SD
+
+
+0
+16
+12
+WPT_TX
+MUNLOGO
+
+
+0
+0
+0
+WPT_TX
+NetTie-2_SMD_Pad0.25mm
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+2
+WPT_TX
+OSCCC320X250
+
+
+0
+4
+3
+WPT_TX
+R_2512_Sense
+Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 2512
+0
+2
+2
+WPT_TX
 TDSON-8-1
 Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
 tdson 
 0
-13
-5
+9
+3
 Wire_Connections_Bridges
 WireConnection_0.80mmDrill
 
