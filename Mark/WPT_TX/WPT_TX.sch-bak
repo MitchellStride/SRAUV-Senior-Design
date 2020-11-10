@@ -3694,7 +3694,7 @@ Wire Wire Line
 	2100 1100 3375 1100
 Connection ~ 2100 2600
 Wire Wire Line
-	2100 2600 7650 2600
+	2100 2600 5350 2600
 Wire Wire Line
 	4925 1100 5025 1100
 Wire Wire Line
@@ -3703,7 +3703,7 @@ Wire Wire Line
 	5025 1200 5025 1100
 Connection ~ 5025 1100
 Wire Wire Line
-	5025 1100 7650 1100
+	5025 1100 5350 1100
 Wire Wire Line
 	8925 1100 10300 1100
 Wire Wire Line
@@ -4547,4 +4547,114 @@ F 4 "RHM680DCT-ND" H 5800 4600 50  0001 C CNN "Digikey"
 $EndComp
 Text Notes 3550 3500 0    50   ~ 10
 LED Indicators
+$Comp
+L Device:CP1 C?
+U 1 1 5FADBE10
+P 5750 1750
+F 0 "C?" H 5865 1796 50  0000 L CNN
+F 1 "330u" H 5865 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 5750 1750 50  0001 C CNN
+F 3 "~" H 5750 1750 50  0001 C CNN
+F 4 "493-13765-1-ND" H 5750 1750 50  0001 C CNN "Digikey"
+	1    5750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FADE657
+P 6150 1750
+F 0 "C?" H 6265 1796 50  0000 L CNN
+F 1 "330u" H 6265 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 6150 1750 50  0001 C CNN
+F 3 "~" H 6150 1750 50  0001 C CNN
+F 4 "493-13765-1-ND" H 6150 1750 50  0001 C CNN "Digikey"
+	1    6150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FADEE6A
+P 6550 1750
+F 0 "C?" H 6665 1796 50  0000 L CNN
+F 1 "330u" H 6665 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 6550 1750 50  0001 C CNN
+F 3 "~" H 6550 1750 50  0001 C CNN
+F 4 "493-13765-1-ND" H 6550 1750 50  0001 C CNN "Digikey"
+	1    6550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FADF5ED
+P 6950 1750
+F 0 "C?" H 7065 1796 50  0000 L CNN
+F 1 "330u" H 7065 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 6950 1750 50  0001 C CNN
+F 3 "~" H 6950 1750 50  0001 C CNN
+F 4 "493-13765-1-ND" H 6950 1750 50  0001 C CNN "Digikey"
+	1    6950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FADF926
+P 5350 1750
+F 0 "C?" H 5465 1796 50  0000 L CNN
+F 1 "330u" H 5465 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 5350 1750 50  0001 C CNN
+F 3 "~" H 5350 1750 50  0001 C CNN
+F 4 "493-13765-1-ND" H 5350 1750 50  0001 C CNN "Digikey"
+	1    5350 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1600 6950 1100
+Connection ~ 6950 1100
+Wire Wire Line
+	6950 1100 7650 1100
+Wire Wire Line
+	6550 1600 6550 1100
+Connection ~ 6550 1100
+Wire Wire Line
+	6550 1100 6950 1100
+Wire Wire Line
+	6150 1600 6150 1100
+Connection ~ 6150 1100
+Wire Wire Line
+	6150 1100 6550 1100
+Wire Wire Line
+	5750 1100 5750 1600
+Connection ~ 5750 1100
+Wire Wire Line
+	5750 1100 6150 1100
+Wire Wire Line
+	5350 1600 5350 1100
+Connection ~ 5350 1100
+Wire Wire Line
+	5350 1100 5750 1100
+Wire Wire Line
+	5350 1900 5350 2600
+Connection ~ 5350 2600
+Wire Wire Line
+	5350 2600 5750 2600
+Wire Wire Line
+	5750 1900 5750 2600
+Connection ~ 5750 2600
+Wire Wire Line
+	5750 2600 6150 2600
+Wire Wire Line
+	6150 1900 6150 2600
+Connection ~ 6150 2600
+Wire Wire Line
+	6150 2600 6550 2600
+Wire Wire Line
+	6550 1900 6550 2600
+Connection ~ 6550 2600
+Wire Wire Line
+	6550 2600 6950 2600
+Wire Wire Line
+	6950 1900 6950 2600
+Connection ~ 6950 2600
+Wire Wire Line
+	6950 2600 7650 2600
 $EndSCHEMATC
