@@ -3284,7 +3284,7 @@ U 1 1 60B2FCCA
 P 2850 3800
 F 0 "TP1" H 2908 3872 50  0000 L CNN
 F 1 "TestPoint" H 2908 3827 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3050 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3050 3800 50  0001 C CNN
 F 3 "~" H 3050 3800 50  0001 C CNN
 F 4 "36-5000-ND" H 2850 3800 50  0001 C CNN "Digikey"
 	1    2850 3800
@@ -4170,7 +4170,7 @@ U 1 1 6282D9B6
 P 3425 3800
 F 0 "TP2" H 3483 3872 50  0000 L CNN
 F 1 "TestPoint" H 3483 3827 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3625 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3625 3800 50  0001 C CNN
 F 3 "~" H 3625 3800 50  0001 C CNN
 F 4 "36-5000-ND" H 3425 3800 50  0001 C CNN "Digikey"
 	1    3425 3800
@@ -4182,7 +4182,7 @@ U 1 1 6282DF1F
 P 3975 3800
 F 0 "TP3" H 4033 3872 50  0000 L CNN
 F 1 "TestPoint" H 4033 3827 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4175 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4175 3800 50  0001 C CNN
 F 3 "~" H 4175 3800 50  0001 C CNN
 F 4 "36-5000-ND" H 3975 3800 50  0001 C CNN "Digikey"
 	1    3975 3800
@@ -4194,7 +4194,7 @@ U 1 1 6282E53E
 P 4475 3800
 F 0 "TP4" H 4533 3872 50  0000 L CNN
 F 1 "TestPoint" H 4533 3827 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4675 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4675 3800 50  0001 C CNN
 F 3 "~" H 4675 3800 50  0001 C CNN
 F 4 "36-5000-ND" H 4475 3800 50  0001 C CNN "Digikey"
 	1    4475 3800
@@ -4219,7 +4219,7 @@ U 1 1 62863A9C
 P 4550 4675
 F 0 "TP5" H 4608 4747 50  0000 L CNN
 F 1 "TestPoint" H 4608 4702 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4750 4675 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4750 4675 50  0001 C CNN
 F 3 "~" H 4750 4675 50  0001 C CNN
 F 4 "36-5001-ND" H 4550 4675 50  0001 C CNN "Digikey"
 	1    4550 4675
@@ -4231,7 +4231,7 @@ U 1 1 628643DB
 P 5350 4700
 F 0 "TP7" H 5408 4772 50  0000 L CNN
 F 1 "TestPoint" H 5408 4727 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5550 4700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5550 4700 50  0001 C CNN
 F 3 "~" H 5550 4700 50  0001 C CNN
 F 4 "36-5001-ND" H 5350 4700 50  0001 C CNN "Digikey"
 	1    5350 4700
@@ -4243,7 +4243,7 @@ U 1 1 62866AE4
 P 5050 3825
 F 0 "TP6" H 5108 3897 50  0000 L CNN
 F 1 "TestPoint" H 5108 3852 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5250 3825 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5250 3825 50  0001 C CNN
 F 3 "~" H 5250 3825 50  0001 C CNN
 F 4 "36-5001-ND" H 5050 3825 50  0001 C CNN "Digikey"
 	1    5050 3825
@@ -4255,7 +4255,7 @@ U 1 1 62867221
 P 10300 1000
 F 0 "TP12" H 10358 1072 50  0000 L CNN
 F 1 "TestPoint" H 10358 1027 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10500 1000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10500 1000 50  0001 C CNN
 F 3 "~" H 10500 1000 50  0001 C CNN
 F 4 "36-5117-ND" H 10300 1000 50  0001 C CNN "Digikey"
 	1    10300 1000
@@ -4267,7 +4267,7 @@ U 1 1 62868D0A
 P 10300 2675
 F 0 "TP13" H 10358 2747 50  0000 L CNN
 F 1 "TestPoint" H 10358 2702 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10500 2675 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10500 2675 50  0001 C CNN
 F 3 "~" H 10500 2675 50  0001 C CNN
 F 4 "36-5117-ND" H 10300 2675 50  0001 C CNN "Digikey"
 	1    10300 2675
@@ -4279,7 +4279,7 @@ U 1 1 62869509
 P 6600 9200
 F 0 "TP8" H 6658 9272 50  0000 L CNN
 F 1 "TestPoint" H 6658 9227 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6800 9200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6800 9200 50  0001 C CNN
 F 3 "~" H 6800 9200 50  0001 C CNN
 F 4 "36-5117-ND" H 6600 9200 50  0001 C CNN "Digikey"
 	1    6600 9200
@@ -4291,7 +4291,7 @@ U 1 1 6286AA34
 P 6600 9425
 F 0 "TP9" H 6542 9497 50  0000 R CNN
 F 1 "TestPoint" H 6658 9452 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6800 9425 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6800 9425 50  0001 C CNN
 F 3 "~" H 6800 9425 50  0001 C CNN
 F 4 "36-5117-ND" H 6600 9425 50  0001 C CNN "Digikey"
 	1    6600 9425
@@ -4303,7 +4303,7 @@ U 1 1 6286B951
 P 6875 8350
 F 0 "TP10" H 6933 8422 50  0000 L CNN
 F 1 "TestPoint" H 6933 8377 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7075 8350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7075 8350 50  0001 C CNN
 F 3 "~" H 7075 8350 50  0001 C CNN
 F 4 "36-5117-ND" H 6875 8350 50  0001 C CNN "Digikey"
 	1    6875 8350
@@ -4315,7 +4315,7 @@ U 1 1 6286C102
 P 9400 8650
 F 0 "TP11" H 9458 8722 50  0000 L CNN
 F 1 "TestPoint" H 9458 8677 50  0001 L CNN
-F 2 "Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9600 8650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9600 8650 50  0001 C CNN
 F 3 "~" H 9600 8650 50  0001 C CNN
 F 4 "36-5117-ND" H 9400 8650 50  0001 C CNN "Digikey"
 	1    9400 8650

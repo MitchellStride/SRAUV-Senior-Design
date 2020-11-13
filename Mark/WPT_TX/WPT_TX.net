@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\AUV Capstone\\AUV-Senior-Design\\Mark\\WPT_TX\\WPT_TX.sch")
-    (date "2020-11-09 11:46:44 PM")
+    (date "2020-11-13 1:39:23 AM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -651,7 +651,7 @@
       (tstamp 60ADAB62))
     (comp (ref TP1)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5000-ND))
@@ -838,7 +838,7 @@
       (tstamp 622B1760))
     (comp (ref TP2)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5000-ND))
@@ -847,7 +847,7 @@
       (tstamp 6282D9B6))
     (comp (ref TP3)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5000-ND))
@@ -856,7 +856,7 @@
       (tstamp 6282DF1F))
     (comp (ref TP4)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5000-ND))
@@ -865,7 +865,7 @@
       (tstamp 6282E53E))
     (comp (ref TP5)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5001-ND))
@@ -874,7 +874,7 @@
       (tstamp 62863A9C))
     (comp (ref TP7)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5001-ND))
@@ -883,7 +883,7 @@
       (tstamp 628643DB))
     (comp (ref TP6)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5001-ND))
@@ -892,7 +892,7 @@
       (tstamp 62866AE4))
     (comp (ref TP12)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5117-ND))
@@ -901,7 +901,7 @@
       (tstamp 62867221))
     (comp (ref TP13)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5117-ND))
@@ -910,7 +910,7 @@
       (tstamp 62868D0A))
     (comp (ref TP8)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5117-ND))
@@ -919,7 +919,7 @@
       (tstamp 62869509))
     (comp (ref TP9)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5117-ND))
@@ -928,7 +928,7 @@
       (tstamp 6286AA34))
     (comp (ref TP10)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5117-ND))
@@ -937,7 +937,7 @@
       (tstamp 6286B951))
     (comp (ref TP11)
       (value TestPoint)
-      (footprint Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
+      (footprint TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded)
       (datasheet ~)
       (fields
         (field (name Digikey) 36-5117-ND))
