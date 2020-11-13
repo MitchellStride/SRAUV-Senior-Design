@@ -400,18 +400,6 @@ F 3 "~" H 10000 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female Jfuckmakr1
-U 1 1 5F1FCF5A
-P 12200 3650
-F 0 "Jfuckmakr1" H 12300 3550 50  0000 C CNN
-F 1 "ESC_PWR" H 12000 3550 50  0000 C CNN
-F 2 "CHUM_BUCKET_FOOTPRINTS:keystone_7800" H 12200 3650 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1118" H 12200 3650 50  0001 C CNN
-F 4 "36-7800-ND" H 12200 3650 50  0001 C CNN "Digikey"
-	1    12200 3650
-	1    0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5F217129
 P 900 2650

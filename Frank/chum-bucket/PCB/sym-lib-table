@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "chum-bucket")(type "Legacy")(uri "${KIPRJMOD}/chum-bucket.lib")(options "")(descr ""))
-  (lib (name "chum-bucket-rescue")(type "Legacy")(uri "${KIPRJMOD}/chum-bucket-rescue.lib")(options "")(descr ""))
+  (lib (name chum-bucket)(type Legacy)(uri ${KIPRJMOD}/chum-bucket.lib)(options "")(descr ""))
+  (lib (name chum-bucket-rescue)(type Legacy)(uri ${KIPRJMOD}/chum-bucket-rescue.lib)(options "")(descr ""))
 )
