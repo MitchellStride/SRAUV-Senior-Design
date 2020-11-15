@@ -3851,8 +3851,6 @@ Wire Wire Line
 	13450 4750 13675 4750
 Text Label 11375 4350 0    50   ~ 0
 HBridge_EN
-Wire Wire Line
-	11375 4350 11875 4350
 NoConn ~ 12500 5050
 Wire Wire Line
 	12500 4100 12425 4100
@@ -3860,24 +3858,6 @@ Wire Wire Line
 	12500 4500 12000 4500
 Text Label 12000 4500 0    50   ~ 0
 ~HBridge_PWM~
-Wire Wire Line
-	11875 4350 11875 4450
-Connection ~ 11875 4350
-Wire Wire Line
-	11875 4350 12500 4350
-Wire Wire Line
-	11875 4750 11875 4825
-$Comp
-L WPT_TX-rescue:GND-power #PWR075
-U 1 1 61DE8533
-P 11875 4825
-F 0 "#PWR075" H 11875 4575 50  0001 C CNN
-F 1 "GND" H 11875 4675 50  0000 C CNN
-F 2 "" H 11875 4825 50  0001 C CNN
-F 3 "" H 11875 4825 50  0001 C CNN
-	1    11875 4825
-	1    0    0    -1  
-$EndComp
 $Comp
 L WPT_TX-rescue:+12V-power #PWR080
 U 1 1 61DE8539
@@ -4157,9 +4137,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 9275 6600 9200
 Wire Wire Line
-	9400 8650 9400 8675
-Wire Wire Line
-	8550 8675 9400 8675
+	8550 8675 9175 8675
 Wire Wire Line
 	6875 8350 6875 8375
 Wire Wire Line
@@ -4309,18 +4287,6 @@ F 4 "36-5117-ND" H 6875 8350 50  0001 C CNN "Digikey"
 	1    6875 8350
 	1    0    0    -1  
 $EndComp
-$Comp
-L WPT_TX-rescue:TestPoint-Connector TP11
-U 1 1 6286C102
-P 9400 8650
-F 0 "TP11" H 9458 8722 50  0000 L CNN
-F 1 "TestPoint" H 9458 8677 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9600 8650 50  0001 C CNN
-F 3 "~" H 9600 8650 50  0001 C CNN
-F 4 "36-5117-ND" H 9400 8650 50  0001 C CNN "Digikey"
-	1    9400 8650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10300 2675 10300 2600
 Wire Wire Line
@@ -4452,18 +4418,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 9015 4590 50  0001 C CNN
 F 3 "~" H 8975 4600 50  0001 C CNN
 F 4 "RHM10KDCT-ND" H 8975 4600 50  0001 C CNN "Digikey"
 	1    8975 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L WPT_TX-rescue:R_US-Device R26
-U 1 1 5FCE5107
-P 11875 4600
-F 0 "R26" H 12025 4650 50  0000 C CNN
-F 1 "10k" H 12000 4550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11915 4590 50  0001 C CNN
-F 3 "~" H 11875 4600 50  0001 C CNN
-F 4 "RHM10KDCT-ND" H 11875 4600 50  0001 C CNN "Digikey"
-	1    11875 4600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -4635,4 +4589,52 @@ Wire Wire Line
 	5025 1100 5750 1100
 Wire Wire Line
 	2100 2600 5750 2600
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FE274E2
+P 1000 9800
+F 0 "H1" H 1100 9846 50  0000 L CNN
+F 1 "M3" H 1100 9755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1000 9800 50  0001 C CNN
+F 3 "~" H 1000 9800 50  0001 C CNN
+	1    1000 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FE27746
+P 1350 9800
+F 0 "H2" H 1450 9846 50  0000 L CNN
+F 1 "M3" H 1450 9755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1350 9800 50  0001 C CNN
+F 3 "~" H 1350 9800 50  0001 C CNN
+	1    1350 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FE2784E
+P 1700 9800
+F 0 "H3" H 1800 9846 50  0000 L CNN
+F 1 "M3" H 1800 9755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1700 9800 50  0001 C CNN
+F 3 "~" H 1700 9800 50  0001 C CNN
+	1    1700 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FE279EC
+P 2050 9800
+F 0 "H4" H 2150 9846 50  0000 L CNN
+F 1 "M3" H 2150 9755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2050 9800 50  0001 C CNN
+F 3 "~" H 2050 9800 50  0001 C CNN
+	1    2050 9800
+	1    0    0    -1  
+$EndComp
+Text Notes 950  9650 0    50   ~ 10
+Mounting Holes
+Wire Wire Line
+	11375 4350 12500 4350
 $EndSCHEMATC
