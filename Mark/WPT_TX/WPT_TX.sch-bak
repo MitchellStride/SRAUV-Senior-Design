@@ -1612,7 +1612,7 @@ SPI0_MOSI
 Text Label 9025 8375 2    50   ~ 0
 SPI0_CS
 Text Label 7025 9075 0    50   ~ 0
-SPI0_MOSI
+SPI0_MISO
 Wire Wire Line
 	7025 9075 7550 9075
 Wire Wire Line
