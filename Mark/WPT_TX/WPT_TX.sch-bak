@@ -2066,12 +2066,10 @@ Wire Wire Line
 	10700 7575 10250 7575
 Text Label 10250 7275 0    50   ~ 0
 SPI0_SCLK
-Text Label 10250 7475 0    50   ~ 0
-SPI0_MOSI
 Text Label 10250 7575 0    50   ~ 0
 SPI0_CS
 Text Label 10250 7375 0    50   ~ 0
-SPI0_MOSI
+SPI0_MISO
 $Comp
 L WPT_TX-rescue:Conn_01x03-Connector_Generic J7
 U 1 1 5FDAED20
@@ -4137,7 +4135,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 9275 6600 9200
 Wire Wire Line
-	8550 8675 9400 8675
+	8550 8675 9175 8675
 Wire Wire Line
 	6875 8350 6875 8375
 Wire Wire Line
@@ -4637,4 +4635,6 @@ Text Notes 950  9650 0    50   ~ 10
 Mounting Holes
 Wire Wire Line
 	11375 4350 12500 4350
+Text Label 10250 7475 0    50   ~ 0
+SPI0_MOSI
 $EndSCHEMATC
