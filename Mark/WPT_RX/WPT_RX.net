@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\AUV Capstone\\AUV-Senior-Design\\Mark\\WPT_RX\\WPT_RX.sch")
-    (date "2020-11-15 10:06:20 PM")
+    (date "2020-11-15 11:38:11 PM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -171,7 +171,7 @@
       (tstamp 5FB2A768))
     (comp (ref R9)
       (value 10R)
-      (footprint Package_TO_SOT_THT:TO-220F-2_Horizontal_TabDown)
+      (footprint WPT_RX:TO-220F-2_Horizontal_TabDown)
       (datasheet ~)
       (fields
         (field (name Digikey) PWR221T-50-10R0F-ND))
@@ -180,7 +180,7 @@
       (tstamp 5FB2E704))
     (comp (ref R12)
       (value 10R)
-      (footprint Package_TO_SOT_THT:TO-220F-2_Horizontal_TabDown)
+      (footprint WPT_RX:TO-220F-2_Horizontal_TabDown)
       (datasheet ~)
       (fields
         (field (name Digikey) PWR221T-50-10R0F-ND))
@@ -189,7 +189,7 @@
       (tstamp 5FB2F828))
     (comp (ref R13)
       (value 10R)
-      (footprint Package_TO_SOT_THT:TO-220F-2_Horizontal_TabDown)
+      (footprint WPT_RX:TO-220F-2_Horizontal_TabDown)
       (datasheet ~)
       (fields
         (field (name Digikey) PWR221T-50-10R0F-ND))
@@ -198,7 +198,7 @@
       (tstamp 5FB2FC8D))
     (comp (ref R14)
       (value 10R)
-      (footprint Package_TO_SOT_THT:TO-220F-2_Horizontal_TabDown)
+      (footprint WPT_RX:TO-220F-2_Horizontal_TabDown)
       (datasheet ~)
       (fields
         (field (name Digikey) PWR221T-50-10R0F-ND))
