@@ -708,6 +708,19 @@ X PA04 9 -500 700 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# WPT_TX_Munlogo
+#
+DEF WPT_TX_Munlogo U 0 40 Y Y 1 F N
+F0 "U" 0 90 50 H V C CNN
+F1 "WPT_TX_Munlogo" 10 -110 50 H I C CNN
+F2 "" 0 90 50 H I C CNN
+F3 "" 0 90 50 H I C CNN
+DRAW
+T 0 0 30 50 0 0 0 Memorial Normal 0 C C
+T 0 0 -30 50 0 0 0 University Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # chum-bucket_BTS6142DAUMA1
 #
 DEF chum-bucket_BTS6142DAUMA1 U 0 40 Y Y 1 F N

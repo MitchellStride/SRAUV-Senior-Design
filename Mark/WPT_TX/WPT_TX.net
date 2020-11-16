@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\AUV Capstone\\AUV-Senior-Design\\Mark\\WPT_TX\\WPT_TX.sch")
-    (date "2020-11-15 12:51:14 AM")
+    (date "2020-11-15 3:15:40 PM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1061,7 +1061,13 @@
         (field (name Digikey) 641-1786-1-ND))
       (libsource (lib WPT_TX-rescue) (part D_Schottky-Device) (description ""))
       (sheetpath (names /) (tstamps /))
-      (tstamp 601F4EDA)))
+      (tstamp 601F4EDA))
+    (comp (ref U14)
+      (value Munlogo)
+      (footprint WPT_TX:MUNLOGO)
+      (libsource (lib WPT_TX) (part Munlogo) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5FB55A13)))
   (libparts
     (libpart (lib CD4043BDR) (part CD4043BDR)
       (footprints
@@ -1194,6 +1200,10 @@
         (pin (num 47) (name PB02) (type BiDi))
         (pin (num 48) (name PB03) (type BiDi))
         (pin (num 49) (name GND) (type output))))
+    (libpart (lib WPT_TX) (part Munlogo)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) Munlogo)))
     (libpart (lib WPT_TX-rescue) (part C_Small-Device)
       (footprints
         (fp C_*))
