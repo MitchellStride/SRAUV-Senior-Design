@@ -407,6 +407,7 @@ F 0 "J1" H 818 2325 50  0000 C CNN
 F 1 "UMBILLICAL_PWR" H 818 2416 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" H 900 2650 50  0001 C CNN
 F 3 "~" H 900 2650 50  0001 C CNN
+F 4 "WM1865-ND" H 900 2650 50  0001 C CNN "Digikey"
 	1    900  2650
 	-1   0    0    1   
 $EndComp
@@ -418,6 +419,7 @@ F 0 "J3" H 10730 2442 50  0000 L CNN
 F 1 "LV_PWR" H 10730 2351 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" H 10650 2450 50  0001 C CNN
 F 3 "~" H 10650 2450 50  0001 C CNN
+F 4 "WM1865-ND" H 10650 2450 50  0001 C CNN "Digikey"
 	1    10650 2450
 	1    0    0    -1  
 $EndComp
@@ -3229,4 +3231,43 @@ Wire Wire Line
 	7200 4550 6350 4550
 Wire Wire Line
 	7200 3350 7200 4550
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO3
+U 1 1 5FB474CC
+P 12850 2300
+F 0 "#LOGO3" H 12850 2575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12850 2075 50  0001 C CNN
+F 2 "" H 12850 2300 50  0001 C CNN
+F 3 "~" H 12850 2300 50  0001 C CNN
+F 4 "WM1845-ND" H 12850 2686 50  0000 C CNN "Digikey"
+F 5 "Digi P/N for Molex Mate" H 12850 2595 50  0000 C CNN "Note"
+	1    12850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO4
+U 1 1 5FB489B7
+P 12850 3000
+F 0 "#LOGO4" H 12850 3275 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12850 2775 50  0001 C CNN
+F 2 "" H 12850 3000 50  0001 C CNN
+F 3 "~" H 12850 3000 50  0001 C CNN
+F 4 "0430300001-12-B0-ND" H 12850 3386 50  0000 C CNN "Digikey"
+F 5 "Digi P/N for Molex BLACK 20 AWG Pre-Crimped" H 12850 3295 50  0000 C CNN "Note"
+	1    12850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO5
+U 1 1 5FB4B07B
+P 12850 3650
+F 0 "#LOGO5" H 12850 3925 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12850 3425 50  0001 C CNN
+F 2 "" H 12850 3650 50  0001 C CNN
+F 3 "~" H 12850 3650 50  0001 C CNN
+F 4 "0430300001-12-R0-ND" H 12850 4036 50  0000 C CNN "Digikey"
+F 5 "Digi P/N for Molex RED 20 AWG Pre-Crimped" H 12850 3945 50  0000 C CNN "Note"
+	1    12850 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

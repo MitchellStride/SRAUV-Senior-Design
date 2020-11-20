@@ -446,7 +446,7 @@ AR Path="/5F942699" Ref="U?"  Part="1"
 AR Path="/5ECF181C/5F942699" Ref="U301"  Part="1" 
 F 0 "U301" H 3125 5315 50  0000 C CNN
 F 1 "BQ79606" H 3125 5224 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_ThermalVias" H 3550 4650 50  0001 C CNN
+F 2 "CHUM_BUCKET_FOOTPRINTS:LQFP-48-1EP_7x7mm_P0.5mm_EP4x4mm_Thermalvias" H 3550 4650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/bq79606a-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592931025445" H 3450 4600 50  0001 C CNN
 F 4 "296-BQ79606APHPTQ1TR-ND" H 3450 4600 50  0001 C CNN "Digikey"
 	1    3450 4600

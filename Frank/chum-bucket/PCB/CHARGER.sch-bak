@@ -118,7 +118,7 @@ F 4 "445-SPM10065VT-6R8M-DCT-ND" V 7250 2750 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L chum-bucket:BQ2461x U?
+L chum-bucket-rescue:BQ2461x-chum-bucket U?
 U 1 1 5F99F765
 P 5700 2500
 AR Path="/5F99F765" Ref="U?"  Part="1" 
