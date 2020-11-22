@@ -128,131 +128,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 1500 9800 1150
 $Comp
-L Device:R R413
-U 1 1 5F702E62
-P 7500 3700
-F 0 "R413" V 7400 3450 50  0000 C CNN
-F 1 "500u" V 7400 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 7430 3700 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/css2h-2512.pdf" H 7500 3700 50  0001 C CNN
-F 4 "5W" V 7400 3900 50  0000 C CNN "Power"
-	1    7500 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F71891D
-P 7050 4650
-AR Path="/5ECF1AA9/5F71891D" Ref="#PWR?"  Part="1" 
-AR Path="/5F507ADF/5F71891D" Ref="#PWR0422"  Part="1" 
-F 0 "#PWR0422" H 7050 4500 50  0001 C CNN
-F 1 "+3.3V" H 7065 4823 50  0000 C CNN
-F 2 "" H 7050 4650 50  0001 C CNN
-F 3 "" H 7050 4650 50  0001 C CNN
-	1    7050 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 4600 7400 4450
-Wire Wire Line
-	7600 4600 7600 4450
-$Comp
-L Device:R R?
-U 1 1 5F71892C
-P 7600 4300
-AR Path="/5ECF1AA9/5F71892C" Ref="R?"  Part="1" 
-AR Path="/5F507ADF/5F71892C" Ref="R414"  Part="1" 
-F 0 "R414" H 7750 4250 50  0000 C CNN
-F 1 "0" H 7700 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 4300 50  0001 C CNN
-F 3 "~" H 7600 4300 50  0001 C CNN
-	1    7600 4300
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F718936
-P 7050 4900
-AR Path="/5ECF1AA9/5F718936" Ref="C?"  Part="1" 
-AR Path="/5F507ADF/5F718936" Ref="C411"  Part="1" 
-F 0 "C411" H 7142 4946 50  0000 L CNN
-F 1 "0.1uF" H 7142 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 4900 50  0001 C CNN
-F 3 "~" H 7050 4900 50  0001 C CNN
-	1    7050 4900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F71893C
-P 7050 5000
-AR Path="/5ECF1AA9/5F71893C" Ref="#PWR?"  Part="1" 
-AR Path="/5F507ADF/5F71893C" Ref="#PWR0423"  Part="1" 
-F 0 "#PWR0423" H 7050 4750 50  0001 C CNN
-F 1 "GND" H 7055 4827 50  0000 C CNN
-F 2 "" H 7050 5000 50  0001 C CNN
-F 3 "" H 7050 5000 50  0001 C CNN
-	1    7050 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 4650 7050 4800
-Wire Wire Line
-	7050 4800 7200 4800
-Connection ~ 7050 4800
-$Comp
-L power:GND #PWR?
-U 1 1 5F76305C
-P 7850 4900
-AR Path="/5ECF1AA9/5F76305C" Ref="#PWR?"  Part="1" 
-AR Path="/5F507ADF/5F76305C" Ref="#PWR0424"  Part="1" 
-F 0 "#PWR0424" H 7850 4650 50  0001 C CNN
-F 1 "GND" H 7855 4727 50  0000 C CNN
-F 2 "" H 7850 4900 50  0001 C CNN
-F 3 "" H 7850 4900 50  0001 C CNN
-	1    7850 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 4800 7850 4800
-Wire Wire Line
-	7400 4150 7400 4100
-Wire Wire Line
-	7400 4100 7350 4100
-Wire Wire Line
-	7600 4150 7600 4100
-Wire Wire Line
-	7600 4100 7650 4100
-Wire Wire Line
-	7400 3950 7350 3950
-Connection ~ 7350 3950
-Wire Wire Line
-	7350 3950 7350 4100
-Wire Wire Line
-	7600 3950 7650 3950
-Wire Wire Line
-	7650 3950 7650 4100
-$Comp
-L power:GND #PWR?
-U 1 1 5F7A8457
-P 7050 4200
-AR Path="/5ECF1AA9/5F7A8457" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A8457" Ref="#PWR?"  Part="1" 
-AR Path="/5F507ADF/5F7A8457" Ref="#PWR0421"  Part="1" 
-F 0 "#PWR0421" H 7050 3950 50  0001 C CNN
-F 1 "GND" H 7055 4027 50  0000 C CNN
-F 2 "" H 7050 4200 50  0001 C CNN
-F 3 "" H 7050 4200 50  0001 C CNN
-	1    7050 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 4000 7050 3950
-Wire Wire Line
-	7050 3950 7350 3950
-Wire Wire Line
-	7500 5200 7500 5500
-$Comp
 L power:+BATT #PWR0401
 U 1 1 5FA71BA5
 P 950 3550
@@ -275,23 +150,6 @@ Wire Wire Line
 	9800 1150 10350 1150
 Text Notes 7100 3550 0    39   ~ 0
 500uOhm resistor gives 50mV drop at 100A \nI^R losses are 5W\n
-$Comp
-L Amplifier_Current:INA194 U402
-U 1 1 5FF33ECB
-P 7500 4900
-F 0 "U402" V 7250 4450 50  0000 R CNN
-F 1 "INA194" V 7350 4550 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7500 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 7500 4900 50  0001 C CNN
-	1    7500 4900
-	0    -1   1    0   
-$EndComp
-Text Notes 6950 5700 0    39   ~ 0
-- Instrumentation amplifier w/ gain of 50V/V\n- Outputs 2.5V at 100A 
-Wire Wire Line
-	7500 5500 6950 5500
-Text HLabel 6950 5500 0    39   Input ~ 0
-ANALOG_I_ESCS
 $Comp
 L Device:C_Small C?
 U 1 1 600D3098
@@ -398,15 +256,11 @@ Wire Wire Line
 	8900 4150 8900 4100
 Wire Wire Line
 	8900 3800 8900 3700
-Text HLabel 8500 4150 0    39   Input ~ 0
-ANALOG_V_ESCS
 Connection ~ 8900 1150
 Wire Wire Line
 	8900 1150 9600 1150
 Wire Wire Line
 	6450 3700 6500 3700
-Wire Wire Line
-	7650 3700 8900 3700
 Connection ~ 8900 3700
 Wire Wire Line
 	8900 3700 9600 3700
@@ -477,19 +331,6 @@ F 5 "399-7842-2-ND" H 8700 1800 50  0001 C CNN "Digikey"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 5F718925
-P 7400 4300
-AR Path="/5ECF1AA9/5F718925" Ref="R?"  Part="1" 
-AR Path="/5F507ADF/5F718925" Ref="R412"  Part="1" 
-F 0 "R412" H 7250 4250 50  0000 C CNN
-F 1 "0" H 7300 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7330 4300 50  0001 C CNN
-F 3 "~" H 7400 4300 50  0001 C CNN
-	1    7400 4300
-	1    0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 605F6239
 P 8700 2000
@@ -523,38 +364,6 @@ Wire Wire Line
 	8700 1600 8600 1600
 Wire Wire Line
 	8700 1600 8900 1600
-$Comp
-L Device:C_Small C?
-U 1 1 60A3508A
-P 7050 4100
-AR Path="/5ECF1AA9/60A3508A" Ref="C?"  Part="1" 
-AR Path="/60A3508A" Ref="C?"  Part="1" 
-AR Path="/5F507ADF/60A3508A" Ref="C402"  Part="1" 
-F 0 "C402" H 6958 4054 50  0000 R CNN
-F 1 "10nF" H 6958 4145 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 4100 50  0001 C CNN
-F 3 "~" H 7050 4100 50  0001 C CNN
-F 4 "25V" H 6900 4250 50  0000 C CNN "Voltage"
-F 5 "399-7842-2-ND" H 7050 4100 50  0001 C CNN "Digikey"
-	1    7050 4100
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60A35E9C
-P 7500 3950
-AR Path="/5ECF1AA9/60A35E9C" Ref="C?"  Part="1" 
-AR Path="/60A35E9C" Ref="C?"  Part="1" 
-AR Path="/5F507ADF/60A35E9C" Ref="C403"  Part="1" 
-F 0 "C403" V 7350 3750 50  0000 R CNN
-F 1 "10nF" V 7450 3750 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7500 3950 50  0001 C CNN
-F 3 "~" H 7500 3950 50  0001 C CNN
-F 4 "25V" V 7550 3650 50  0000 C CNN "Voltage"
-F 5 "399-7842-2-ND" H 7500 3950 50  0001 C CNN "Digikey"
-	1    7500 3950
-	0    -1   1    0   
-$EndComp
 NoConn ~ 6250 4600
 $Comp
 L chum-bucket:MIC5014 U401
@@ -638,8 +447,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 4050 6500 3700
 Connection ~ 6500 3700
-Wire Wire Line
-	6500 3700 7350 3700
 $Comp
 L Device:R_Small R411
 U 1 1 5FA60422
@@ -670,15 +477,6 @@ Wire Wire Line
 	6000 4250 6050 4250
 Wire Wire Line
 	5800 4250 5750 4250
-Wire Wire Line
-	7350 3950 7350 3700
-Connection ~ 7350 3700
-Wire Wire Line
-	7650 3950 7650 3700
-Connection ~ 7650 3950
-Connection ~ 7650 3700
-Wire Wire Line
-	7850 4900 7850 4800
 Wire Wire Line
 	4450 4350 4950 4350
 $Bitmap
@@ -3415,6 +3213,8 @@ F 4 "SIR140DP-T1-RE3CT-ND" V 6250 3800 50  0001 C CNN "Digikey"
 	1    6250 3800
 	0    -1   -1   0   
 $EndComp
-Text Label 6500 3700 0    39   ~ 0
-ESC_OUTPUT_UNMEAS
+Text HLabel 8500 4150 0    39   Input ~ 0
+ANALOG_V_ESCS
+Wire Wire Line
+	6500 3700 8900 3700
 $EndSCHEMATC
