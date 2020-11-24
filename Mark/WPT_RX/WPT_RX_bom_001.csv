@@ -1,0 +1,38 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digikey
+1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C7 C8 C9 C13,0.1u,C_0603_1608Metric,6,~,1276-1258-1-ND
+2,"Unpolarized capacitor, small symbol",C_Small,C3 C4 C5 C6,100n,C_2220_5650Metric,4,~,490-16696-1-ND
+3,"Polarized capacitor, US symbol",CP1,C10 C11 C12,330u,CP_Elec_10x12.5,3,~,493-13765-1-ND
+4,Schottky diode,D_Schottky,D1 D2 D3 D4,FSV12100V,TO-277B,4,~,FSV12100VCT-ND
+5,Light emitting diode,LED,D5,RED,LED_0805_2012Metric,1,~,475-1415-1-ND
+6,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x01,J1 J2 J6 J7,Conn_01x01,SolderWirePad_single_SMD_5x10mm,4,~,
+7,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J8,From PI Board,70553-02,1,~,WM4900-ND
+8,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3 J4 J5,SMA,SMA_Amphenol_901-144_Vertical,3, ~,WM17068-ND
+9,"Net tie, 2 pins",Net-Tie_2,NT1 NT2,Net-Tie_2,NetTie-2_SMD_Pad0.25mm,2,~,
+10,"N-MOSFET transistor, source/gate/drain",Q_NMOS_SGD,Q1,NMOS,TDSON-8-1,1,~,448-IAUC70N08S5N074ATMA1CT-ND
+11,"Resistor, US symbol",R_US,R6 R8,0.4k,R_0603_1608Metric,2,~,PAT400ACT-ND
+12,"Resistor, US symbol",R_US,R9 R12 R13 R14,10R,TO-220F-2_Horizontal_TabDown,4,~,PWR221T-50-10R0F-ND
+13,"Resistor, US symbol",R_US,R5 R7 R10,10k,R_0603_1608Metric,3,~,RHM10KDCT-ND
+14,"Resistor, US symbol",R_US,R1,11.5k,R_0603_1608Metric,1,~,RMCF0603FT11K5CT-ND
+15,"Resistor, US symbol",R_US,R3,18.0k,R_0603_1608Metric,1,~,P18KDBCT-ND
+16,"Resistor, US symbol",R_US,R4,2.0k,R_0603_1608Metric,1,~,541-2790-1-ND
+17,"Resistor, US symbol",R_US,R11,5m,R_2512_Sense,1,~,YAG6124CT-ND
+18,"Resistor, US symbol",R_US,R2,9.09k,R_0603_1608Metric,1,~,RMCF0603FT9K09CT-ND
+19,"High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8",INA240A1D,U2,INA240D,SOIC-8_3.9x4.9mm_P1.27mm,1,http://www.ti.com/lit/ds/symlink/lmc6082.pdf,296-48837-ND
+20,"Precision CMOS Dual Operational Amplifier, DIP-8/SOIC-8",LMC6082,U1,LMC6032,SOIC-8_3.9x4.9mm_P1.27mm,1,http://www.ti.com/lit/ds/symlink/lmc6082.pdf,LMC6032IMX/NOPBCT-ND
+21,,Munlogo,U3,MUN,MUNLOGO,1,,
+
+
+
+
+
+Component Groups:,21
+Component Count:,46
+Fitted Components:,46
+Number of PCBs:,1
+Total components:,46
+Schematic Version:,001
+Schematic Date:,2020-11-13
+PCB Variant:,[u'default']
+BoM Date:,2020-11-23 9:48:27 PM
+Schematic Source:,D:\AUV Capstone\AUV-Senior-Design\Mark\WPT_RX\WPT_RX.sch
+KiCad Version:,Eeschema (5.1.8)-1

@@ -1954,7 +1954,7 @@ F 0 "U1" H 4150 3767 50  0000 C CNN
 F 1 "LMC6032" H 4150 3676 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4150 3400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmc6082.pdf" H 4150 3400 50  0001 C CNN
-F 4 "" H 4150 3400 50  0001 C CNN "Digikey"
+F 4 "LMC6032IMX/NOPBCT-ND" H 4150 3400 50  0001 C CNN "Digikey"
 	1    4150 3400
 	1    0    0    -1  
 $EndComp

@@ -4,7 +4,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 3,"Unpolarized capacitor, small symbol",C_Small,C26 C27 C28 C29,100n,C_2220,4,~,490-16696-1-ND
 4,"Unpolarized capacitor, small symbol",C_Small,C15,10u,C_0603_1608Metric,1,~,490-7201-1-ND
 5,"Unpolarized capacitor, small symbol",C_Small,C6 C7 C8,10u,C_1206,3,~,1276-6767-1-ND
-6,"Unpolarized capacitor, small symbol",C_Small,C10 C12 C13 C22 C23,22p,C_0603_1608Metric,5,~,
+6,"Unpolarized capacitor, small symbol",C_Small,C10 C12 C13 C22 C23,22p,C_0603_1608Metric,5,~,720-VJ0603A220JXBACCT-ND
 7,"Unpolarized capacitor, small symbol",C_Small,C24 C32,33n,C_0805,2,~,445-172691-1-ND
 8,Light emitting diode,LED,D3 D4,BLUE,LED_0805_2012Metric,2,~,160-1579-1-ND
 9,Schottky diode,D_Schottky,D7 D8,D_Schottky,D_SMA,2,~,SS16T3GOSCT-ND
@@ -36,7 +36,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 35,"500-mA Low Dropout Regulator, SOT-223",LM2937xMP,U2,LM2937IMP-3.3,SOT-223-3_TabPin2,1,http://www.ti.com/lit/ds/symlink/lm2937.pdf,LM2937IMPX-3.3/NOPBCT-ND
 36,,LM5106SD_NOPB,U10 U13,LM5106,LM5106SD,2,,LM5106SD/NOPBCT-ND
 37,"Precision CMOS Dual Operational Amplifier, DIP-8/SOIC-8",LMC6082,U5,LMC6032,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,http://www.ti.com/lit/ds/symlink/lmc6082.pdf,296-49646-1-ND
-38,,MCP2515-QFN20,U11,MCP2515-QFN20,TSSOP-20_4.4x6.5mm_P0.65mm,1,MCP2515-E/ML-ND,
+38,,MCP2515-QFN20,U11,MCP2515-QFN20,TSSOP-20_4.4x6.5mm_P0.65mm,1,,MCP2515-E/ML-ND
 39,"High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DFN-8",MCP2562-E-MF,U12,MCP2562-E-MF,DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf,MCP2562-E/MF-ND
 40,"Single Schmitt-Trigger Inverter, SOT-23",SN74LVC1G14DBV,U8,SN74LVC1G14DBV,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf,296-35944-1-ND
 41,Two pin crystal,Crystal,Y1,32.7680kHz,Crystal_SMD_3215-2pin_3.2x1.5mm,1,~,887-2605-1-ND
@@ -53,7 +53,7 @@ Number of PCBs:,1
 Total components:,100
 Schematic Version:,001
 Schematic Date:,2020-11-08
-PCB Variant:,default
-BoM Date:,2020-11-08 10:33:53 PM
+PCB Variant:,[u'default']
+BoM Date:,2020-11-08 10:35:57 PM
 Schematic Source:,D:\AUV Capstone\AUV-Senior-Design\Mark\WPT_TX\WPT_TX.sch
 KiCad Version:,Eeschema (5.1.8)-1
