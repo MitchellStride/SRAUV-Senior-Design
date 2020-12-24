@@ -223,6 +223,7 @@ F 1 "10nF" H 2192 2805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 2850 50  0001 C CNN
 F 3 "~" H 2100 2850 50  0001 C CNN
 F 4 "50V" H 2250 2700 50  0000 C CNN "Voltage"
+F 5 "1276-1009-1-ND" H 2100 2850 50  0001 C CNN "Digikey"
 	1    2100 2850
 	1    0    0    -1  
 $EndComp
@@ -342,6 +343,7 @@ F 0 "C4" H 9092 5596 50  0000 L CNN
 F 1 "10nF" H 9092 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9000 5550 50  0001 C CNN
 F 3 "~" H 9000 5550 50  0001 C CNN
+F 4 "1276-1009-1-ND" H 9000 5550 50  0001 C CNN "Digikey"
 	1    9000 5550
 	1    0    0    -1  
 $EndComp
@@ -368,6 +370,7 @@ F 0 "C5" H 9592 5596 50  0000 L CNN
 F 1 "10nF" H 9592 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9500 5550 50  0001 C CNN
 F 3 "~" H 9500 5550 50  0001 C CNN
+F 4 "1276-1009-1-ND" H 9500 5550 50  0001 C CNN "Digikey"
 	1    9500 5550
 	1    0    0    -1  
 $EndComp
@@ -394,6 +397,7 @@ F 0 "C6" H 10092 5596 50  0000 L CNN
 F 1 "10nF" H 10092 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10000 5550 50  0001 C CNN
 F 3 "~" H 10000 5550 50  0001 C CNN
+F 4 "1276-1009-1-ND" H 10000 5550 50  0001 C CNN "Digikey"
 	1    10000 5550
 	1    0    0    -1  
 $EndComp
@@ -3168,8 +3172,8 @@ P 10650 3150
 F 0 "J7" H 10750 3050 50  0000 C CNN
 F 1 "ESC_PWR" H 10450 3050 50  0000 C CNN
 F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_7771" H 10650 3150 50  0001 C CNN
-F 3 "36-7771-ND" H 10650 3150 50  0001 C CNN
-F 4 "https://www.keyelco.com/userAssets/file/M65p69.pdf" H 10650 3150 50  0001 C CNN "Digikey"
+F 3 "https://www.keyelco.com/userAssets/file/M65p69.pdf" H 10650 3150 50  0001 C CNN
+F 4 "36-7771-ND" H 10650 3150 50  0001 C CNN "Digikey"
 	1    10650 3150
 	1    0    0    1   
 $EndComp
@@ -3180,8 +3184,8 @@ P 10650 3350
 F 0 "J8" H 10750 3250 50  0000 C CNN
 F 1 "ESC_GND" H 10450 3250 50  0000 C CNN
 F 2 "CHUM_BUCKET_FOOTPRINTS:Keystone_7771" H 10650 3350 50  0001 C CNN
-F 3 "36-7771-ND" H 10650 3350 50  0001 C CNN
-F 4 "https://www.keyelco.com/userAssets/file/M65p69.pdf" H 10650 3350 50  0001 C CNN "Digikey"
+F 3 "https://www.keyelco.com/userAssets/file/M65p69.pdf" H 10650 3350 50  0001 C CNN
+F 4 "36-7771-ND" H 10650 3350 50  0001 C CNN "Digikey"
 	1    10650 3350
 	1    0    0    1   
 $EndComp
@@ -3260,6 +3264,45 @@ F 3 "~" H 12850 3650 50  0001 C CNN
 F 4 "0430300001-12-R0-ND" H 12850 4036 50  0000 C CNN "Digikey"
 F 5 "Digi P/N for Molex RED 20 AWG Pre-Crimped" H 12850 3945 50  0000 C CNN "Note"
 	1    12850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO6
+U 1 1 5FE6D1B8
+P 12850 4300
+F 0 "#LOGO6" H 12850 4575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12850 4075 50  0001 C CNN
+F 2 "" H 12850 4300 50  0001 C CNN
+F 3 "~" H 12850 4300 50  0001 C CNN
+F 4 "SMD291AX10T5-ND" H 12850 4686 50  0000 C CNN "Digikey"
+F 5 "Digi P/N for Type 5 Solder Paste" H 12850 4595 50  0000 C CNN "Note"
+	1    12850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO7
+U 1 1 5FE6D8A0
+P 12850 4950
+F 0 "#LOGO7" H 12850 5225 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12850 4725 50  0001 C CNN
+F 2 "" H 12850 4950 50  0001 C CNN
+F 3 "~" H 12850 4950 50  0001 C CNN
+F 4 "CR6A-KIT-ND" H 12850 5336 50  0000 C CNN "Digikey"
+F 5 "Digi P/N for Resistor Book" H 12850 5245 50  0000 C CNN "Note"
+	1    12850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO8
+U 1 1 5FE6DD0B
+P 12850 5600
+F 0 "#LOGO8" H 12850 5875 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12850 5375 50  0001 C CNN
+F 2 "" H 12850 5600 50  0001 C CNN
+F 3 "~" H 12850 5600 50  0001 C CNN
+F 4 "445-9005-KIT-ND" H 12850 5986 50  0000 C CNN "Digikey"
+F 5 "Digi P/N for Capacitor Book" H 12850 5895 50  0000 C CNN "Note"
+	1    12850 5600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
