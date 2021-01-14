@@ -537,58 +537,54 @@ $EndComp
 $Comp
 L AUV_Pi_Expansion-rescue:OX40HAT-raspberrypi_hat-pitest-rescue J1
 U 1 1 58DFC771
-P 3560 1660
-F 0 "J1" H 3910 1760 50  0000 C CNN
-F 1 "40HAT" H 3260 1760 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3560 1860 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2860 1660 50  0001 C CNN
-F 4 "C725892" H 3560 1660 50  0001 C CNN "LCSC"
-F 5 "" H 3560 1660 50  0001 C CNN "Digi"
-F 6 "" H 3560 1660 50  0001 C CNN "Desc"
-	1    3560 1660
+P 3975 1630
+F 0 "J1" H 4325 1730 50  0000 C CNN
+F 1 "40HAT" H 3675 1730 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3975 1830 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 3275 1630 50  0001 C CNN
+F 4 "C725892" H 3975 1630 50  0001 C CNN "LCSC"
+F 5 "" H 3975 1630 50  0001 C CNN "Digi"
+F 6 "" H 3975 1630 50  0001 C CNN "Desc"
+	1    3975 1630
 	1    0    0    -1  
 $EndComp
-Text Label 730  3560 0    60   ~ 0
+Text Label 1585 3530 0    60   ~ 0
 GND
 Wire Wire Line
-	2960 3560 730  3560
-Text Label 730  2960 0    60   ~ 0
-ID_SD_EEPROM\GPIO0
+	3375 3530 1585 3530
 Wire Wire Line
-	2960 2960 730  2960
-Text Label 730  2860 0    60   ~ 0
+	3375 2930 1585 2930
+Text Label 1585 2830 0    60   ~ 0
 GND
 Wire Wire Line
-	2960 2860 730  2860
+	3375 2830 1585 2830
 Wire Wire Line
-	2960 2060 730  2060
+	3375 2030 1585 2030
 Wire Wire Line
-	2960 1660 730  1660
+	3375 1630 1585 1630
 Wire Wire Line
-	4160 2260 6550 2260
+	4575 2230 6065 2230
 Wire Wire Line
-	4160 2560 6550 2560
+	4575 2530 6065 2530
 Wire Wire Line
-	4160 2960 6550 2960
+	4575 2930 6065 2930
 Wire Wire Line
-	4160 3060 6550 3060
+	4575 3030 6065 3030
 Wire Wire Line
-	4160 3260 6550 3260
-Text Label 6550 2260 2    60   ~ 0
+	4575 3230 6065 3230
+Text Label 6065 2230 2    60   ~ 0
 GND
-Text Label 6550 2560 2    60   ~ 0
+Text Label 6065 2530 2    60   ~ 0
 GND
-Text Label 6550 3060 2    60   ~ 0
+Text Label 6065 3030 2    60   ~ 0
 GND
-Text Label 6550 2960 2    60   ~ 0
-ID_SC_EEPROM
-Text Label 6550 3260 2    60   ~ 0
+Text Label 6065 3230 2    60   ~ 0
 GND
-Text Label 6550 1860 2    60   ~ 0
+Text Label 6065 1830 2    60   ~ 0
 GND
-Text Label 6550 1760 2    60   ~ 0
+Text Label 6065 1730 2    60   ~ 0
 P5V_HAT
-Text Label 6550 1660 2    60   ~ 0
+Text Label 6065 1630 2    60   ~ 0
 P5V_HAT
 $Comp
 L u104_KICAD_misc:LogoBlock Logo10
@@ -679,76 +675,76 @@ F 3 "" H 10800 4650 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4160 1660 6550 1660
+	4575 1630 6065 1630
 Wire Wire Line
-	4160 1760 6550 1760
+	4575 1730 6065 1730
 Wire Wire Line
-	4160 1860 6550 1860
+	4575 1830 6065 1830
 Wire Wire Line
-	730  1960 2960 1960
+	1585 1930 3375 1930
 Wire Wire Line
-	730  2160 2960 2160
+	1585 2130 3375 2130
 Wire Wire Line
-	730  2260 2960 2260
+	1585 2230 3375 2230
 Wire Wire Line
-	730  2360 2960 2360
+	1585 2330 3375 2330
 Wire Wire Line
-	730  2460 2960 2460
+	1585 2430 3375 2430
 Wire Wire Line
-	730  2560 2960 2560
+	1585 2530 3375 2530
 Wire Wire Line
-	730  2660 2960 2660
+	1585 2630 3375 2630
 Wire Wire Line
-	730  3060 2960 3060
+	1585 3030 3375 3030
 Wire Wire Line
-	730  3160 2960 3160
+	1585 3130 3375 3130
 Wire Wire Line
-	730  3260 2960 3260
+	1585 3230 3375 3230
 Wire Wire Line
-	730  3360 2960 3360
+	1585 3330 3375 3330
 Wire Wire Line
-	730  2760 2960 2760
+	1585 2730 3375 2730
 Wire Wire Line
-	730  3460 2960 3460
+	1585 3430 3375 3430
 Wire Wire Line
-	4160 2660 6550 2660
+	4575 2630 6065 2630
 Wire Wire Line
-	4160 2760 6550 2760
+	4575 2730 6065 2730
 Wire Wire Line
-	4160 2860 6550 2860
+	4575 2830 6065 2830
 Wire Wire Line
-	4160 1960 6550 1960
+	4575 1930 6065 1930
 Wire Wire Line
-	4160 2060 6550 2060
+	4575 2030 6065 2030
 Wire Wire Line
-	4160 2160 6550 2160
+	4575 2130 6065 2130
 Wire Wire Line
-	4160 3360 6550 3360
+	4575 3330 6065 3330
 Wire Wire Line
-	4160 3460 6550 3460
+	4575 3430 6065 3430
 Wire Wire Line
-	4160 3560 6550 3560
+	4575 3530 6065 3530
 Wire Wire Line
-	4160 2360 6550 2360
+	4575 2330 6065 2330
 Wire Wire Line
-	4160 2460 6550 2460
+	4575 2430 6065 2430
 Wire Wire Line
-	4160 3160 6550 3160
-Text Label 730  2460 0    60   ~ 0
+	4575 3130 6065 3130
+Text Label 1585 2430 0    60   ~ 0
 P3V3_HAT
-Text Label 730  3260 0    60   ~ 0
+Text Label 1585 3230 0    60   ~ 0
 PWM1\GPIO12
-Text Label 730  3360 0    60   ~ 0
+Text Label 1585 3330 0    60   ~ 0
 MISO1\GPIO19
-Text Label 6550 1960 2    60   ~ 0
+Text Label 6065 1930 2    60   ~ 0
 TXD\GPIO14
-Text Label 6550 2060 2    60   ~ 0
+Text Label 6065 2030 2    60   ~ 0
 RXD\GPIO15
-Text Label 6550 2860 2    49   ~ 0
+Text Label 6065 2830 2    49   ~ 0
 ~CE1~\GPIO7
-Text Label 6550 3460 2    60   ~ 0
+Text Label 6065 3430 2    60   ~ 0
 MOSI1\GPIO20
-Text Label 6550 3560 2    60   ~ 0
+Text Label 6065 3530 2    60   ~ 0
 SCLK1\GPIO21
 Text Notes 9090 2170 0    79   ~ 16
 ESC\n
@@ -6365,7 +6361,7 @@ Wire Wire Line
 	7880 2810 8250 2810
 Wire Wire Line
 	8250 2810 8250 2870
-Text Label 1420 1960 0    39   ~ 0
+Text Label 2275 1930 0    39   ~ 0
 LED_USR1
 $Comp
 L Device:R_Small_US R4
@@ -6412,16 +6408,16 @@ $EndComp
 Text Notes 9040 4070 0    79   ~ 16
 FAN\n
 Wire Wire Line
-	730  1860 2960 1860
+	1585 1830 3375 1830
 Wire Wire Line
-	730  1760 2960 1760
-Text Label 730  2060 0    60   ~ 0
+	1585 1730 3375 1730
+Text Label 1585 2030 0    60   ~ 0
 GND
-Text Label 730  1860 0    60   ~ 0
+Text Label 1585 1830 0    60   ~ 0
 SCL\GPIO3
-Text Label 730  1760 0    60   ~ 0
+Text Label 1585 1730 0    60   ~ 0
 SDA\GPIO2
-Text Label 730  1660 0    60   ~ 0
+Text Label 1585 1630 0    60   ~ 0
 P3V3_HAT
 Text Label 7820 2190 0    39   ~ 0
 SDA\GPIO2
@@ -6429,83 +6425,93 @@ Text Label 7820 2270 0    39   ~ 0
 SCL\GPIO3
 Wire Wire Line
 	7820 2190 8170 2190
-Text Notes 6550 2160 2    60   ~ 0
+Text Notes 6065 2130 2    60   ~ 0
 PWM0\GPIO18
-Text Notes 730  1960 0    60   ~ 0
+Text Notes 1585 1930 0    60   ~ 0
 GCLK0\GPIO4
-Text Notes 730  2160 0    60   ~ 0
+Text Notes 1585 2130 0    60   ~ 0
 GPIO17
-Text Notes 730  2260 0    60   ~ 0
+Text Notes 1585 2230 0    60   ~ 0
 GPIO27
-Text Notes 730  2360 0    60   ~ 0
+Text Notes 1585 2330 0    60   ~ 0
 GPIO22
-Text Notes 6550 2360 2    60   ~ 0
+Text Notes 6065 2330 2    60   ~ 0
 GPIO23
-Text Notes 6550 2460 2    60   ~ 0
+Text Notes 6065 2430 2    60   ~ 0
 GPIO24
-Text Notes 730  3460 0    60   ~ 0
+Text Notes 1585 3430 0    60   ~ 0
 GPIO26
-Text Notes 6550 3360 2    60   ~ 0
+Text Notes 6065 3330 2    60   ~ 0
 GPIO16
-Text Notes 6550 2660 2    60   ~ 0
+Text Notes 6065 2630 2    60   ~ 0
 GPIO25
-Text Notes 6550 3160 2    60   ~ 0
+Text Notes 6065 3130 2    60   ~ 0
 PWM0\GPIO12
-NoConn ~ 2960 2960
-NoConn ~ 2960 3260
-NoConn ~ 2960 3360
-NoConn ~ 4160 3560
-NoConn ~ 4160 3460
-NoConn ~ 4160 2960
-NoConn ~ 4160 2860
-NoConn ~ 4160 2060
-NoConn ~ 4160 1960
-Text GLabel 6550 2460 2    31   Input ~ 0
+NoConn ~ 3375 2930
+NoConn ~ 3375 3230
+NoConn ~ 3375 3330
+NoConn ~ 4575 3530
+NoConn ~ 4575 3430
+NoConn ~ 4575 2830
+NoConn ~ 4575 2030
+NoConn ~ 4575 1930
+Text GLabel 6065 2430 2    31   Input ~ 0
 BNO_BL_IND
-Text GLabel 6550 2360 2    31   Input ~ 0
+Text GLabel 6065 2330 2    31   Input ~ 0
 BNO_INT
-Text GLabel 6550 2160 2    31   Input ~ 0
+Text GLabel 6065 2130 2    31   Input ~ 0
 LED_USR2
-Text GLabel 6550 3360 2    31   Input ~ 0
+Text GLabel 6065 3330 2    31   Input ~ 0
 EXT_TEMP
 Text GLabel 7820 2270 0    31   Input ~ 0
 SCL\GPIO3
 Text GLabel 7820 2190 0    31   Input ~ 0
 SDA\GPIO2
-Text GLabel 6550 3160 2    31   Input ~ 0
+Text GLabel 6065 3130 2    31   Input ~ 0
 G_DRV_LED
-Text GLabel 6550 2660 2    31   Input ~ 0
+Text GLabel 6065 2630 2    31   Input ~ 0
 BNO_~RST
-Text GLabel 730  3460 0    39   Input ~ 0
+Text GLabel 1585 3430 0    39   Input ~ 0
 LEAK_1
-Text GLabel 730  2360 0    39   Input ~ 0
+Text GLabel 1585 2330 0    39   Input ~ 0
 LEAK_2
-Text GLabel 730  2260 0    39   Input ~ 0
+Text GLabel 1585 2230 0    39   Input ~ 0
 LOAD1
-Text GLabel 730  2160 0    39   Input ~ 0
+Text GLabel 1585 2130 0    39   Input ~ 0
 LOAD0
-Text GLabel 730  2560 0    60   Input ~ 0
+Text GLabel 1585 2530 0    60   Input ~ 0
 MOSI0\GPIO10
-Text GLabel 730  2660 0    60   Input ~ 0
+Text GLabel 1585 2630 0    60   Input ~ 0
 MISO0\GPIO9
-Text GLabel 6550 2760 2    39   Input ~ 0
+Text GLabel 6065 2730 2    39   Input ~ 0
 ~CE0~\GPIO8
-Text GLabel 730  2760 0    60   Input ~ 0
+Text GLabel 1585 2730 0    60   Input ~ 0
 SCLK0\GPIO11
-Text Notes 6550 2760 2    49   ~ 0
+Text Notes 6065 2730 2    49   ~ 0
 ~CE0~\GPIO8
-Text Notes 730  2560 0    60   ~ 0
+Text Notes 1585 2530 0    60   ~ 0
 MOSI0\GPIO10
-Text Notes 730  2660 0    60   ~ 0
+Text Notes 1585 2630 0    60   ~ 0
 MISO0\GPIO9
-Text Notes 730  2760 0    60   ~ 0
+Text Notes 1585 2730 0    60   ~ 0
 SCLK0\GPIO11
-Text GLabel 730  3060 0    60   Input ~ 0
+Text GLabel 1585 3030 0    60   Input ~ 0
 GCLK1\GPIO5
-Text Notes 730  3060 0    60   ~ 0
+Text Notes 1585 3030 0    60   ~ 0
 GCLK1\GPIO5
-Text GLabel 730  3160 0    60   Input ~ 0
+Text GLabel 1585 3130 0    60   Input ~ 0
 GCLK2\GPIO6
-Text Notes 730  3160 0    60   ~ 0
+Text Notes 1585 3130 0    60   ~ 0
 GCLK2\GPIO6
+Connection ~ 3375 1930
+Wire Wire Line
+	3375 1930 3815 1930
+Text GLabel 6065 2930 2    39   Input ~ 0
+ID_SC_EEPROM
+Text GLabel 1585 2930 0    28   Input ~ 0
+ID_SD_EEPROM\GPIO0
+Text Notes 6065 2930 2    60   ~ 0
+ID_SC_EEPROM
+Text Notes 1585 2930 0    60   ~ 0
+ID_SD_EEPROM\GPIO0
 $EndSCHEMATC
