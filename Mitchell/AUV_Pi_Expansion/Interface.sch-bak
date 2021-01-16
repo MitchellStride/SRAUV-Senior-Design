@@ -204,9 +204,9 @@ AR Path="/5F9D87DA/5FD5F56E" Ref="J?"  Part="1"
 AR Path="/5FCC1CAC/5FD5F56E" Ref="J33"  Part="1" 
 F 0 "J33" H 8550 1420 39  0000 C CNN
 F 1 "CAN" H 8540 1910 31  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 8540 1720 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 8540 1720 50  0001 C CNN
 F 3 "~" H 8540 1720 50  0001 C CNN
-F 4 "C160404" H 8540 1720 50  0001 C CNN "LCSC"
+F 4 "C160390" H 8540 1720 50  0001 C CNN "LCSC"
 F 5 "" H 8540 1720 50  0001 C CNN "Digikey"
 F 6 "" H 8540 1720 50  0001 C CNN "Desc."
 F 7 "JST SR/SZ - SH compatible, Contact C263995, Housing C394367" H 8540 1720 50  0001 C CNN "Desc"
@@ -231,26 +231,10 @@ Wire Wire Line
 	8270 1880 8270 1820
 Wire Wire Line
 	8270 1820 8340 1820
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5FD5F57C
-P 8270 1450
-AR Path="/5FD5F57C" Ref="#PWR?"  Part="1" 
-AR Path="/5F9D87DA/5FD5F57C" Ref="#PWR?"  Part="1" 
-AR Path="/5FCC1CAC/5FD5F57C" Ref="#PWR0209"  Part="1" 
-F 0 "#PWR0209" H 8270 1300 50  0001 C CNN
-F 1 "+3V3" H 8250 1580 31  0000 C CNN
-F 2 "" H 8270 1450 50  0001 C CNN
-F 3 "" H 8270 1450 50  0001 C CNN
-	1    8270 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8270 1450 8270 1520
 Wire Wire Line
 	8270 1520 8340 1520
-Text Label 8150 1620 0    39   ~ 0
-CANH
 Wire Wire Line
 	8150 1620 8340 1620
 Text Label 8150 1720 0    39   ~ 0
@@ -322,50 +306,8 @@ F 3 "" H 4860 2940 50  0001 C CNN
 	1    4860 2940
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5FD5F5A9
-P 6980 1310
-AR Path="/5FD5F5A9" Ref="#PWR?"  Part="1" 
-AR Path="/5F9D87DA/5FD5F5A9" Ref="#PWR?"  Part="1" 
-AR Path="/5FCC1CAC/5FD5F5A9" Ref="#PWR0211"  Part="1" 
-F 0 "#PWR0211" H 6980 1160 50  0001 C CNN
-F 1 "+3V3" H 6960 1440 31  0000 C CNN
-F 2 "" H 6980 1310 50  0001 C CNN
-F 3 "" H 6980 1310 50  0001 C CNN
-	1    6980 1310
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6980 1310 6980 1340
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5FD5F5B0
-P 7410 1220
-AR Path="/5FD5F5B0" Ref="#PWR?"  Part="1" 
-AR Path="/5F9D87DA/5FD5F5B0" Ref="#PWR?"  Part="1" 
-AR Path="/5FCC1CAC/5FD5F5B0" Ref="#PWR0212"  Part="1" 
-F 0 "#PWR0212" H 7410 1070 50  0001 C CNN
-F 1 "+3V3" H 7390 1350 31  0000 C CNN
-F 2 "" H 7410 1220 50  0001 C CNN
-F 3 "" H 7410 1220 50  0001 C CNN
-	1    7410 1220
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5FD5F5B6
-P 4860 1290
-AR Path="/5FD5F5B6" Ref="#PWR?"  Part="1" 
-AR Path="/5F9D87DA/5FD5F5B6" Ref="#PWR?"  Part="1" 
-AR Path="/5FCC1CAC/5FD5F5B6" Ref="#PWR0213"  Part="1" 
-F 0 "#PWR0213" H 4860 1140 50  0001 C CNN
-F 1 "+3V3" H 4840 1420 31  0000 C CNN
-F 2 "" H 4860 1290 50  0001 C CNN
-F 3 "" H 4860 1290 50  0001 C CNN
-	1    4860 1290
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4860 1290 4860 1340
 $Comp
@@ -403,20 +345,6 @@ $EndComp
 Wire Wire Line
 	5060 1020 5060 1000
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5FD5F5CD
-P 5060 1000
-AR Path="/5FD5F5CD" Ref="#PWR?"  Part="1" 
-AR Path="/5F9D87DA/5FD5F5CD" Ref="#PWR?"  Part="1" 
-AR Path="/5FCC1CAC/5FD5F5CD" Ref="#PWR0215"  Part="1" 
-F 0 "#PWR0215" H 5060 850 50  0001 C CNN
-F 1 "+3V3" H 5040 1130 31  0000 C CNN
-F 2 "" H 5060 1000 50  0001 C CNN
-F 3 "" H 5060 1000 50  0001 C CNN
-	1    5060 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small_US R?
 U 1 1 5FD5F5D6
 P 5750 2560
@@ -442,33 +370,11 @@ Wire Wire Line
 	5460 2740 5750 2740
 Wire Wire Line
 	5750 2740 5750 2660
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5FD5F5E3
-P 5750 2410
-AR Path="/5FD5F5E3" Ref="#PWR?"  Part="1" 
-AR Path="/5F9D87DA/5FD5F5E3" Ref="#PWR?"  Part="1" 
-AR Path="/5FCC1CAC/5FD5F5E3" Ref="#PWR0216"  Part="1" 
-F 0 "#PWR0216" H 5750 2260 50  0001 C CNN
-F 1 "+3V3" H 5730 2540 31  0000 C CNN
-F 2 "" H 5750 2410 50  0001 C CNN
-F 3 "" H 5750 2410 50  0001 C CNN
-	1    5750 2410
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5750 2410 5750 2460
 Text Label 5730 2740 2    31   ~ 0
 MCP_~RST
 NoConn ~ 4260 2540
-Wire Wire Line
-	3330 1540 4260 1540
-Wire Wire Line
-	3330 1640 4260 1640
-Wire Wire Line
-	4260 1740 3340 1740
-Wire Wire Line
-	4260 1840 3340 1840
 $Comp
 L Device:Crystal_Small Y?
 U 1 1 5FD5F5F6
@@ -1248,18 +1154,290 @@ Text GLabel 2910 4730 0    31   Input ~ 0
 SCL\GPIO3
 Text GLabel 2910 4830 0    31   Input ~ 0
 SDA\GPIO2
-Text GLabel 3330 1540 0    60   Input ~ 0
-MOSI0\GPIO10
-Text GLabel 3330 1640 0    60   Input ~ 0
-MISO0\GPIO9
-Text GLabel 3340 1740 0    39   Input ~ 0
-~CE0~\GPIO8
-Text GLabel 3340 1840 0    60   Input ~ 0
-SCLK0\GPIO11
 Text GLabel 3430 5230 0    60   Input ~ 0
 GCLK1\GPIO5
-Text GLabel 5700 2140 2    60   Input ~ 0
-GCLK2\GPIO6
 Wire Wire Line
 	5460 2140 5700 2140
+$Comp
+L Logic_LevelTranslator:TXS0108EPW U10
+U 1 1 600E0838
+P 2000 1840
+F 0 "U10" H 1735 2505 50  0000 C CNN
+F 1 "TXS0108EPW" H 2290 1180 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 2000 1090 50  0001 C CNN
+F 3 "www.ti.com/lit/ds/symlink/txs0108e.pdf" H 2000 1740 50  0001 C CNN
+F 4 "C17206" H 2000 1840 50  0001 C CNN "LCSC"
+	1    2000 1840
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5700 2140
+$Comp
+L AUV_Pi_Expansion-rescue:+5V-u104_KICAD_pwr-GeneralMCU-rescue #PWR?
+U 1 1 600F06C1
+P 6980 1310
+AR Path="/600F06C1" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/600F06C1" Ref="#PWR0212"  Part="1" 
+F 0 "#PWR0212" H 6980 1310 10  0001 C CNN
+F 1 "+5V" H 6980 1440 31  0000 C CNN
+F 2 "" H 6980 1310 60  0000 C CNN
+F 3 "" H 6980 1310 60  0000 C CNN
+	1    6980 1310
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 600F7263
+P 1385 1275
+AR Path="/600F7263" Ref="R?"  Part="1" 
+AR Path="/5F9D87DA/600F7263" Ref="R?"  Part="1" 
+AR Path="/5FCC1CAC/600F7263" Ref="R44"  Part="1" 
+F 0 "R44" H 1425 1295 35  0000 L CNN
+F 1 "10k" H 1425 1245 31  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1385 1275 50  0001 C CNN
+F 3 "~" H 1385 1275 50  0001 C CNN
+F 4 "C25804" H 1385 1275 50  0001 C CNN "LCSC"
+F 5 "" H 1385 1275 50  0001 C CNN "Digi"
+F 6 "10KΩ (1002) ±1%" H 1385 1275 50  0001 C CNN "Desc"
+	1    1385 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1540 1535 1540
+Wire Wire Line
+	1600 1640 1535 1640
+Wire Wire Line
+	1600 1740 1535 1740
+Wire Wire Line
+	1600 1840 1535 1840
+Wire Wire Line
+	2100 1090 2100 1140
+$Comp
+L Device:C_Small C?
+U 1 1 6011BA4C
+P 2300 870
+AR Path="/6011BA4C" Ref="C?"  Part="1" 
+AR Path="/5F9D87DA/6011BA4C" Ref="C?"  Part="1" 
+AR Path="/5FCC1CAC/6011BA4C" Ref="C29"  Part="1" 
+F 0 "C29" H 2320 930 39  0000 L CNN
+F 1 "0.1u" H 2330 810 35  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 870 50  0001 C CNN
+F 3 "~" H 2300 870 50  0001 C CNN
+F 4 "C14663" H 2300 870 50  0001 C CNN "LCSC"
+F 5 "" H 2300 870 50  0001 C CNN "Digi"
+F 6 "" H 2300 870 50  0001 C CNN "Desc."
+F 7 "100nF (104) ±10% 50V X7R" H 2300 870 50  0001 C CNN "Desc"
+	1    2300 870 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011BA52
+P 2300 970
+AR Path="/6011BA52" Ref="#PWR?"  Part="1" 
+AR Path="/5F9D87DA/6011BA52" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/6011BA52" Ref="#PWR0213"  Part="1" 
+F 0 "#PWR0213" H 2300 720 50  0001 C CNN
+F 1 "GND" H 2300 850 31  0000 C CNN
+F 2 "" H 2300 970 50  0001 C CNN
+F 3 "" H 2300 970 50  0001 C CNN
+	1    2300 970 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 770  2300 750 
+$Comp
+L Device:C_Small C?
+U 1 1 6012253F
+P 1650 870
+AR Path="/6012253F" Ref="C?"  Part="1" 
+AR Path="/5F9D87DA/6012253F" Ref="C?"  Part="1" 
+AR Path="/5FCC1CAC/6012253F" Ref="C28"  Part="1" 
+F 0 "C28" H 1670 930 39  0000 L CNN
+F 1 "0.1u" H 1680 810 35  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 870 50  0001 C CNN
+F 3 "~" H 1650 870 50  0001 C CNN
+F 4 "C14663" H 1650 870 50  0001 C CNN "LCSC"
+F 5 "" H 1650 870 50  0001 C CNN "Digi"
+F 6 "" H 1650 870 50  0001 C CNN "Desc."
+F 7 "100nF (104) ±10% 50V X7R" H 1650 870 50  0001 C CNN "Desc"
+	1    1650 870 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60122545
+P 1650 970
+AR Path="/60122545" Ref="#PWR?"  Part="1" 
+AR Path="/5F9D87DA/60122545" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/60122545" Ref="#PWR0215"  Part="1" 
+F 0 "#PWR0215" H 1650 720 50  0001 C CNN
+F 1 "GND" H 1650 850 31  0000 C CNN
+F 2 "" H 1650 970 50  0001 C CNN
+F 3 "" H 1650 970 50  0001 C CNN
+	1    1650 970 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 770  1650 750 
+Wire Wire Line
+	1600 1440 1385 1440
+Wire Wire Line
+	1385 1440 1385 1375
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60136200
+P 1385 1175
+AR Path="/60136200" Ref="#PWR?"  Part="1" 
+AR Path="/5F9D87DA/60136200" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/60136200" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 1385 1025 50  0001 C CNN
+F 1 "+3V3" H 1365 1305 31  0000 C CNN
+F 2 "" H 1385 1175 50  0001 C CNN
+F 3 "" H 1385 1175 50  0001 C CNN
+	1    1385 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1090 1900 1140
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6013BDA3
+P 1900 1090
+AR Path="/6013BDA3" Ref="#PWR?"  Part="1" 
+AR Path="/5F9D87DA/6013BDA3" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/6013BDA3" Ref="#PWR0230"  Part="1" 
+F 0 "#PWR0230" H 1900 940 50  0001 C CNN
+F 1 "+3V3" H 1880 1220 31  0000 C CNN
+F 2 "" H 1900 1090 50  0001 C CNN
+F 3 "" H 1900 1090 50  0001 C CNN
+	1    1900 1090
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6015B64E
+P 1650 750
+AR Path="/6015B64E" Ref="#PWR?"  Part="1" 
+AR Path="/5F9D87DA/6015B64E" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/6015B64E" Ref="#PWR0231"  Part="1" 
+F 0 "#PWR0231" H 1650 600 50  0001 C CNN
+F 1 "+3V3" H 1630 880 31  0000 C CNN
+F 2 "" H 1650 750 50  0001 C CNN
+F 3 "" H 1650 750 50  0001 C CNN
+	1    1650 750 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1535 1840 0    60   Input ~ 0
+SCLK0\GPIO11
+Text GLabel 1535 1740 0    39   Input ~ 0
+~CE0~\GPIO8
+Text GLabel 1535 1640 0    60   Input ~ 0
+MISO0\GPIO9
+Text GLabel 1535 1540 0    60   Input ~ 0
+MOSI0\GPIO10
+Wire Wire Line
+	2400 1540 4260 1540
+Wire Wire Line
+	2400 1640 4260 1640
+Wire Wire Line
+	2400 1740 4260 1740
+Wire Wire Line
+	2400 1840 4260 1840
+$Comp
+L AUV_Pi_Expansion-rescue:+5V-u104_KICAD_pwr-GeneralMCU-rescue #PWR?
+U 1 1 601F469D
+P 5750 2410
+AR Path="/601F469D" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/601F469D" Ref="#PWR0232"  Part="1" 
+F 0 "#PWR0232" H 5750 2410 10  0001 C CNN
+F 1 "+5V" H 5750 2540 31  0000 C CNN
+F 2 "" H 5750 2410 60  0000 C CNN
+F 3 "" H 5750 2410 60  0000 C CNN
+	1    5750 2410
+	1    0    0    -1  
+$EndComp
+$Comp
+L AUV_Pi_Expansion-rescue:+5V-u104_KICAD_pwr-GeneralMCU-rescue #PWR?
+U 1 1 601FA0DA
+P 5060 1000
+AR Path="/601FA0DA" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/601FA0DA" Ref="#PWR0233"  Part="1" 
+F 0 "#PWR0233" H 5060 1000 10  0001 C CNN
+F 1 "+5V" H 5060 1130 31  0000 C CNN
+F 2 "" H 5060 1000 60  0000 C CNN
+F 3 "" H 5060 1000 60  0000 C CNN
+	1    5060 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AUV_Pi_Expansion-rescue:+5V-u104_KICAD_pwr-GeneralMCU-rescue #PWR?
+U 1 1 601FF314
+P 4860 1290
+AR Path="/601FF314" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/601FF314" Ref="#PWR0234"  Part="1" 
+F 0 "#PWR0234" H 4860 1290 10  0001 C CNN
+F 1 "+5V" H 4860 1420 31  0000 C CNN
+F 2 "" H 4860 1290 60  0000 C CNN
+F 3 "" H 4860 1290 60  0000 C CNN
+	1    4860 1290
+	1    0    0    -1  
+$EndComp
+$Comp
+L AUV_Pi_Expansion-rescue:+5V-u104_KICAD_pwr-GeneralMCU-rescue #PWR?
+U 1 1 60208A7D
+P 7410 1220
+AR Path="/60208A7D" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/60208A7D" Ref="#PWR0235"  Part="1" 
+F 0 "#PWR0235" H 7410 1220 10  0001 C CNN
+F 1 "+5V" H 7410 1350 31  0000 C CNN
+F 2 "" H 7410 1220 60  0000 C CNN
+F 3 "" H 7410 1220 60  0000 C CNN
+	1    7410 1220
+	1    0    0    -1  
+$EndComp
+$Comp
+L AUV_Pi_Expansion-rescue:+5V-u104_KICAD_pwr-GeneralMCU-rescue #PWR?
+U 1 1 6020E615
+P 8270 1450
+AR Path="/6020E615" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/6020E615" Ref="#PWR0236"  Part="1" 
+F 0 "#PWR0236" H 8270 1450 10  0001 C CNN
+F 1 "+5V" H 8270 1580 31  0000 C CNN
+F 2 "" H 8270 1450 60  0000 C CNN
+F 3 "" H 8270 1450 60  0000 C CNN
+	1    8270 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L AUV_Pi_Expansion-rescue:+5V-u104_KICAD_pwr-GeneralMCU-rescue #PWR?
+U 1 1 60214B54
+P 2100 1090
+AR Path="/60214B54" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/60214B54" Ref="#PWR0237"  Part="1" 
+F 0 "#PWR0237" H 2100 1090 10  0001 C CNN
+F 1 "+5V" H 2100 1220 31  0000 C CNN
+F 2 "" H 2100 1090 60  0000 C CNN
+F 3 "" H 2100 1090 60  0000 C CNN
+	1    2100 1090
+	1    0    0    -1  
+$EndComp
+$Comp
+L AUV_Pi_Expansion-rescue:+5V-u104_KICAD_pwr-GeneralMCU-rescue #PWR?
+U 1 1 6021A1F3
+P 2300 750
+AR Path="/6021A1F3" Ref="#PWR?"  Part="1" 
+AR Path="/5FCC1CAC/6021A1F3" Ref="#PWR0238"  Part="1" 
+F 0 "#PWR0238" H 2300 750 10  0001 C CNN
+F 1 "+5V" H 2300 880 31  0000 C CNN
+F 2 "" H 2300 750 60  0000 C CNN
+F 3 "" H 2300 750 60  0000 C CNN
+	1    2300 750 
+	1    0    0    -1  
+$EndComp
+Text Label 8150 1620 0    39   ~ 0
+CANH
+Text GLabel 8150 1620 0    39   Input ~ 0
+CANH
+Text GLabel 8150 1720 0    39   Input ~ 0
+CANL
 $EndSCHEMATC

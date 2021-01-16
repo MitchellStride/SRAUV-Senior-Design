@@ -163,50 +163,6 @@ F 3 "" H 10800 6570 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L u104_KICAD_misc:LogoBlock Logo2
-U 1 1 5F466347
-P 10800 6450
-F 0 "Logo2" H 10710 6450 39  0000 L CNN
-F 1 "luckyvolt1" H 10910 6450 39  0000 L CNN
-F 2 "silk:luckyvolt_small_10mm" H 10800 6450 39  0001 C CNN
-F 3 "" H 10800 6450 39  0001 C CNN
-	1    10800 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo3
-U 1 1 5F49A8CD
-P 10800 6330
-F 0 "Logo3" H 10710 6330 39  0000 L CNN
-F 1 "luckyvolt2" H 10910 6330 39  0000 L CNN
-F 2 "silk:luckyvolt_small_15mm" H 10800 6330 39  0001 C CNN
-F 3 "" H 10800 6330 39  0001 C CNN
-	1    10800 6330
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo4
-U 1 1 5F49AF90
-P 10800 6210
-F 0 "Logo4" H 10710 6210 39  0000 L CNN
-F 1 "luckyvolt3" H 10910 6210 39  0000 L CNN
-F 2 "silk:luckyvolt_small_20mm" H 10800 6210 39  0001 C CNN
-F 3 "" H 10800 6210 39  0001 C CNN
-	1    10800 6210
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo5
-U 1 1 5F49B137
-P 10800 6090
-F 0 "Logo5" H 10710 6090 39  0000 L CNN
-F 1 "luckyvolt4" H 10910 6090 39  0000 L CNN
-F 2 "silk:luckyvolt_small_31mm" H 10800 6090 39  0001 C CNN
-F 3 "" H 10800 6090 39  0001 C CNN
-	1    10800 6090
-	1    0    0    -1  
-$EndComp
-$Comp
 L u104_KICAD_misc:LogoBlock Logo6
 U 1 1 5F49BC16
 P 10800 5970
@@ -534,20 +490,6 @@ F 6 "Blue" V 9190 6350 50  0001 C CNN "Desc"
 	1    9190 6350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L AUV_Pi_Expansion-rescue:OX40HAT-raspberrypi_hat-pitest-rescue J1
-U 1 1 58DFC771
-P 3975 1630
-F 0 "J1" H 4325 1730 50  0000 C CNN
-F 1 "40HAT" H 3675 1730 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3975 1830 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 3275 1630 50  0001 C CNN
-F 4 "C725892" H 3975 1630 50  0001 C CNN "LCSC"
-F 5 "" H 3975 1630 50  0001 C CNN "Digi"
-F 6 "" H 3975 1630 50  0001 C CNN "Desc"
-	1    3975 1630
-	1    0    0    -1  
-$EndComp
 Text Label 1585 3530 0    60   ~ 0
 GND
 Wire Wire Line
@@ -609,17 +551,6 @@ F 3 "" H 10800 5370 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L u104_KICAD_misc:LogoBlock Logo17
-U 1 1 5EE195AB
-P 10800 5250
-F 0 "Logo17" H 10710 5250 31  0000 L CNN
-F 1 "Anchor" H 10910 5250 39  0000 L CNN
-F 2 "silk:anchor" H 10800 5250 39  0001 C CNN
-F 3 "" H 10800 5250 39  0001 C CNN
-	1    10800 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L u104_KICAD_misc:LogoBlock Logo16
 U 1 1 5EE195B1
 P 10800 5130
@@ -631,17 +562,6 @@ F 3 "" H 10800 5130 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L u104_KICAD_misc:LogoBlock Logo15
-U 1 1 5EE195B7
-P 10800 5010
-F 0 "Logo15" H 10710 5010 31  0000 L CNN
-F 1 "Dhelmet" H 10910 5010 39  0000 L CNN
-F 2 "silk:diverhel" H 10800 5010 39  0001 C CNN
-F 3 "" H 10800 5010 39  0001 C CNN
-	1    10800 5010
-	1    0    0    -1  
-$EndComp
-$Comp
 L u104_KICAD_misc:LogoBlock Logo14
 U 1 1 5EE195BD
 P 10800 4890
@@ -650,28 +570,6 @@ F 1 "Jelly" H 10910 4890 39  0000 L CNN
 F 2 "silk:jelly" H 10800 4890 39  0001 C CNN
 F 3 "" H 10800 4890 39  0001 C CNN
 	1    10800 4890
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo13
-U 1 1 5EE195C3
-P 10800 4770
-F 0 "Logo13" H 10710 4770 31  0000 L CNN
-F 1 "Starfish" H 10910 4770 39  0000 L CNN
-F 2 "silk:starfish" H 10800 4770 39  0001 C CNN
-F 3 "" H 10800 4770 39  0001 C CNN
-	1    10800 4770
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo12
-U 1 1 5EE195C9
-P 10800 4650
-F 0 "Logo12" H 10710 4650 31  0000 L CNN
-F 1 "Trident" H 10910 4650 39  0000 L CNN
-F 2 "silk:trident" H 10800 4650 39  0001 C CNN
-F 3 "" H 10800 4650 39  0001 C CNN
-	1    10800 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -730,10 +628,6 @@ Wire Wire Line
 	4575 2430 6065 2430
 Wire Wire Line
 	4575 3130 6065 3130
-Text Label 1585 2430 0    60   ~ 0
-P3V3_HAT
-Text Label 1585 3230 0    60   ~ 0
-PWM1\GPIO12
 Text Label 1585 3330 0    60   ~ 0
 MISO1\GPIO19
 Text Label 6065 1930 2    60   ~ 0
@@ -770,12 +664,12 @@ AR Path="/5F9AFEB9/6104CC5E" Ref="J?"  Part="1"
 AR Path="/6104CC5E" Ref="J12"  Part="1" 
 F 0 "J12" H 9190 2620 39  0000 C CNN
 F 1 "ESC1C" H 9150 2890 31  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 9170 2800 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 9170 2800 50  0001 C CNN
 F 3 "~" H 9170 2800 50  0001 C CNN
-F 4 "C160402" H 9170 2800 50  0001 C CNN "LCSC"
+F 4 "C160388" H 9170 2800 50  0001 C CNN "LCSC"
 F 5 "" H 9170 2800 50  0001 C CNN "Digikey"
 F 6 "" H 9170 2800 50  0001 C CNN "Desc."
-F 7 "JST SR/SZ - SH compatible" H 9170 2800 50  0001 C CNN "Desc"
+F 7 "JST SR/SZ - SH compatible Vertical" H 9170 2800 50  0001 C CNN "Desc"
 	1    9170 2800
 	-1   0    0    1   
 $EndComp
@@ -831,23 +725,6 @@ F 6 "XT30 R/A Male, 15A Cont. 30A Pk." H 9710 2400 50  0001 C CNN "Desc"
 	1    9710 2400
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 6121835A
-P 9720 2780
-AR Path="/5F9AFEB9/6121835A" Ref="J?"  Part="1" 
-AR Path="/6121835A" Ref="J11"  Part="1" 
-F 0 "J11" H 9740 2600 39  0000 C CNN
-F 1 "ESC2C" H 9700 2870 31  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 9720 2780 50  0001 C CNN
-F 3 "~" H 9720 2780 50  0001 C CNN
-F 4 "C160402" H 9720 2780 50  0001 C CNN "LCSC"
-F 5 "" H 9720 2780 50  0001 C CNN "Digikey"
-F 6 "" H 9720 2780 50  0001 C CNN "Desc."
-F 7 "JST SR/SZ - SH compatible" H 9720 2780 50  0001 C CNN "Desc"
-	1    9720 2780
-	-1   0    0    1   
-$EndComp
 Text Label 10110 2680 2    39   ~ 0
 CANH
 Wire Wire Line
@@ -898,23 +775,6 @@ F 4 "C431092" H 10240 2390 50  0001 C CNN "LCSC"
 F 5 "" H 10240 2390 50  0001 C CNN "Digi"
 F 6 "XT30 R/A Male, 15A Cont. 30A Pk." H 10240 2390 50  0001 C CNN "Desc"
 	1    10240 2390
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 61231835
-P 10250 2770
-AR Path="/5F9AFEB9/61231835" Ref="J?"  Part="1" 
-AR Path="/61231835" Ref="J10"  Part="1" 
-F 0 "J10" H 10270 2590 39  0000 C CNN
-F 1 "ESC3C" H 10230 2860 31  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 10250 2770 50  0001 C CNN
-F 3 "~" H 10250 2770 50  0001 C CNN
-F 4 "C160402" H 10250 2770 50  0001 C CNN "LCSC"
-F 5 "" H 10250 2770 50  0001 C CNN "Digikey"
-F 6 "" H 10250 2770 50  0001 C CNN "Desc."
-F 7 "JST SR/SZ - SH compatible" H 10250 2770 50  0001 C CNN "Desc"
-	1    10250 2770
 	-1   0    0    1   
 $EndComp
 Text Label 10640 2670 2    39   ~ 0
@@ -977,12 +837,12 @@ AR Path="/5F9AFEB9/6124BD7B" Ref="J?"  Part="1"
 AR Path="/6124BD7B" Ref="J20"  Part="1" 
 F 0 "J20" H 9200 3370 39  0000 C CNN
 F 1 "ESC4C" H 9160 3640 31  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 9180 3550 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 9180 3550 50  0001 C CNN
 F 3 "~" H 9180 3550 50  0001 C CNN
-F 4 "C160402" H 9180 3550 50  0001 C CNN "LCSC"
+F 4 "C160388" H 9180 3550 50  0001 C CNN "LCSC"
 F 5 "" H 9180 3550 50  0001 C CNN "Digikey"
 F 6 "" H 9180 3550 50  0001 C CNN "Desc."
-F 7 "JST SR/SZ - SH compatible" H 9180 3550 50  0001 C CNN "Desc"
+F 7 "JST SR/SZ - SH compatible Vertical" H 9180 3550 50  0001 C CNN "Desc"
 	1    9180 3550
 	-1   0    0    1   
 $EndComp
@@ -1046,12 +906,12 @@ AR Path="/5F9AFEB9/61266826" Ref="J?"  Part="1"
 AR Path="/61266826" Ref="J19"  Part="1" 
 F 0 "J19" H 9750 3340 39  0000 C CNN
 F 1 "ESC5C" H 9710 3610 31  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 9730 3520 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 9730 3520 50  0001 C CNN
 F 3 "~" H 9730 3520 50  0001 C CNN
-F 4 "C160402" H 9730 3520 50  0001 C CNN "LCSC"
+F 4 "C160388" H 9730 3520 50  0001 C CNN "LCSC"
 F 5 "" H 9730 3520 50  0001 C CNN "Digikey"
 F 6 "" H 9730 3520 50  0001 C CNN "Desc."
-F 7 "JST SR/SZ - SH compatible" H 9730 3520 50  0001 C CNN "Desc"
+F 7 "JST SR/SZ - SH compatible Vertical" H 9730 3520 50  0001 C CNN "Desc"
 	1    9730 3520
 	-1   0    0    1   
 $EndComp
@@ -1115,12 +975,12 @@ AR Path="/5F9AFEB9/612826D4" Ref="J?"  Part="1"
 AR Path="/612826D4" Ref="J18"  Part="1" 
 F 0 "J18" H 10290 3330 39  0000 C CNN
 F 1 "ESC6C" H 10250 3600 31  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 10270 3510 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 10270 3510 50  0001 C CNN
 F 3 "~" H 10270 3510 50  0001 C CNN
-F 4 "C160402" H 10270 3510 50  0001 C CNN "LCSC"
+F 4 "C160388" H 10270 3510 50  0001 C CNN "LCSC"
 F 5 "" H 10270 3510 50  0001 C CNN "Digikey"
 F 6 "" H 10270 3510 50  0001 C CNN "Desc."
-F 7 "JST SR/SZ - SH compatible" H 10270 3510 50  0001 C CNN "Desc"
+F 7 "JST SR/SZ - SH compatible Vertical" H 10270 3510 50  0001 C CNN "Desc"
 	1    10270 3510
 	-1   0    0    1   
 $EndComp
@@ -6268,7 +6128,7 @@ Wire Wire Line
 Wire Wire Line
 	8170 2190 8170 2090
 Text Notes 3380 6890 0    79   ~ 16
-POE\n
+"POE"\n
 $Sheet
 S 2900 6410 1300 930 
 U 5FFE22A4
@@ -6315,29 +6175,29 @@ Wire Wire Line
 $Comp
 L Device:LED_Small D1
 U 1 1 601EE76A
-P 8250 2970
-F 0 "D1" V 8270 2920 50  0000 R CNN
-F 1 "3V3" V 8200 2910 35  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 8250 2970 50  0001 C CNN
-F 3 "~" V 8250 2970 50  0001 C CNN
-F 4 "C72043" V 8250 2970 50  0001 C CNN "LCSC"
-F 5 "" V 8250 2970 50  0001 C CNN "Digi"
-F 6 "Green - Vf sub 3V for <10mA" V 8250 2970 50  0001 C CNN "Desc"
-	1    8250 2970
+P 8250 3270
+F 0 "D1" V 8270 3220 50  0000 R CNN
+F 1 "3V3" V 8200 3210 35  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8250 3270 50  0001 C CNN
+F 3 "~" V 8250 3270 50  0001 C CNN
+F 4 "C72043" V 8250 3270 50  0001 C CNN "LCSC"
+F 5 "" V 8250 3270 50  0001 C CNN "Digi"
+F 6 "Green - Vf sub 3V for <10mA" V 8250 3270 50  0001 C CNN "Desc"
+	1    8250 3270
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R3
 U 1 1 601FCC4A
-P 8250 3270
-F 0 "R3" H 8290 3290 35  0000 L CNN
-F 1 "100" H 8290 3240 31  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8250 3270 50  0001 C CNN
-F 3 "~" H 8250 3270 50  0001 C CNN
-F 4 "C22775" H 8250 3270 50  0001 C CNN "LCSC"
-F 5 "" H 8250 3270 50  0001 C CNN "Digi"
-F 6 "100" H 8250 3270 50  0001 C CNN "Desc"
-	1    8250 3270
+P 8250 2970
+F 0 "R3" H 8290 2990 35  0000 L CNN
+F 1 "100" H 8290 2940 31  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8250 2970 50  0001 C CNN
+F 3 "~" H 8250 2970 50  0001 C CNN
+F 4 "C22775" H 8250 2970 50  0001 C CNN "LCSC"
+F 5 "" H 8250 2970 50  0001 C CNN "Digi"
+F 6 "100" H 8250 2970 50  0001 C CNN "Desc"
+	1    8250 2970
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -6448,7 +6308,6 @@ GPIO25
 Text Notes 6065 3130 2    60   ~ 0
 PWM0\GPIO12
 NoConn ~ 3375 2930
-NoConn ~ 3375 3230
 NoConn ~ 3375 3330
 NoConn ~ 4575 3530
 NoConn ~ 4575 3430
@@ -6503,9 +6362,6 @@ Text GLabel 1585 3130 0    60   Input ~ 0
 GCLK2\GPIO6
 Text Notes 1585 3130 0    60   ~ 0
 GCLK2\GPIO6
-Connection ~ 3375 1930
-Wire Wire Line
-	3375 1930 3815 1930
 Text GLabel 6065 2930 2    39   Input ~ 0
 ID_SC_EEPROM
 Text GLabel 1585 2930 0    28   Input ~ 0
@@ -6514,4 +6370,65 @@ Text Notes 6065 2930 2    60   ~ 0
 ID_SC_EEPROM
 Text Notes 1585 2930 0    60   ~ 0
 ID_SD_EEPROM\GPIO0
+Text Notes 1470 3660 0    60   ~ 0
+*GCLK2\GPIO6 INT for CAN, not important\n
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61231835
+P 10250 2770
+AR Path="/5F9AFEB9/61231835" Ref="J?"  Part="1" 
+AR Path="/61231835" Ref="J10"  Part="1" 
+F 0 "J10" H 10270 2590 39  0000 C CNN
+F 1 "ESC3C" H 10230 2860 31  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 10250 2770 50  0001 C CNN
+F 3 "~" H 10250 2770 50  0001 C CNN
+F 4 "C160388" H 10250 2770 50  0001 C CNN "LCSC"
+F 5 "" H 10250 2770 50  0001 C CNN "Digikey"
+F 6 "" H 10250 2770 50  0001 C CNN "Desc."
+F 7 "JST SR/SZ - SH compatible Vertical" H 10250 2770 50  0001 C CNN "Desc"
+	1    10250 2770
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6121835A
+P 9720 2780
+AR Path="/5F9AFEB9/6121835A" Ref="J?"  Part="1" 
+AR Path="/6121835A" Ref="J11"  Part="1" 
+F 0 "J11" H 9740 2600 39  0000 C CNN
+F 1 "ESC2C" H 9700 2870 31  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 9720 2780 50  0001 C CNN
+F 3 "~" H 9720 2780 50  0001 C CNN
+F 4 "C160388" H 9720 2780 50  0001 C CNN "LCSC"
+F 5 "" H 9720 2780 50  0001 C CNN "Digikey"
+F 6 "" H 9720 2780 50  0001 C CNN "Desc."
+F 7 "JST SR/SZ - SH compatible Vertical" H 9720 2780 50  0001 C CNN "Desc"
+	1    9720 2780
+	-1   0    0    1   
+$EndComp
+Text GLabel 1585 3230 0    60   Input ~ 0
+PWM1\GPIO12
+Text Notes 1585 3230 0    60   ~ 0
+PWM1\GPIO12
+Text GLabel 10660 3410 2    39   Input ~ 0
+CANH
+Text GLabel 10660 3510 2    39   Input ~ 0
+CANL
+Text Notes 1585 2430 0    60   ~ 0
+P3V3_HAT
+NoConn ~ 3380 2430
+$Comp
+L AUV_Pi_Expansion-rescue:OX40HAT-raspberrypi_hat-pitest-rescue J1
+U 1 1 58DFC771
+P 3975 1630
+F 0 "J1" H 4325 1730 50  0000 C CNN
+F 1 "40HAT" H 3675 1730 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3975 1830 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 3275 1630 50  0001 C CNN
+F 4 "C725892" H 3975 1630 50  0001 C CNN "LCSC"
+F 5 "" H 3975 1630 50  0001 C CNN "Digi"
+F 6 "Digi 1528-2235-ND for cable" H 3975 1630 50  0001 C CNN "Desc"
+	1    3975 1630
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
