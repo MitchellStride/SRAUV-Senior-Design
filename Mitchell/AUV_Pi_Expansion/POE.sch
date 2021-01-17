@@ -79,14 +79,13 @@ F 5 "3D Model Wrong" H 2490 3850 50  0001 C CNN "Desc"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2890 3750
-NoConn ~ 2890 3650
 NoConn ~ 2890 3550
 NoConn ~ 2890 3450
 Text Notes 2030 1700 0    79   ~ 16
 Pi Zero Cam Module 1
 Wire Wire Line
-	2890 3850 3410 3850
-Text Label 3410 3850 2    31   ~ 0
+	2890 3650 3410 3650
+Text Label 3410 3650 2    31   ~ 0
 Pi1_Data_TP_2-2
 Wire Wire Line
 	2890 3950 3410 3950
@@ -163,7 +162,6 @@ F 5 "3D Model Wrong" H 4620 3870 50  0001 C CNN "Desc"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5020 3770
-NoConn ~ 5020 3670
 NoConn ~ 5020 3570
 NoConn ~ 5020 3470
 Text Notes 4160 1720 0    79   ~ 16
@@ -231,14 +229,13 @@ F 5 "3D Model Wrong" H 6630 3880 50  0001 C CNN "Desc"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7030 3780
-NoConn ~ 7030 3680
 NoConn ~ 7030 3580
 NoConn ~ 7030 3480
 Text Notes 6170 1730 0    79   ~ 16
 Pi Zero Cam Module 3\n
 Wire Wire Line
-	5020 3870 5540 3870
-Text Label 5540 3870 2    31   ~ 0
+	5020 3670 5540 3670
+Text Label 5540 3670 2    31   ~ 0
 Pi2_Data_TP_2-2
 Wire Wire Line
 	5020 3970 5540 3970
@@ -253,8 +250,8 @@ Wire Wire Line
 Text Label 5540 4170 2    31   ~ 0
 Pi2_Data_TP_1-1
 Wire Wire Line
-	7030 3880 7550 3880
-Text Label 7550 3880 2    31   ~ 0
+	7030 3680 7550 3680
+Text Label 7550 3680 2    31   ~ 0
 Pi3_Data_TP_2-2
 Wire Wire Line
 	7030 3980 7550 3980
@@ -341,4 +338,7 @@ Text Label 7530 2670 2    31   ~ 0
 Pi3_Data_TP_1-2
 Text Label 5520 2760 2    31   ~ 0
 Pi2_Data_TP_2-2
+NoConn ~ 2890 3850
+NoConn ~ 7030 3880
+NoConn ~ 5020 3870
 $EndSCHEMATC

@@ -163,50 +163,6 @@ F 3 "" H 10800 6570 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L u104_KICAD_misc:LogoBlock Logo2
-U 1 1 5F466347
-P 10800 6450
-F 0 "Logo2" H 10710 6450 39  0000 L CNN
-F 1 "luckyvolt1" H 10910 6450 39  0000 L CNN
-F 2 "silk:luckyvolt_small_10mm" H 10800 6450 39  0001 C CNN
-F 3 "" H 10800 6450 39  0001 C CNN
-	1    10800 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo3
-U 1 1 5F49A8CD
-P 10800 6330
-F 0 "Logo3" H 10710 6330 39  0000 L CNN
-F 1 "luckyvolt2" H 10910 6330 39  0000 L CNN
-F 2 "silk:luckyvolt_small_15mm" H 10800 6330 39  0001 C CNN
-F 3 "" H 10800 6330 39  0001 C CNN
-	1    10800 6330
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo4
-U 1 1 5F49AF90
-P 10800 6210
-F 0 "Logo4" H 10710 6210 39  0000 L CNN
-F 1 "luckyvolt3" H 10910 6210 39  0000 L CNN
-F 2 "silk:luckyvolt_small_20mm" H 10800 6210 39  0001 C CNN
-F 3 "" H 10800 6210 39  0001 C CNN
-	1    10800 6210
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo5
-U 1 1 5F49B137
-P 10800 6090
-F 0 "Logo5" H 10710 6090 39  0000 L CNN
-F 1 "luckyvolt4" H 10910 6090 39  0000 L CNN
-F 2 "silk:luckyvolt_small_31mm" H 10800 6090 39  0001 C CNN
-F 3 "" H 10800 6090 39  0001 C CNN
-	1    10800 6090
-	1    0    0    -1  
-$EndComp
-$Comp
 L u104_KICAD_misc:LogoBlock Logo6
 U 1 1 5F49BC16
 P 10800 5970
@@ -595,17 +551,6 @@ F 3 "" H 10800 5370 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L u104_KICAD_misc:LogoBlock Logo17
-U 1 1 5EE195AB
-P 10800 5250
-F 0 "Logo17" H 10710 5250 31  0000 L CNN
-F 1 "Anchor" H 10910 5250 39  0000 L CNN
-F 2 "silk:anchor" H 10800 5250 39  0001 C CNN
-F 3 "" H 10800 5250 39  0001 C CNN
-	1    10800 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L u104_KICAD_misc:LogoBlock Logo16
 U 1 1 5EE195B1
 P 10800 5130
@@ -617,17 +562,6 @@ F 3 "" H 10800 5130 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L u104_KICAD_misc:LogoBlock Logo15
-U 1 1 5EE195B7
-P 10800 5010
-F 0 "Logo15" H 10710 5010 31  0000 L CNN
-F 1 "Dhelmet" H 10910 5010 39  0000 L CNN
-F 2 "silk:diverhel" H 10800 5010 39  0001 C CNN
-F 3 "" H 10800 5010 39  0001 C CNN
-	1    10800 5010
-	1    0    0    -1  
-$EndComp
-$Comp
 L u104_KICAD_misc:LogoBlock Logo14
 U 1 1 5EE195BD
 P 10800 4890
@@ -636,28 +570,6 @@ F 1 "Jelly" H 10910 4890 39  0000 L CNN
 F 2 "silk:jelly" H 10800 4890 39  0001 C CNN
 F 3 "" H 10800 4890 39  0001 C CNN
 	1    10800 4890
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo13
-U 1 1 5EE195C3
-P 10800 4770
-F 0 "Logo13" H 10710 4770 31  0000 L CNN
-F 1 "Starfish" H 10910 4770 39  0000 L CNN
-F 2 "silk:starfish" H 10800 4770 39  0001 C CNN
-F 3 "" H 10800 4770 39  0001 C CNN
-	1    10800 4770
-	1    0    0    -1  
-$EndComp
-$Comp
-L u104_KICAD_misc:LogoBlock Logo12
-U 1 1 5EE195C9
-P 10800 4650
-F 0 "Logo12" H 10710 4650 31  0000 L CNN
-F 1 "Trident" H 10910 4650 39  0000 L CNN
-F 2 "silk:trident" H 10800 4650 39  0001 C CNN
-F 3 "" H 10800 4650 39  0001 C CNN
-	1    10800 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
