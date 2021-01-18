@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 14)
     (tracks 95)
     (zones 0)
     (modules 11)
@@ -591,7 +591,6 @@
   (gr_arc (start 53.5 146.5) (end 50 146.5) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 50 133.5) (end 50 146.5) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 53.5 150) (end 76.5 150) (layer Edge.Cuts) (width 0.05))
-  (target plus (at 50 150) (size 5) (width 0.05) (layer Edge.Cuts))
 
   (segment (start 62.95 140.2048) (end 63.5452 140.8) (width 0.3048) (layer F.Cu) (net 1))
   (segment (start 62.95 139.4) (end 62.95 140.2048) (width 0.3048) (layer F.Cu) (net 1))
@@ -689,7 +688,7 @@
   (segment (start 65 145.25) (end 65 144.1) (width 0.3048) (layer F.Cu) (net 8))
   (segment (start 65 144.1) (end 64.7 143.8) (width 0.3048) (layer F.Cu) (net 8))
 
-  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 60050962) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 6004CBC1) (hatch edge 0.508)
     (connect_pads thru_hole_only (clearance 0.254))
     (min_thickness 0.128)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -767,7 +766,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 6005095F) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 6004CBBE) (hatch edge 0.508)
     (connect_pads thru_hole_only (clearance 0.254))
     (min_thickness 0.128)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.7))
@@ -782,7 +781,7 @@
       )
     )
   )
-  (zone (net 7) (net_name +5V) (layer F.Cu) (tstamp 6005095C) (hatch edge 0.508)
+  (zone (net 7) (net_name +5V) (layer F.Cu) (tstamp 6004CBBB) (hatch edge 0.508)
     (connect_pads thru_hole_only (clearance 0.254))
     (min_thickness 0.128)
     (fill yes (arc_segments 32) (thermal_gap 0.24) (thermal_bridge_width 0.7))
@@ -798,7 +797,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 60050959) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 6004CBB8) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.128)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

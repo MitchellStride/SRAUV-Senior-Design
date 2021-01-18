@@ -1,0 +1,83 @@
+Reference,Qty, Value, Desc, Footprint, LCSC, Digi,, Datasheet
+C1 C2 C6 ,3,100u,100u/50V Electrolytic,Capacitor_SMD:CP_Elec_8x10,C249469,,,~
+C11 C9 C14 C25 ,4,1u,"	",Capacitor_SMD:C_0603_1608Metric,C26413,,,~
+C13 C17 C20 C22 C21 C26 C29 C28 ,8,0.1u,100nF (104) ±10% 50V X7R,Capacitor_SMD:C_0603_1608Metric,C14663,,,~
+C15 ,1,6.8n,,Capacitor_SMD:C_0603_1608Metric,C84723,,,~
+C16 ,1,120n,,Capacitor_SMD:C_0603_1608Metric,C29901,,,~
+C18 C19 C24 C23 ,4,22p,,Capacitor_SMD:C_0603_1608Metric,C376775,,,~
+C3 C4 C5 C7 ,4,4.7u,4.7u\50V Ceramic,Capacitor_SMD:C_1210_3225Metric,C337438,,,~
+C8 C10 ,2,10u,,Capacitor_SMD:C_1206_3216Metric,C13585,,,~
+D2 D1 ,2,3V3,Blue,LED_SMD:LED_0603_1608Metric,C72041,,,~
+D3 ,1,5V,Blue,LED_SMD:LED_0603_1608Metric,C72041,,,~
+D4 ,1,#NAME?,Blue,LED_SMD:LED_0603_1608Metric,C72041,,,~
+D5 ,1,26.7 Vb,24V Sys TVS Protection Diode SMB,Diode_SMD:D_SMB,C353372,SMBJ26A-E3/5BGITR-ND,,~
+D6 ,1,WS2812B,,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm, C114586,,,https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+F1 F3 F5 ,3,5A,,Fuse:Fuse_1206_3216Metric,C163128,,,~
+F4 F2 ,2,1A,Order x2 and C178848 1A,Fuse:Fuse_1206_3216Metric,C553921,,,~
+H4 H3 H2 H1 ,4,M3,,MountingHole:MountingHole_3.2mm_M3_Pad,C79822,,,~
+J1 ,1,40HAT,Digi 1528-2235-ND for cable,Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical,C725892,,,https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
+J10 ,1,ESC3C,JST SR/SZ - SH compatible Vertical,Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,C160388,,,~
+J11 ,1,ESC2C,JST SR/SZ - SH compatible Vertical,Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,C160388,,,~
+J12 ,1,ESC1C,JST SR/SZ - SH compatible Vertical,Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,C160388,,,~
+J13 J16 ,2,PWR-,"Anderson Power Pole Black, Contact (2243-1332-BK-ND), Red (2243-1327-BK-ND)",µ104KiCAD_connectors:WtB_Solder_Pad_0.7x0.5,C367208,243-1327-BK-ND,,~
+J14 ,1,ESC6P,"XT30 R/A Male, 15A Cont. 30A Pk.",µ104KiCAD_connectors:XT30PW-M,C431092,,,~
+J15 ,1,ESC5P,"XT30 R/A Male, 15A Cont. 30A Pk.",µ104KiCAD_connectors:XT30PW-M,C431092,,,~
+J17 ,1,ESC4P,"XT30 R/A Male, 15A Cont. 30A Pk.",µ104KiCAD_connectors:XT30PW-M,C431092,,,~
+J18 ,1,ESC6C,JST SR/SZ - SH compatible Vertical,Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,C160388,,,~
+J19 ,1,ESC5C,JST SR/SZ - SH compatible Vertical,Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,C160388,,,~
+J2 ,1,FAN,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C124375,,,~
+J20 ,1,ESC4C,JST SR/SZ - SH compatible Vertical,Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,C160388,,,~
+J21 ,1,N_SWITCH,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,C160402,,,~
+J23 ,1,RGB LED,"JST SR/SZ - SH compatible, Contact C263995, Housing C268100",Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,C160403,,,~
+J24 ,1,LEAK1,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,C160402,,,~
+J25 ,1,TOF1,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,C160404,,,~
+J26 ,1,TOF2,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,C160404,,,~
+J27 ,1,BlueRobotics Pressure Sense,"Contact C88344, Housing C122640 - 1vcc 3.3, 2scl sda4black -- Dry sensor daily",Connector_Hirose:Hirose_DF13-04P-1.25DS_1x04_P1.25mm_Horizontal,C597871,,,~
+J28 ,1,TOF3,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,C160404,,,~
+J29 ,1,TOF4,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,C160404,,,~
+J3 ,1,PWR+,"Anderson Power Pole Black, Contact (2243-1332-BK-ND), Red (2243-1327-BK-ND)",µ104KiCAD_connectors:WtB_Solder_Pad_7x3.5,C367208,2243-1327G6-BK-ND,,~
+J31 ,1,LEAK2,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,C160402,,,~
+J32 ,1,TOF5,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,C160404,,,~
+J33 ,1,CAN,"JST SR/SZ - SH compatible, Contact C263995, Housing C394367",Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,C160390,,,~
+J34 ,1,GPIO,Add DS18B20 Waterproof Sensor (C376006 non proof),Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,C160403,,,~
+J35 ,1,I2C,Add DS18B20 Waterproof Sensor (C376006 non proof),Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,C160403,,,~
+J36 ,1,Rpi Z 1 - IN,"JST SR/SZ - SH compatible, Contact C263995, Housing C394369",Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical,C160394,,,~
+J37 ,1,Rpi Z 1 - OUT SWITCH,3D Model Wrong,µ104KiCAD_connectors:DS1128-05-S8B8P,C86577,,,~
+J38 ,1,Rpi Z 2 - OUT SWITCH,3D Model Wrong,µ104KiCAD_connectors:DS1128-05-S8B8P,C86577,,,~
+J39 ,1,Rpi Z 3 - OUT SWITCH,3D Model Wrong,µ104KiCAD_connectors:DS1128-05-S8B8P,C86577,,,~
+J4 ,1,PWR-,"Anderson Power Pole Black, Contact (2243-1332-BK-ND), Red (2243-1327-BK-ND)",µ104KiCAD_connectors:WtB_Solder_Pad_7x3.5,C367208,243-1327-BK-ND,,~
+J42 ,1,Rpi Z 2 - IN,"JST SR/SZ - SH compatible, Contact C263995, Housing C394369",Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical,C160394,,,~
+J43 ,1,Rpi Z 3 - IN,"JST SR/SZ - SH compatible, Contact C263995, Housing C394369",Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical,C160394,,,~
+J6 ,1,ESC3P,"XT30 R/A Male, 15A Cont. 30A Pk.",µ104KiCAD_connectors:XT30PW-M,C431092,,,~
+J7 ,1,ESC2P,"XT30 R/A Male, 15A Cont. 30A Pk.",µ104KiCAD_connectors:XT30PW-M,C431092,,,~
+J8 ,1,ESC1P,"XT30 R/A Male, 15A Cont. 30A Pk.",µ104KiCAD_connectors:XT30PW-M,C431092,,,~
+J9 J5 ,2,PWR+,"Anderson Power Pole Black, Contact (2243-1332-BK-ND), Red (2243-1327-BK-ND)",µ104KiCAD_connectors:WtB_Solder_Pad_0.7x0.5,C367208,2243-1327G6-BK-ND,,~
+Q1 ,1,Q_NMOS_GDS,,Package_TO_SOT_SMD:TO-252-2,,FDD86567-F085CT-ND,,~
+Q4 Q3 Q2 ,3,MMBT3904,,Package_TO_SOT_SMD:SOT-23,C20526,,,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+R13 ,1,470,,Resistor_SMD:R_0603_1608Metric,C114669,,,~
+R16 R15 R14 R27 R44 ,5,10k,10KΩ (1002) ±1%,Resistor_SMD:R_0603_1608Metric,C25804,,,~
+R2 R1 R28 R29 R30 R31 R32 R33 R34 R35 R36 R37 R38 R39 R40 R41 R42 R43 ,18,3.9k,,Resistor_SMD:R_0603_1608Metric,C118399,,,~
+R22 R19 R12 ,3,100k,100KΩ (1003) ±1%,Resistor_SMD:R_0603_1608Metric,C25803,,,~
+R23 ,1,120,,Resistor_SMD:R_0603_1608Metric,C103247,,,~
+R24 R25 ,2,0,0Ω (0R0) ±1%,Resistor_SMD:R_0603_1608Metric,C21189,,,~
+R3 R4 ,2,100,100,Resistor_SMD:R_0603_1608Metric,C22775,,,~
+R5 R21 R20 R18 R17 R26 ,6,1k,1KΩ (1001) ±1%,Resistor_SMD:R_0603_1608Metric,C21190,,,~
+R6 ,1,4.7k,4.7KΩ (4701) ±1%,Resistor_SMD:R_0603_1608Metric,C23162,,,~
+RV1 ,1,R_POT,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,C118954,,,~
+U1 ,1,AZ1117-3.3,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,C6186,,,https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+U10 ,1,TXS0108EPW,,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,C17206,,,www.ti.com/lit/ds/symlink/txs0108e.pdf
+U2 ,1,SRBH-06H1A1G,Output 3.3 ~ 5V 6A \\ 8V - 36V Input,µ104KiCAD_DCDC:SRBH-06H1A1G,,179-SRBH-06H1A1G-ND,,
+U5 ,1,BME280,,µ104KiCAD_IC:BME280_Mod_Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering,C92489,,,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf
+U6 ,1,BNO055,,µ104KiCAD_IC:BNO055_MOD_LGA-28_5.2x3.8mm_P0.5mm,C93216,828-1058-1-ND,,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf
+U7 ,1,SN65HVD230,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C12084,,,http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+U8 ,1,MCP2515-xSO,,Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm,C153782,,,http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+U9 ,1,TCA9548APWR,,Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm,C130026,296-34905-1-ND,,http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+Y1 ,1,32.768kHz,,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,C271654,,,~
+Y2 ,1,8MHz,,Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm,C115962,,,~
+,10,,"	XT30U-F",,C99102,,,
+,4,,XT30U-M,,C99101,,,
+,205,,sh contact,, C263995,,,
+,10,,sh x4,,C394367,,,
+,10,,shx3,,C268100,,,
+,5,,sh 8,, C394369,,,
+,12,,sh x2,,C246754,,,

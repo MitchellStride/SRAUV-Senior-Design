@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 22)
+    (drawings 21)
     (tracks 0)
     (zones 0)
     (modules 9)
@@ -61,7 +61,7 @@
     (solder_mask_min_width 0.25)
     (aux_axis_origin 50 150)
     (grid_origin 50 150)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -450,9 +450,8 @@
   (gr_line (start 50 140) (end 52.5 140) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 51.5 150) (end 68.5 150) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 50 148.5) (end 50 140) (layer Edge.Cuts) (width 0.05))
-  (target plus (at 50 150) (size 5) (width 0.05) (layer Edge.Cuts))
 
-  (zone (net 2) (net_name /LEAK+) (layer F.Cu) (tstamp 6004E8AF) (hatch edge 0.508)
+  (zone (net 2) (net_name /LEAK+) (layer F.Cu) (tstamp 6004CC6F) (hatch edge 0.508)
     (connect_pads thru_hole_only (clearance 0.254))
     (min_thickness 0.128)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -488,7 +487,7 @@
       )
     )
   )
-  (zone (net 3) (net_name /LEAK-) (layer F.Cu) (tstamp 6004E8AC) (hatch edge 0.508)
+  (zone (net 3) (net_name /LEAK-) (layer F.Cu) (tstamp 6004CC6C) (hatch edge 0.508)
     (connect_pads thru_hole_only (clearance 0.254))
     (min_thickness 0.128)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
