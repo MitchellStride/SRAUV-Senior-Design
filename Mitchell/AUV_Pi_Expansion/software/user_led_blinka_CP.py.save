@@ -1,0 +1,15 @@
+import time
+import board
+import digitalio
+
+print("Leak Sensing Test")
+
+leak1 = digitalio.DigitalInOut(board.D26)
+leak1.direction = digitalio.Direction.INPUT
+
+while True:
+    led
+#.value = True
+    time.sleep(0.5)
+    led.value = False
+    time.sleep(0.5)

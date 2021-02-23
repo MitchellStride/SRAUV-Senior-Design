@@ -341,4 +341,20 @@ Pi2_Data_TP_2-2
 NoConn ~ 2890 3850
 NoConn ~ 7030 3880
 NoConn ~ 5020 3870
+Text Notes 3485 4175 0    50   ~ 0
+G\n
+Text Notes 3495 4075 0    50   ~ 0
+GW\n
+Text Notes 3480 3965 0    50   ~ 0
+O\n
+Text Notes 3465 3670 0    50   ~ 0
+OW\n\n
+Text Notes 3485 2535 0    50   ~ 0
+G\n
+Text Notes 3435 2630 0    50   ~ 0
+GW\n
+Text Notes 3440 2890 0    50   ~ 0
+O\n
+Text Notes 3440 2820 0    50   ~ 0
+OW\n\n
 $EndSCHEMATC
