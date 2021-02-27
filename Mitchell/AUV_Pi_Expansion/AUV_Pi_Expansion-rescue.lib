@@ -33,11 +33,11 @@ X +V 1 0 0 0 L 10 10 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# CAT24C32-raspberrypi_hat-pitest-rescue
+# CAT24C32-raspberrypi_hat-pitest-rescue-AUV_Pi_Expansion-rescue
 #
-DEF CAT24C32-raspberrypi_hat-pitest-rescue U 0 30 Y Y 1 F N
+DEF CAT24C32-raspberrypi_hat-pitest-rescue-AUV_Pi_Expansion-rescue U 0 30 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
-F1 "CAT24C32-raspberrypi_hat-pitest-rescue" 250 350 50 H V C CNN
+F1 "CAT24C32-raspberrypi_hat-pitest-rescue-AUV_Pi_Expansion-rescue" 250 350 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST

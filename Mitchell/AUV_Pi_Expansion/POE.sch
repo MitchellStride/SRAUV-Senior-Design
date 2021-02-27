@@ -1,0 +1,360 @@
+EESchema Schematic File Version 4
+LIBS:AUV_Pi_Expansion-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3090 2140 2990 2140
+Wire Wire Line
+	2990 2140 2990 2240
+Wire Wire Line
+	2990 2240 2870 2240
+Connection ~ 2990 2140
+Wire Wire Line
+	2990 2140 2870 2140
+$Comp
+L power:GND #PWR0226
+U 1 1 5FFF7C28
+P 3140 2320
+F 0 "#PWR0226" H 3140 2070 50  0001 C CNN
+F 1 "GND" H 3230 2310 50  0000 C CNN
+F 2 "" H 3140 2320 50  0001 C CNN
+F 3 "" H 3140 2320 50  0001 C CNN
+	1    3140 2320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3140 2320 3140 2270
+Wire Wire Line
+	2870 2340 2990 2340
+Wire Wire Line
+	2870 2440 2990 2440
+Wire Wire Line
+	2990 2440 2990 2340
+Wire Wire Line
+	2870 2740 3390 2740
+Text Label 3390 2740 2    31   ~ 0
+Pi1_Data_TP_2-2
+Wire Wire Line
+	2990 2340 3050 2340
+Wire Wire Line
+	3050 2340 3050 2270
+Wire Wire Line
+	3050 2270 3140 2270
+Connection ~ 2990 2340
+Wire Wire Line
+	2870 2840 3390 2840
+Text Label 3390 2840 2    31   ~ 0
+Pi1_Data_TP_2-1
+Wire Wire Line
+	2870 2540 3390 2540
+Text Label 3390 2640 2    31   ~ 0
+Pi1_Data_TP_1-2
+Wire Wire Line
+	2870 2640 3390 2640
+Text Label 3390 2540 2    31   ~ 0
+Pi1_Data_TP_1-1
+$Comp
+L Connector:8P8C_Shielded J37
+U 1 1 600015DC
+P 2490 3850
+F 0 "J37" H 2230 4410 50  0000 C CNN
+F 1 "Rpi Z 1 - OUT SWITCH" H 2850 4420 50  0000 C CNN
+F 2 "µ104KiCAD_connectors:DS1128-05-S8B8P" V 2490 3875 50  0001 C CNN
+F 3 "~" V 2490 3875 50  0001 C CNN
+F 4 "C86577" H 2490 3850 50  0001 C CNN "LCSC"
+F 5 "3D Model Wrong" H 2490 3850 50  0001 C CNN "Desc"
+	1    2490 3850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2890 3750
+NoConn ~ 2890 3550
+NoConn ~ 2890 3450
+Text Notes 2030 1700 0    79   ~ 16
+Pi Zero Cam Module 1
+Wire Wire Line
+	2890 3650 3410 3650
+Text Label 3410 3650 2    31   ~ 0
+Pi1_Data_TP_2-2
+Wire Wire Line
+	2890 3950 3410 3950
+Text Label 3410 3950 2    31   ~ 0
+Pi1_Data_TP_2-1
+Wire Wire Line
+	2890 4050 3410 4050
+Text Label 3410 4050 2    31   ~ 0
+Pi1_Data_TP_1-2
+Wire Wire Line
+	2890 4150 3410 4150
+Text Label 3410 4150 2    31   ~ 0
+Pi1_Data_TP_1-1
+Wire Wire Line
+	5220 2160 5120 2160
+Wire Wire Line
+	5120 2160 5120 2260
+Wire Wire Line
+	5120 2260 5000 2260
+Connection ~ 5120 2160
+Wire Wire Line
+	5120 2160 5000 2160
+$Comp
+L power:GND #PWR0227
+U 1 1 6001822B
+P 5270 2340
+F 0 "#PWR0227" H 5270 2090 50  0001 C CNN
+F 1 "GND" H 5360 2330 50  0000 C CNN
+F 2 "" H 5270 2340 50  0001 C CNN
+F 3 "" H 5270 2340 50  0001 C CNN
+	1    5270 2340
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5270 2340 5270 2290
+Wire Wire Line
+	5000 2360 5120 2360
+Wire Wire Line
+	5000 2460 5120 2460
+Wire Wire Line
+	5120 2460 5120 2360
+Wire Wire Line
+	5000 2760 5520 2760
+Wire Wire Line
+	5120 2360 5180 2360
+Wire Wire Line
+	5180 2360 5180 2290
+Wire Wire Line
+	5180 2290 5270 2290
+Connection ~ 5120 2360
+Wire Wire Line
+	5000 2860 5520 2860
+Text Label 5520 2860 2    31   ~ 0
+Pi2_Data_TP_2-1
+Wire Wire Line
+	5000 2560 5520 2560
+Text Label 5520 2660 2    31   ~ 0
+Pi2_Data_TP_1-2
+Wire Wire Line
+	5000 2660 5520 2660
+Text Label 5520 2560 2    31   ~ 0
+Pi2_Data_TP_1-1
+$Comp
+L Connector:8P8C_Shielded J38
+U 1 1 60018243
+P 4620 3870
+F 0 "J38" H 4360 4430 50  0000 C CNN
+F 1 "Rpi Z 2 - OUT SWITCH" H 4980 4440 50  0000 C CNN
+F 2 "µ104KiCAD_connectors:DS1128-05-S8B8P" V 4620 3895 50  0001 C CNN
+F 3 "~" V 4620 3895 50  0001 C CNN
+F 4 "C86577" H 4620 3870 50  0001 C CNN "LCSC"
+F 5 "3D Model Wrong" H 4620 3870 50  0001 C CNN "Desc"
+	1    4620 3870
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5020 3770
+NoConn ~ 5020 3570
+NoConn ~ 5020 3470
+Text Notes 4160 1720 0    79   ~ 16
+Pi Zero Cam Module 2\n
+Wire Wire Line
+	7230 2170 7130 2170
+Wire Wire Line
+	7130 2170 7130 2270
+Wire Wire Line
+	7130 2270 7010 2270
+Connection ~ 7130 2170
+Wire Wire Line
+	7130 2170 7010 2170
+$Comp
+L power:GND #PWR0228
+U 1 1 6001A0A2
+P 7280 2350
+F 0 "#PWR0228" H 7280 2100 50  0001 C CNN
+F 1 "GND" H 7370 2340 50  0000 C CNN
+F 2 "" H 7280 2350 50  0001 C CNN
+F 3 "" H 7280 2350 50  0001 C CNN
+	1    7280 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7280 2350 7280 2300
+Wire Wire Line
+	7010 2370 7130 2370
+Wire Wire Line
+	7010 2470 7130 2470
+Wire Wire Line
+	7130 2470 7130 2370
+Wire Wire Line
+	7010 2570 7530 2570
+Text Label 7530 2770 2    31   ~ 0
+Pi3_Data_TP_2-2
+Wire Wire Line
+	7130 2370 7190 2370
+Wire Wire Line
+	7190 2370 7190 2300
+Wire Wire Line
+	7190 2300 7280 2300
+Connection ~ 7130 2370
+Wire Wire Line
+	7010 2670 7530 2670
+Text Label 7530 2870 2    31   ~ 0
+Pi3_Data_TP_2-1
+Wire Wire Line
+	7010 2770 7530 2770
+Wire Wire Line
+	7010 2870 7530 2870
+Text Label 7530 2570 2    31   ~ 0
+Pi3_Data_TP_1-1
+$Comp
+L Connector:8P8C_Shielded J39
+U 1 1 6001A0BA
+P 6630 3880
+F 0 "J39" H 6370 4440 50  0000 C CNN
+F 1 "Rpi Z 3 - OUT SWITCH" H 6990 4450 50  0000 C CNN
+F 2 "µ104KiCAD_connectors:DS1128-05-S8B8P" V 6630 3905 50  0001 C CNN
+F 3 "~" V 6630 3905 50  0001 C CNN
+F 4 "C86577" H 6630 3880 50  0001 C CNN "LCSC"
+F 5 "3D Model Wrong" H 6630 3880 50  0001 C CNN "Desc"
+	1    6630 3880
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7030 3780
+NoConn ~ 7030 3580
+NoConn ~ 7030 3480
+Text Notes 6170 1730 0    79   ~ 16
+Pi Zero Cam Module 3\n
+Wire Wire Line
+	5020 3670 5540 3670
+Text Label 5540 3670 2    31   ~ 0
+Pi2_Data_TP_2-2
+Wire Wire Line
+	5020 3970 5540 3970
+Text Label 5540 3970 2    31   ~ 0
+Pi2_Data_TP_2-1
+Wire Wire Line
+	5020 4070 5540 4070
+Text Label 5540 4070 2    31   ~ 0
+Pi2_Data_TP_1-2
+Wire Wire Line
+	5020 4170 5540 4170
+Text Label 5540 4170 2    31   ~ 0
+Pi2_Data_TP_1-1
+Wire Wire Line
+	7030 3680 7550 3680
+Text Label 7550 3680 2    31   ~ 0
+Pi3_Data_TP_2-2
+Wire Wire Line
+	7030 3980 7550 3980
+Text Label 7550 3980 2    31   ~ 0
+Pi3_Data_TP_2-1
+Wire Wire Line
+	7030 4080 7550 4080
+Text Label 7550 4080 2    31   ~ 0
+Pi3_Data_TP_1-2
+Wire Wire Line
+	7030 4180 7550 4180
+Text Label 7550 4180 2    31   ~ 0
+Pi3_Data_TP_1-1
+Text GLabel 3090 2140 2    50   Input ~ 0
+5V_EXT\POE
+Text GLabel 5220 2160 2    50   Input ~ 0
+5V_EXT\POE
+Text GLabel 7230 2170 2    50   Input ~ 0
+5V_EXT\POE
+NoConn ~ 6630 4380
+NoConn ~ 4620 4370
+NoConn ~ 2490 4350
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 600C8E32
+P 2670 2540
+AR Path="/5F9AFEB9/600C8E32" Ref="J?"  Part="1" 
+AR Path="/600C8E32" Ref="J?"  Part="1" 
+AR Path="/5F9D87DA/600C8E32" Ref="J?"  Part="1" 
+AR Path="/5FCB4E5B/600C8E32" Ref="J?"  Part="1" 
+AR Path="/5FFE22A4/600C8E32" Ref="J36"  Part="1" 
+F 0 "J36" H 2695 2035 39  0000 C CNN
+F 1 "Rpi Z 1 - IN" H 2675 2935 31  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical" H 2670 2540 50  0001 C CNN
+F 3 "~" H 2670 2540 50  0001 C CNN
+F 4 "C160394" H 2670 2540 50  0001 C CNN "LCSC"
+F 5 "" H 2670 2540 50  0001 C CNN "Digikey"
+F 6 "" H 2670 2540 50  0001 C CNN "Desc."
+F 7 "JST SR/SZ - SH compatible, Contact C263995, Housing C394369" H 2670 2540 50  0001 C CNN "Desc"
+	1    2670 2540
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 600D7A67
+P 4800 2560
+AR Path="/5F9AFEB9/600D7A67" Ref="J?"  Part="1" 
+AR Path="/600D7A67" Ref="J?"  Part="1" 
+AR Path="/5F9D87DA/600D7A67" Ref="J?"  Part="1" 
+AR Path="/5FCB4E5B/600D7A67" Ref="J?"  Part="1" 
+AR Path="/5FFE22A4/600D7A67" Ref="J42"  Part="1" 
+F 0 "J42" H 4825 2055 39  0000 C CNN
+F 1 "Rpi Z 2 - IN" H 4805 2955 31  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical" H 4800 2560 50  0001 C CNN
+F 3 "~" H 4800 2560 50  0001 C CNN
+F 4 "C160394" H 4800 2560 50  0001 C CNN "LCSC"
+F 5 "" H 4800 2560 50  0001 C CNN "Digikey"
+F 6 "" H 4800 2560 50  0001 C CNN "Desc."
+F 7 "JST SR/SZ - SH compatible, Contact C263995, Housing C394369" H 4800 2560 50  0001 C CNN "Desc"
+	1    4800 2560
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 600DA68F
+P 6810 2570
+AR Path="/5F9AFEB9/600DA68F" Ref="J?"  Part="1" 
+AR Path="/600DA68F" Ref="J?"  Part="1" 
+AR Path="/5F9D87DA/600DA68F" Ref="J?"  Part="1" 
+AR Path="/5FCB4E5B/600DA68F" Ref="J?"  Part="1" 
+AR Path="/5FFE22A4/600DA68F" Ref="J43"  Part="1" 
+F 0 "J43" H 6835 2065 39  0000 C CNN
+F 1 "Rpi Z 3 - IN" H 6815 2965 31  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical" H 6810 2570 50  0001 C CNN
+F 3 "~" H 6810 2570 50  0001 C CNN
+F 4 "C160394" H 6810 2570 50  0001 C CNN "LCSC"
+F 5 "" H 6810 2570 50  0001 C CNN "Digikey"
+F 6 "" H 6810 2570 50  0001 C CNN "Desc."
+F 7 "JST SR/SZ - SH compatible, Contact C263995, Housing C394369" H 6810 2570 50  0001 C CNN "Desc"
+	1    6810 2570
+	-1   0    0    1   
+$EndComp
+Text Label 7530 2670 2    31   ~ 0
+Pi3_Data_TP_1-2
+Text Label 5520 2760 2    31   ~ 0
+Pi2_Data_TP_2-2
+NoConn ~ 2890 3850
+NoConn ~ 7030 3880
+NoConn ~ 5020 3870
+Text Notes 3485 4175 0    50   ~ 0
+G\n
+Text Notes 3495 4075 0    50   ~ 0
+GW\n
+Text Notes 3480 3965 0    50   ~ 0
+O\n
+Text Notes 3465 3670 0    50   ~ 0
+OW\n\n
+Text Notes 3485 2535 0    50   ~ 0
+G\n
+Text Notes 3435 2630 0    50   ~ 0
+GW\n
+Text Notes 3440 2890 0    50   ~ 0
+O\n
+Text Notes 3440 2820 0    50   ~ 0
+OW\n\n
+$EndSCHEMATC

@@ -1,0 +1,124 @@
+EESchema Schematic File Version 4
+LIBS:AUV_Pi_Expansion-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F525583
+P 17770 3950
+F 0 "H1" V 17724 4100 50  0000 L CNN
+F 1 "M3" V 17815 4100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 17770 3950 50  0001 C CNN
+F 3 "~" H 17770 3950 50  0001 C CNN
+F 4 "" V 17770 3950 50  0001 C CNN "LCSC"
+F 5 "" V 17770 3950 50  0001 C CNN "Digi"
+F 6 "Standoff C79822,  " V 17770 3950 50  0001 C CNN "Desc"
+	1    17770 3950
+	0    1    1    0   
+$EndComp
+Text Notes 16245 3705 0    50   ~ 0
+CUSTOM LEAK SENSE\n\n
+NoConn ~ 17670 3950
+Text Notes 16060 4990 0    50   ~ 0
+Hardware\n- C79822 : M3 Standoffs w/ threaded insert\n- C24867 : M3 Washers\n- C24866 : M3 Nuts\n- C357547 : M3 Long Screws\n- C357542 : M3 Short Screws\n
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 600B7BAD
+P 17250 3900
+F 0 "J3" H 17350 3860 50  0000 R CNN
+F 1 "LEAK_PAD+" H 17235 3900 31  0000 R CNN
+F 2 "µ104KiCAD:LEAK_PAD" H 17250 3900 50  0001 C CNN
+F 3 "~" H 17250 3900 50  0001 C CNN
+	1    17250 3900
+	-1   0    0    1   
+$EndComp
+Text Label 16550 3900 0    30   ~ 0
+LEAK+
+Text Label 16550 4000 0    30   ~ 0
+LEAK-
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 600BD8CD
+P 17250 4000
+F 0 "J5" H 17350 3960 50  0000 R CNN
+F 1 "LEAK_PAD-" H 17235 4000 31  0000 R CNN
+F 2 "µ104KiCAD:LEAK_PAD" H 17250 4000 50  0001 C CNN
+F 3 "~" H 17250 4000 50  0001 C CNN
+	1    17250 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16500 3900 16950 3900
+Wire Wire Line
+	17050 4000 16950 4000
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 600BE270
+P 17250 3800
+F 0 "J1" H 17350 3760 50  0000 R CNN
+F 1 "LEAK_PAD+" H 17235 3800 31  0000 R CNN
+F 2 "µ104KiCAD:LEAK_PAD" H 17250 3800 50  0001 C CNN
+F 3 "~" H 17250 3800 50  0001 C CNN
+	1    17250 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 600BE425
+P 17250 4100
+F 0 "J6" H 17350 4060 50  0000 R CNN
+F 1 "LEAK_PAD-" H 17235 4100 31  0000 R CNN
+F 2 "µ104KiCAD:LEAK_PAD" H 17250 4100 50  0001 C CNN
+F 3 "~" H 17250 4100 50  0001 C CNN
+	1    17250 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	17050 4100 16950 4100
+Wire Wire Line
+	16950 4100 16950 4000
+Connection ~ 16950 4000
+Wire Wire Line
+	16950 4000 16500 4000
+Wire Wire Line
+	16950 3900 16950 3800
+Wire Wire Line
+	16950 3800 17050 3800
+Connection ~ 16950 3900
+Wire Wire Line
+	16950 3900 17050 3900
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 600BFA4B
+P 16300 3900
+F 0 "J2" H 16400 3860 50  0000 R CNN
+F 1 "PAD" H 16285 3900 31  0000 R CNN
+F 2 "µ104KiCAD:LEAK_PAD" H 16300 3900 50  0001 C CNN
+F 3 "~" H 16300 3900 50  0001 C CNN
+	1    16300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 600C0FCC
+P 16300 4000
+F 0 "J4" H 16400 3960 50  0000 R CNN
+F 1 "PAD" H 16285 4000 31  0000 R CNN
+F 2 "µ104KiCAD:LEAK_PAD" H 16300 4000 50  0001 C CNN
+F 3 "~" H 16300 4000 50  0001 C CNN
+	1    16300 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

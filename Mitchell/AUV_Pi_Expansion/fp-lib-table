@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name silk)(type KiCad)(uri ${KIPRJMOD}/pics/silk)(options "")(descr ""))
+  (lib (name AUV_Pi_Expansion)(type KiCad)(uri C:/Users/mitch/projects/AUV-Senior-Design/Mitchell/AUV_Pi_Expansion)(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri C:/Users/mitch/projects/IOT-AutoHome/ESP8266)(options "")(descr ""))
+  (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
 )
