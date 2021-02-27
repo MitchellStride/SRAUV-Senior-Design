@@ -3223,4 +3223,9 @@ F 6 "25V" H 4700 3750 50  0000 C CNN "Voltage"
 	1    4550 3900
 	-1   0    0    -1  
 $EndComp
+NoConn ~ 8700 4350
+NoConn ~ 8900 4350
+NoConn ~ 8900 3950
+NoConn ~ 9600 4150
+NoConn ~ 9800 4150
 $EndSCHEMATC
