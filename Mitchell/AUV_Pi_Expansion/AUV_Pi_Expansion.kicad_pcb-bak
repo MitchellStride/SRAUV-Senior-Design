@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 17)
     (tracks 1853)
     (zones 0)
     (modules 154)
@@ -22,7 +22,7 @@
     (0 F.Cu signal)
     (1 VCC.Cu power)
     (2 GND.Cu power)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -9138,7 +9138,6 @@
     (arrow2a (pts (xy 50.5 170) (xy 51.626504 170.586421)))
     (arrow2b (pts (xy 50.5 170) (xy 51.626504 169.413579)))
   )
-  (target plus (at 50 150) (size 5) (width 0.05) (layer Edge.Cuts) (tstamp 600350B0))
 
   (via (at 147.61 97.62) (size 0.45) (drill 0.2) (layers F.Cu B.Cu) (net 1))
   (segment (start 148.399999 98.4) (end 148.39 98.4) (width 0.1524) (layer B.Cu) (net 1))

@@ -38,7 +38,7 @@ print('\nMotor Tests')
 
 sp2 = subprocess.Popen(['candump', '-n 100', 'can0'], stdout=subprocess.PIPE) # execute the command using Popen
 try:
-    cmd_out2 = sp2.communicate(timeout=2) # get the command output, candump runs forever so kill after 1 secs
+    cmd_out2 = sp2.communicate(timeout=3) # get the command output, candump runs forever so kill after 1 secs
 except subprocess.TimeoutExpired:
     sp2.kill()
 
