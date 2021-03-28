@@ -8,7 +8,7 @@
 ![Alt text](/Mitchell/AUV_Pi_Expansion/pics/asm_Capture.PNG "PCB EX ASM")
 
 ## Cheap Quick Eth Breakout
-![Alt text](/Mitchell/Eth_Breakout/capture2.jpg "PCB")
+![Alt text](/Mitchell/Eth_Breakout/capture.jpg "PCB")
 
 ## RGB Indicator Potted
 ![Alt text](/Mitchell/RGB_Breakout/Capture.PNG "PCB Render")
