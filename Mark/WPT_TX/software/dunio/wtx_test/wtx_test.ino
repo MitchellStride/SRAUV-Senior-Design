@@ -1,4 +1,3 @@
-#include<>
 const int HBridge_PWM = 2; //Add pins here
 const int HBridge_EN = 5;
 const int ISEN = A4;
@@ -20,9 +19,9 @@ void setup() {
   delay(1);  
   Serial.print("....POW");*/
 
-  //digitalWrite(HBridge_EN, HIGH);
+  digitalWrite(HBridge_EN, HIGH);
   //analogWrite(HBridge_PWM, 127); //TODO edit this to use the tone lib to set freq 
-  //tone(HBridge_PWM, 100000); // 100kHz default first try.
+  tone(HBridge_PWM, 100000); // 100kHz default first try.
 }
 
 void loop() {
@@ -31,8 +30,8 @@ void loop() {
   //current = current * (5.0 / 1023.0);   //TODO
   Serial.println(current);
   delay(1); //Sample delay try changing*/
-  digitalWrite(HBridge_EN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  /*digitalWrite(HBridge_EN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
   digitalWrite(HBridge_EN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);  
+  delay(1000); */
 }
